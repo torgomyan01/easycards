@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2929;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+.trans {
+  transition: 0.3s;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.c-black {
+  color: #000;
+}
+
+.c-grey {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.c-red {
+  color: #FF4343;
+}
+
+.dropdown-toggle.show::after {
+  transform: rotate(-180deg);
+}
+.dropdown-toggle::after {
+  content: "\f078";
+  font-family: FontAwesome, serif;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: unset;
+  border-top: unset;
+  border-right: unset;
+  border-bottom: unset;
+  border-left: unset;
+  transition: 0.3s;
+  transform: rotate(0deg);
+}
+
+/*# sourceMappingURL=style.css.map */
