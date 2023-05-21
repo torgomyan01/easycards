@@ -75,7 +75,9 @@ a{
 }
 
 .container {
-  //max-width: 1600px !important;
+  max-width: 1248px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
 }
 
 
@@ -101,3 +103,127 @@ a{
   }
 }
 
+.heading{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #1E1E1E;
+}
+
+.btn-blue{
+  background: #0089EE;
+  border-radius: 0.25rem;
+  padding: 0.3125rem 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #fff;
+  border: none!important;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-transparent{
+  background: transparent;
+  border-radius: 0.25rem;
+  padding: 0.3125rem 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #A8B8C5;
+  border: 1.5px solid rgba(168, 184, 197, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+
+
+// menu
+
+header {
+  position: fixed;
+  width: 100%;
+  min-height: 6.25rem;
+  display: flex;
+  align-items: center;
+
+
+  .logo {
+
+    a {
+      color: #000;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .gray {
+      height: 1.25rem;
+      width: 1px;
+      background: rgba(168, 184, 197, 0.4);;
+    }
+
+
+  }
+
+  .navbar{
+
+    a{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 160%;
+      color: #1E1E1E;
+    }
+
+  }
+
+  .icons{
+
+    i{
+      cursor: pointer;
+    }
+
+    .fa-phone{
+      color: #0089EE;
+      font-size: 1.25rem;
+    ;
+    }
+
+    .fa-whatsapp{
+      color: #51C941;
+      font-size: 2.5rem;
+    }
+
+    .fa-telegram{
+      color: #65A6E7;
+      font-size: 2.5rem;
+    }
+
+    .contact{
+      a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: #1E1E1E;
+      }
+
+      span{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        color: #A8B8C5;
+        position: relative;
+        top: -0.625rem;
+      }
+
+    }
+
+
+
+  }
+
+
+}

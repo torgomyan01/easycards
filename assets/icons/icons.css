@@ -12,6 +12,13 @@
     content: "\f078"
 }
 
+.fa-whatsapp:before {
+    content: "\f232"
+}
+
+.fa-telegram:before {
+    content: "\f2c6"
+}
 
 .fa-chevron-right:before {
     content: "\f054"
