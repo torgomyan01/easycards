@@ -64,6 +64,10 @@
     content: "\f00c"
 }
 
+.fa-circle-check:before {
+    content: "\f058"
+}
+
 .fa-image:before {
     content: "\f03e"
 }
