@@ -20,6 +20,10 @@
     content: "\f2c6"
 }
 
+.fa-flip-horizontal:before {
+    content: "\e0ae"
+}
+
 .fa-chevron-right:before {
     content: "\f054"
 }

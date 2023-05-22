@@ -71,8 +71,6 @@ a {
 
 .container {
   max-width: 1248px !important;
-  width: 100% !important;
-  margin: 0 auto !important;
 }
 
 .dropdown-toggle.show::after {
@@ -98,6 +96,19 @@ a {
   font-size: 2.75rem;
   line-height: 110%;
   color: #1E1E1E;
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #A8B8C5;
 }
 
 .btn-blue {
@@ -128,52 +139,142 @@ a {
   cursor: pointer;
 }
 
-header {
-  position: fixed;
+.menu {
+  width: 100%;
+  z-index: 1000;
+  position: relative;
+}
+.menu-content {
   width: 100%;
   min-height: 6.25rem;
   display: flex;
   align-items: center;
+  background: #fff;
 }
-header .logo a {
+@media (max-width: 1024px) {
+  .menu-content {
+    border-bottom: 1px solid rgba(168, 184, 197, 0.2);
+    justify-content: space-between;
+  }
+}
+.menu-content .logo a {
   color: #000;
   font-size: 1.25rem;
   font-weight: bold;
 }
-header .logo .gray {
+@media (max-width: 768px) {
+  .menu-content .logo a {
+    display: none;
+  }
+}
+.menu-content .logo .gray {
   height: 1.25rem;
   width: 1px;
   background: rgba(168, 184, 197, 0.4);
 }
-header .navbar a {
+@media (max-width: 1024px) {
+  .menu-content .logo .gray {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .menu-content .navbar {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    transition: all 0.2s linear;
+    z-index: 10;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .menu-content .navbar {
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    flex-direction: column;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2392156863);
+    backdrop-filter: blur(5px);
+  }
+}
+.menu-content .navbar a {
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
   line-height: 160%;
   color: #1E1E1E;
 }
-header .icons i {
+@media (max-width: 1024px) {
+  .menu-content .navbar a {
+    margin: 15px 50px;
+  }
+}
+@media (max-width: 869px) {
+  .menu-content .navbar a {
+    margin: 15px 35px;
+  }
+}
+@media (max-width: 768px) {
+  .menu-content .navbar a {
+    margin: 0.9375rem 0;
+    display: block !important;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #e7e3e3;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .menu-content .navbar a:last-child {
+    border: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .menu-content .navbar.active {
+    z-index: 10;
+    transform: translateX(-50%) translateY(60px);
+  }
+}
+@media (max-width: 1200px) {
+  .menu-content .icons {
+    margin-right: 1.875rem;
+  }
+}
+@media (max-width: 1024px) {
+  .menu-content .icons {
+    margin-right: 1.875rem;
+  }
+}
+.menu-content .icons i {
   cursor: pointer;
 }
-header .icons .fa-phone {
+@media (max-width: 768px) {
+  .menu-content .icons i {
+    display: none;
+  }
+}
+.menu-content .icons .fa-phone {
   color: #0089EE;
   font-size: 1.25rem;
 }
-header .icons .fa-whatsapp {
+.menu-content .icons .fa-whatsapp {
   color: #51C941;
   font-size: 2.5rem;
 }
-header .icons .fa-telegram {
+.menu-content .icons .fa-telegram {
   color: #65A6E7;
   font-size: 2.5rem;
 }
-header .icons .contact a {
+.menu-content .icons .contact a {
   font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
   color: #1E1E1E;
 }
-header .icons .contact span {
+.menu-content .icons .contact span {
   font-style: normal;
   font-weight: 600;
   font-size: 0.75rem;
@@ -181,6 +282,151 @@ header .icons .contact span {
   color: #A8B8C5;
   position: relative;
   top: -0.625rem;
+}
+@media (max-width: 768px) {
+  .menu-content .icons .contact span {
+    display: none;
+  }
+}
+.menu-content #menu-bar {
+  font-size: 1.875rem;
+  color: #A8B8C5;
+  margin-right: 2.1875rem;
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .menu-content #menu-bar {
+    display: initial;
+  }
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .cards {
+    margin-top: 60px;
+  }
+}
+.cards .cards-backgraund {
+  width: calc(1248px + (100% - 1248px) / 2);
+  min-height: 700px;
+  background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+  border-radius: 12px 0 0 12px;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .cards .cards-backgraund {
+    min-height: 1024px;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund {
+    min-height: 850px;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund {
+    min-height: 780px;
+  }
+}
+.cards .cards-backgraund .cards-container {
+  display: flex;
+}
+.cards .cards-backgraund .cards-container .card-content {
+  position: relative;
+  margin-top: 8.75rem;
+}
+@media (max-width: 1024px) {
+  .cards .cards-backgraund .cards-container .card-content {
+    left: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund .cards-container .card-content {
+    margin-top: 4rem;
+    left: 0;
+  }
+}
+.cards .cards-backgraund .cards-container .card-content .btn-lightblue {
+  background: rgba(0, 137, 238, 0.1);
+  color: #0089EE;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 480px) {
+  .cards .cards-backgraund .cards-container .card-content .btn-lightblue {
+    display: none;
+  }
+}
+.cards .cards-backgraund .cards-container .card-content .title {
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+}
+.cards .cards-backgraund .cards-container .card-image {
+  position: absolute;
+  right: 2%;
+  z-index: 1;
+}
+@media (max-width: 1024px) {
+  .cards .cards-backgraund .cards-container .card-image {
+    right: 1%;
+    top: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund .cards-container .card-image {
+    left: 10%;
+    top: 46%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .cards .cards-backgraund .cards-container .card-image {
+    left: -3%;
+    top: 38%;
+    overflow: hidden;
+  }
+}
+.cards .cards-backgraund .cards-container .card-image .cards1024 {
+  margin-top: 1rem;
+}
+@media (max-width: 1024px) {
+  .cards .cards-backgraund .cards-container .card-image .cards1024 {
+    width: 700px;
+    height: 640px;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund .cards-container .card-image .cards1024 {
+    display: none;
+  }
+}
+.cards .cards-backgraund .cards-container .card-image .cards768 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund .cards-container .card-image .cards768 {
+    display: initial;
+  }
+}
+.cards .cards-backgraund .cards-container .image-blue {
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
+}
+@media (max-width: 1024px) {
+  .cards .cards-backgraund .cards-container .image-blue {
+    right: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .cards .cards-backgraund .cards-container .image-blue {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

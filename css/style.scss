@@ -76,8 +76,6 @@ a{
 
 .container {
   max-width: 1248px !important;
-  width: 100% !important;
-  margin: 0 auto !important;
 }
 
 
@@ -109,6 +107,18 @@ a{
   font-size: 2.75rem;
   line-height: 110%;
   color: #1E1E1E;
+
+  @media (max-width: 480px){
+    font-size: 2rem;
+  }
+}
+
+.title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #A8B8C5;
 }
 
 .btn-blue{
@@ -141,89 +151,295 @@ a{
 
 
 // menu
-
-header {
-  position: fixed;
+.menu {
   width: 100%;
-  min-height: 6.25rem;
-  display: flex;
-  align-items: center;
+  z-index: 1000;
+  position: relative;
 
-
-  .logo {
-
-    a {
-      color: #000;
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
-
-    .gray {
-      height: 1.25rem;
-      width: 1px;
-      background: rgba(168, 184, 197, 0.4);;
+  &-content {
+    width: 100%;
+    min-height: 6.25rem;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    @media (max-width: 1024px) {
+      border-bottom: 1px solid rgba(168, 184, 197, 0.2);
+      justify-content: space-between;
     }
 
 
-  }
+    .logo {
+      a {
+        color: #000;
+        font-size: 1.25rem;
+        font-weight: bold;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
 
-  .navbar{
+      .gray {
+        height: 1.25rem;
+        width: 1px;
+        background: rgba(168, 184, 197, 0.4);;
+        @media (max-width: 1024px) {
+          display: none;
+        }
+      }
 
-    a{
-      font-style: normal;
-      font-weight: 500;
-      font-size: 1rem;
-      line-height: 160%;
-      color: #1E1E1E;
     }
 
-  }
+    .navbar {
+      @media (max-width: 1024px) {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        transition: all 0.2s linear;
+        z-index: 10;
+        background: #fff;
+      }
+      @media (max-width: 768px) {
+        display: flex !important;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: column;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-100%);
+        width: 100%;
+        background: #ffffff3d;
+        backdrop-filter: blur(5px);
+      }
 
-  .icons{
 
-    i{
-      cursor: pointer;
-    }
-
-    .fa-phone{
-      color: #0089EE;
-      font-size: 1.25rem;
-    ;
-    }
-
-    .fa-whatsapp{
-      color: #51C941;
-      font-size: 2.5rem;
-    }
-
-    .fa-telegram{
-      color: #65A6E7;
-      font-size: 2.5rem;
-    }
-
-    .contact{
-      a{
+      a {
         font-style: normal;
         font-weight: 500;
-        font-size: 1.25rem;
+        font-size: 1rem;
+        line-height: 160%;
         color: #1E1E1E;
-      }
+        @media (max-width: 1024px) {
+          margin: 15px 50px;
+        }
+        @media (max-width: 869px) {
+          margin: 15px 35px;
+        }
+        @media (max-width: 768px) {
+          margin: 0.9375rem 0;
+          display: block !important;
+          font-size: 1.5rem;
+          border-bottom: 1px solid #e7e3e3;
+          width: 100%;
+          text-align: center;
+          padding-bottom: 10px;
+          &:last-child{
+            border: 0;
+          }
+        }
 
-      span{
-        font-style: normal;
-        font-weight: 600;
-        font-size: 0.75rem;
-        line-height: 1.5rem;
-        color: #A8B8C5;
-        position: relative;
-        top: -0.625rem;
       }
-
+      &.active {
+        @media (max-width: 1024px) {
+          z-index: 10;
+          transform: translateX(-50%) translateY(60px);
+        }
+      }
     }
 
 
 
+
+    .icons {
+      @media (max-width: 1200px) {
+        margin-right: 1.875rem;
+      }
+      @media (max-width: 1024px) {
+        margin-right: 1.875rem;
+      }
+
+      i {
+        cursor: pointer;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .fa-phone {
+        color: #0089EE;
+        font-size: 1.25rem;
+
+      }
+
+      .fa-whatsapp {
+        color: #51C941;
+        font-size: 2.5rem;
+      }
+
+      .fa-telegram {
+        color: #65A6E7;
+        font-size: 2.5rem;
+      }
+
+      .contact {
+        a {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.25rem;
+          color: #1E1E1E;
+        }
+
+        span {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 0.75rem;
+          line-height: 1.5rem;
+          color: #A8B8C5;
+          position: relative;
+          top: -0.625rem;
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+
+      }
+
+    }
+
+    #menu-bar {
+      font-size: 1.875rem;
+      color: #A8B8C5;
+      margin-right: 2.1875rem;
+      display: none;
+      cursor: pointer;
+      @media (max-width: 768px) {
+        display: initial;
+      }
+    }
+
+
+  }
+}
+
+
+// Cards
+// 1248px + (100% - 1248px) / 2
+$containerWidth: 1248px;
+
+.cards{
+
+  width: 100%;
+  @include flex('e', 's');
+
+  @media (max-width: 1024px){
+    @media (min-width: 768px){
+      margin-top: 60px;
+    }
   }
 
+  .cards-backgraund{
+    width: calc(#{$containerWidth} + (100% - #{$containerWidth}) / 2);
+    min-height: 700px;
+    background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+    border-radius: 12px 0 0 12px;
+    position: relative;
+    @media (max-width: 1024px){
+      min-height: 1024px;
+    }
+    @media (max-width: 768px){
+      min-height: 850px;
+    }
+    @media (max-width: 768px){
+      min-height: 780px;
+    }
 
+    .cards-container {
+      display: flex;
+
+      .card-content {
+        position: relative;
+        margin-top: 8.75rem;
+        @media (max-width: 1024px){
+          left: 1rem;
+        }
+        @media (max-width: 768px){
+          margin-top: 4rem;
+          left: 0;
+        }
+
+        .btn-lightblue {
+          background: rgba(0, 137, 238, 0.1);
+          color: #0089EE;
+          margin-bottom: 2.5rem;
+          @media (max-width: 480px){
+            display: none;
+          }
+        }
+
+        .title {
+          margin-top: 2.5rem;
+          margin-bottom: 4rem;
+        }
+
+      }
+
+
+      .card-image {
+        position: absolute;
+        right: 2%;
+        z-index: 1;
+
+        @media (max-width: 1024px){
+          right: 1%;
+          top: 40%;
+        }
+        @media (max-width: 768px){
+          left: 10%;
+          top: 46%;
+          overflow: hidden;
+        }
+        @media (max-width: 480px){
+          left: -3%;
+          top: 38%;
+          overflow: hidden;
+        }
+
+        .cards1024 {
+          margin-top: 1rem;
+          @media (max-width: 1024px) {
+            width: 700px;
+            height: 640px;
+          }
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+          .cards768{
+            display: none ;
+            @media (max-width: 768px) {
+              display: initial;
+            }
+          }
+
+
+
+
+      }
+
+      .image-blue{
+        position: absolute;
+        right: 0;
+        bottom: 5rem;
+        @media (max-width: 1024px){
+          right: 1%;
+        }
+        @media (max-width: 768px){
+          display: none;
+        }
+      }
+
+
+    }
+
+  }
 }
+
