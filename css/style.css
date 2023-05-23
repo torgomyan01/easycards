@@ -168,6 +168,7 @@ a {
 }
 .menu-content {
   width: 100%;
+  max-width: 1372px !important;
   min-height: 6.25rem;
   display: flex;
   align-items: center;
@@ -345,7 +346,7 @@ a {
   }
 }
 .cards .cards-backgraund {
-  width: calc(1248px + (100% - 1248px) / 2);
+  width: calc(1372px + (100% - 1372px) / 2);
   min-height: 700px;
   background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
   border-radius: 12px 0 0 12px;
