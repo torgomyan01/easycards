@@ -91,6 +91,14 @@
     content: "\f104"
 }
 
+.fa-minus:before {
+    content: "\f068"
+}
+
+.fa-plus:before {
+    content: "\2b"
+}
+
 
 /*---------------------------------*/
 
