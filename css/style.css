@@ -981,7 +981,7 @@ a {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   padding-left: 0;
 }
 .slick-dots li {
@@ -997,6 +997,46 @@ a {
 .slick-dots li button {
   font-size: 0;
   display: none;
+}
+
+.visa-master {
+  background: #F4F7FF;
+  padding-top: 6.25rem;
+}
+.visa-master-title {
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #1E1E1E;
+  margin-top: 2.5rem;
+}
+.visa-master-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #A8B8C5;
+  margin-top: 1.5rem;
+}
+.visa-master-item {
+  width: 100%;
+  height: 100%;
+  border: 1.5px solid rgba(168, 184, 197, 0.2);
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+.visa-master-item-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 120%;
+  color: #1E1E1E;
+  margin-top: 2rem;
+}
+.visa-master-item-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #A8B8C5;
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
