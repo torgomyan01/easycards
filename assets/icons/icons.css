@@ -100,6 +100,11 @@
 }
 
 
+.fa-arrow-down-to-bracket:before {
+    content: "\e094"
+}
+
+
 /*---------------------------------*/
 
 
