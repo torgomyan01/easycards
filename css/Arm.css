@@ -115,4 +115,27 @@
   }
 }
 
+.users {
+  margin-top: 6rem;
+}
+.users .users-container {
+  background: url("../assets/image/users-bg.png") no-repeat center;
+  min-height: 22.8125rem;
+  background-size: cover;
+  overflow: hidden;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.users .users-container .content {
+  display: flex;
+  justify-content: center;
+}
+.users .users-container .content .content-title .users-heading {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.users .users-container .content .content-title .users-title {
+  color: #BAE1FF;
+}
+
 /*# sourceMappingURL=Arm.css.map */

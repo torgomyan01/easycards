@@ -480,11 +480,10 @@ $containerWidth: 1248px;
       @media (max-width: 768px) {
         margin-top: 7.5rem;
         position: relative;
-        margin-left: 50%;
-        transform: translateX(-50%);
       }
       .guarantee-box {
         display: flex ;
+
         padding-right: 0.9375rem;
         @media (max-width: 1024px) {
           display: initial ;
@@ -494,7 +493,13 @@ $containerWidth: 1248px;
         @media (max-width: 768px) {
           display: flex;
           margin: 1.25rem 0;
+
         }
+
+        .box{
+          min-width: 255px;
+        }
+
         .image{
           @media (max-width: 1024px) {
             margin-left: 1.25rem;

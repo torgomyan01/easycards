@@ -473,8 +473,6 @@ a {
   .guarantee .guarantee-container .guarantee-content {
     margin-top: 7.5rem;
     position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
   }
 }
 .guarantee .guarantee-container .guarantee-content .guarantee-box {
@@ -493,6 +491,9 @@ a {
     display: flex;
     margin: 1.25rem 0;
   }
+}
+.guarantee .guarantee-container .guarantee-content .guarantee-box .box {
+  min-width: 255px;
 }
 @media (max-width: 1024px) {
   .guarantee .guarantee-container .guarantee-content .guarantee-box .image {
