@@ -119,23 +119,184 @@
   margin-top: 6rem;
 }
 .users .users-container {
-  background: url("../assets/image/users-bg.png") no-repeat center;
+  background: url("../assets/image/bag-users-1248.png") no-repeat center;
   min-height: 22.8125rem;
-  background-size: cover;
-  overflow: hidden;
+  background-size: contain;
   padding: 3rem;
   border-radius: 1rem;
+}
+@media (max-width: 1024px) {
+  .users .users-container {
+    background: url("../assets/image/bag-users-1024.png") no-repeat center;
+  }
+}
+@media (max-width: 768px) {
+  .users .users-container {
+    background: url("../assets/image/bag-users-768.png") no-repeat center;
+  }
+}
+@media (max-width: 480px) {
+  .users .users-container {
+    background: url("../assets/image/bag-users-480.png") no-repeat center;
+  }
+}
+@media (max-width: 360px) {
+  .users .users-container {
+    background: url("../assets/image/bag-users-360.png") no-repeat center;
+  }
 }
 .users .users-container .content {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .users .users-container .content {
+    display: block;
+  }
+}
 .users .users-container .content .content-title .users-heading {
   color: #fff;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 480px) {
+  .users .users-container .content .content-title .users-heading {
+    width: 12.5rem;
+  }
 }
 .users .users-container .content .content-title .users-title {
   color: #BAE1FF;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .users .users-container .content .content-title .users-title {
+    width: 60%;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 480px) {
+  .users .users-container .content .content-title .users-title {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+.users .users-container .content .content-title2 {
+  display: flex;
+  margin-top: 1.75rem;
+}
+@media (max-width: 768px) {
+  .users .users-container .content .content-title2 {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (max-width: 480px) {
+  .users .users-container .content .content-title2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+.users .users-container .content .content-title2 .box {
+  width: 150px;
+  margin-right: 6.25rem;
+}
+.users .users-container .content .content-title2 .box:last-child {
+  margin-right: 2.5rem;
+}
+@media (max-width: 1024px) {
+  .users .users-container .content .content-title2 .box {
+    margin-right: 4.375rem;
+  }
+  .users .users-container .content .content-title2 .box:last-child {
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .users .users-container .content .content-title2 .box {
+    margin-right: 6rem;
+    position: relative;
+    margin-top: 7rem;
+  }
+  .users .users-container .content .content-title2 .box:last-child {
+    margin-right: 0;
+    left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .users .users-container .content .content-title2 .box {
+    margin-right: 4rem;
+    position: relative;
+    top: 12.5rem;
+  }
+  .users .users-container .content .content-title2 .box:last-child {
+    margin-right: 0;
+    top: -2rem;
+  }
+}
+@media (max-width: 360px) {
+  .users .users-container .content .content-title2 .box {
+    margin-right: 4rem;
+    position: relative;
+    top: 16.5rem;
+  }
+  .users .users-container .content .content-title2 .box:last-child {
+    margin-right: 0;
+    top: 4rem;
+  }
+}
+.users .users-container .content .content-title2 .box span {
+  color: #BAE1FF;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+}
+.users .users-container .button {
+  display: flex;
+  justify-content: end;
+  margin-right: 3.125rem;
+  margin-top: 2.5rem;
+}
+@media (max-width: 768px) {
+  .users .users-container .button {
+    position: relative;
+    top: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .users .users-container .button {
+    display: flex;
+    justify-content: left;
+    margin-top: 17rem;
+  }
+}
+@media (max-width: 360px) {
+  .users .users-container .button {
+    margin-top: 23rem;
+    justify-content: center;
+    margin-right: 0;
+    width: 290px;
+  }
+}
+.users .users-container .button .btn-users {
+  background: #fff;
+  color: #1E1E1E;
+}
+.users .users-container .button .btn-users img {
+  margin-left: 0.8rem;
+}
+.users .users-container .button p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #BAE1FF;
+  margin-left: 3.9375rem;
+  margin-top: 0.7rem;
+}
+@media (max-width: 480px) {
+  .users .users-container .button p {
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=Arm.css.map */
