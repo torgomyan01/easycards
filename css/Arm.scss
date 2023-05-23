@@ -1,0 +1,112 @@
+@import "helper";
+
+
+.about-cards{
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+  .about-container{
+    width: 100% !important;
+    min-height: 18rem;
+    background: url("../assets/image/bg-star.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+    border-radius: 0.75rem;
+
+
+
+    .content{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 480px) {
+        flex-direction: column;
+      }
+
+      .content-title{
+        padding: 3.85rem;
+
+
+        .about-heading{
+          color: #fff;
+          margin-bottom: 1.5rem;
+          @media (max-width: 768px) {
+            padding-right: 35rem;
+          }
+          @media (max-width: 480px) {
+            padding-right: 0;
+          }
+        }
+
+        .about-title{
+          color: #F4F7FF;
+          margin-bottom: 2.5rem;
+          @media (max-width: 1200px) {
+            padding-right: 30rem;
+          }
+          @media (max-width: 768px) {
+            padding-right: 20rem;
+          }
+          @media (max-width: 480px) {
+            padding-right: 0;
+          }
+        }
+
+        .buttons{
+          .btn-about{
+            margin-right: 1rem;
+            background: #fff;
+            color: #1E1E1E;
+            @media (max-width: 768px) {
+              display: block;
+              margin: 1rem;
+            }
+          }
+        }
+
+      }
+
+      .content-image{
+        position: absolute;
+        right: 2rem;
+        bottom: 0;
+        @media (max-width: 1200px) {
+          right: 1rem;
+        }
+        @media (max-width: 1024px) {
+          right: -11px;
+        }
+        @media (max-width: 480px) {
+          position: unset;
+          display: flex;
+          justify-content: center;
+        }
+
+        .about-img{
+
+          @media (max-width: 1024px) {
+            display: none;
+          }
+        }
+
+        .about-img-1024{
+          display: none;
+          @media (max-width: 1024px) {
+            display: initial;
+          }
+          @media (max-width: 480px) {
+            display: none;
+          }
+        }
+
+        .about-img-480{
+          display: none;
+          @media (max-width: 480px) {
+            display: initial;
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+}
