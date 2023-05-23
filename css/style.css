@@ -659,6 +659,11 @@ a {
   font-size: 1rem;
   line-height: 140%;
 }
+@media (max-width: 480px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-checks .available-checks-box .checks-title h4 {
+    font-size: 0.9375rem !important;
+  }
+}
 .available-cards .available-container .available-content-row .available-box-col .available-checks .available-checks-box .checks-title h4 span {
   color: #A8B8C5;
 }
@@ -743,6 +748,103 @@ a {
 }
 .available-cards .available-container .available-box-col-end {
   background: linear-gradient(94deg, #8FB9D0 0%, #719BB2 100%) !important;
+}
+.available-cards .available-container .available-box-col-end .content-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .available-cards .available-container .available-box-col-end .content-title {
+    display: block;
+  }
+}
+.available-cards .available-container .available-box-col-end .content-title .available-btn {
+  background: rgba(244, 247, 255, 0.2);
+  color: #fff;
+}
+.available-cards .available-container .available-box-col-end .content-title .available-heading {
+  color: #fff;
+}
+.available-cards .available-container .available-box-col-end .content-title .available-title {
+  color: #C6E5F7;
+}
+.available-cards .available-container .available-box-col-end .content-title .available-checks {
+  display: block;
+  margin: 0;
+  margin-right: 3.75rem;
+}
+@media (max-width: 1024px) {
+  .available-cards .available-container .available-box-col-end .content-title .available-checks {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .available-cards .available-container .available-box-col-end .content-title .available-checks {
+    display: block;
+  }
+}
+.available-cards .available-container .available-box-col-end .content-title .available-checks .available-checks-box {
+  margin: 0.925rem 0;
+}
+.available-cards .available-container .available-box-col-end .content-title .available-checks .available-checks-box .fa-circle-check {
+  color: rgba(244, 247, 255, 0.3);
+}
+.available-cards .available-container .available-box-col-end .content-title .available-checks .available-checks-box h4 {
+  color: #fff;
+}
+.available-cards .available-container .available-box-col-end .available-bottom {
+  display: flex;
+  justify-content: center !important;
+}
+@media (max-width: 1024px) {
+  .available-cards .available-container .available-box-col-end .available-bottom {
+    justify-content: space-between !important;
+  }
+}
+.available-cards .available-container .available-box-col-end .available-bottom .buttons {
+  margin-left: 350px;
+  margin-right: 150px;
+}
+@media (max-width: 1024px) {
+  .available-cards .available-container .available-box-col-end .available-bottom .buttons {
+    margin: 0;
+  }
+}
+.available-cards .available-container .available-box-col-end .available-bottom .buttons .btn-blue {
+  background: #fff;
+  color: #76A0B7;
+}
+.available-cards .available-container .available-box-col-end .available-bottom .buttons .btn-transparent {
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+@media (max-width: 768px) {
+  .available-cards .available-container .available-box-col-end .available-bottom .price {
+    top: -10rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .available-cards .available-container .available-box-col-end .available-bottom .price {
+    top: 0 !important;
+    margin-bottom: 2rem;
+  }
+}
+.available-cards .available-container .available-box-col-end .available-bottom .price span {
+  color: #fff !important;
+}
+@media (max-width: 480px) {
+  .available-cards .available-container .available-box-col-end .available-bottom .price span {
+    margin-right: 1rem;
+  }
+}
+.available-cards .available-container .available-box-col-end .available-bottom .price .btn-transparent {
+  display: none;
+}
+@media (max-width: 480px) {
+  .available-cards .available-container .available-box-col-end .available-bottom .price .btn-transparent {
+    display: initial;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

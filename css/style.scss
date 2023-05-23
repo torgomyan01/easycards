@@ -670,7 +670,9 @@ $containerWidth: 1248px;
               font-weight: 600;
               font-size: 1rem;
               line-height: 140%;
-
+              @media (max-width: 480px) {
+                font-size: 0.9375rem !important;
+              }
               span{
                 color: #A8B8C5;
               }
@@ -759,9 +761,107 @@ $containerWidth: 1248px;
     }
 
     }
+  // end box
 
     .available-box-col-end{
       background: linear-gradient(94deg, #8FB9D0 0%, #719BB2 100%) !important;
+
+      .content-title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        @media (max-width: 1024px) {
+            display: block;
+        }
+        .available-btn {
+          background: rgba(244, 247, 255, 0.2);
+          color: #fff;
+        }
+
+        .available-heading {
+          color: #fff;
+        }
+
+        .available-title {
+          color: #C6E5F7;
+        }
+
+        .available-checks{
+          display: block;
+          margin: 0;
+          margin-right: 3.75rem;
+          @media (max-width: 1024px) {
+            display: flex;
+          }
+          @media (max-width: 768px) {
+            display: block;
+
+          }
+
+          .available-checks-box{
+              margin: 0.925rem 0;
+            .fa-circle-check{
+              color: rgba(244, 247, 255, 0.3);;
+            }
+
+            h4{
+              color: #fff;
+            }
+
+          }
+        }
+
+      }
+
+      .available-bottom{
+        display: flex;
+        justify-content: center !important;
+        @media (max-width: 1024px) {
+          justify-content: space-between !important;
+        }
+        .buttons {
+          margin-left: 350px;
+          margin-right: 150px;
+          @media (max-width: 1024px) {
+            margin: 0;
+          }
+          .btn-blue {
+            background: #fff;
+            color: #76A0B7;
+
+          }
+
+          .btn-transparent {
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.2);
+          }
+        }
+
+        .price{
+          @media (max-width: 768px) {
+            top: -10rem !important;
+          }
+          @media (max-width: 480px) {
+            top: 0 !important;
+            margin-bottom: 2rem;
+          }
+          span{
+            color: #fff !important;
+            @media (max-width: 480px) {
+              margin-right: 1rem;
+            }
+          }
+
+          .btn-transparent{
+            display: none;
+            @media (max-width: 480px) {
+              display: initial;
+            }
+          }
+        }
+
+      }
+
     }
 
   }
