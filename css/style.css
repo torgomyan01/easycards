@@ -1002,20 +1002,7 @@ a {
 .visa-master {
   background: #F4F7FF;
   padding-top: 6.25rem;
-}
-.visa-master-title {
-  font-weight: 600;
-  font-size: 2.75rem;
-  line-height: 110%;
-  color: #1E1E1E;
-  margin-top: 2.5rem;
-}
-.visa-master-subtitle {
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 140%;
-  color: #A8B8C5;
-  margin-top: 1.5rem;
+  padding-bottom: 6.25rem;
 }
 .visa-master-item {
   width: 100%;
@@ -1037,6 +1024,96 @@ a {
   line-height: 140%;
   color: #A8B8C5;
   margin-top: 1.5rem;
+}
+
+.def-title {
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #1E1E1E;
+  margin-top: 2.5rem;
+}
+
+.def-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #A8B8C5;
+  margin-top: 1.5rem;
+}
+
+.steps {
+  padding: 7.5rem 1rem 1rem;
+}
+.steps-card {
+  position: absolute;
+  right: -100px;
+  bottom: -80px;
+  width: auto;
+}
+@media (max-width: 1114px) {
+  .steps-card {
+    right: -200px;
+  }
+}
+@media (max-width: 991px) {
+  .steps-card {
+    right: 0;
+    bottom: -185px;
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .steps-card {
+    display: none;
+  }
+}
+.steps-body {
+  background: url("../assets/image/step-bg.png"), linear-gradient(94deg, #8FB9D0 0%, #719BB2 100%) no-repeat center;
+  background-size: cover;
+  border-radius: 0.75rem;
+  padding: 3.75rem 3.75rem 1.25rem;
+  margin-top: 5rem;
+  position: relative;
+}
+@media (max-width: 576px) {
+  .steps-body {
+    padding: 2.5rem 2.5rem 0.625rem;
+  }
+}
+@media (max-width: 320px) {
+  .steps-body {
+    padding: 1.5rem 1.5rem 0.625rem;
+  }
+}
+.steps-number {
+  font-weight: 500;
+  font-size: 5rem;
+  color: #FFFFFF;
+}
+.steps-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .steps-title {
+    margin-top: 0;
+  }
+}
+.steps-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #C6E5F7;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .steps-subtitle {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
