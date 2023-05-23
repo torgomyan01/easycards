@@ -7,18 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
 
   <!--  STYLES  -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/icons/icons.css" rel="stylesheet">
+  <link href="css/slick.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
 
 
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
 
   <title>EasyCards.Ru Home</title>
 </head>
@@ -160,7 +163,8 @@
           <div class="content-title">
             <button class="btn-lightblue available-btn "><img src="./assets/image/kyrgyzstan.png" alt="">Киргизия
             </button>
-            <h3 class="heading available-heading">Карта от Bakai Bank <img src="./assets/image/kyrgyzstan.png" alt=""></h3>
+            <h3 class="heading available-heading">Карта от Bakai Bank <img src="./assets/image/kyrgyzstan.png" alt="">
+            </h3>
             <p class="title available-title">Карта от банка Bakai Bank — один из лидирующих продуктов, позволяющий
               насладиться впечатляющей финансовой свободой. Предоставляет владельцу мгновенный доступ к собственным
               средствам в любое время и в любой точке мира.</p>
@@ -214,8 +218,11 @@
           <div class="content-title">
             <button class="btn-lightblue available-btn "><img src="./assets/image/kyrgyzstan.png" alt="">Киргизия
             </button>
-            <h3 class="heading available-heading">Карта от Optima Bank <img src="./assets/image/kyrgyzstan.png" alt=""></h3>
-            <p class="title available-title">VISA Gold от Optima Bank — это лучший выбор для путешественников, которые ценят комфорт и экономию. С этой картой вы можете оплачивать покупки и снимать наличные в любой точке мира с минимальными курсовыми разницами.</p>
+            <h3 class="heading available-heading">Карта от Optima Bank <img src="./assets/image/kyrgyzstan.png" alt="">
+            </h3>
+            <p class="title available-title">VISA Gold от Optima Bank — это лучший выбор для путешественников, которые
+              ценят комфорт и экономию. С этой картой вы можете оплачивать покупки и снимать наличные в любой точке мира
+              с минимальными курсовыми разницами.</p>
           </div>
         </div>
 
@@ -232,7 +239,7 @@
             <div class="fa-sharp fa-solid fa-circle-check"></div>
             <div class="checks-title">
               <h4>Привязка к
-                 <br> РФ номеру: </h4>
+                <br> РФ номеру: </h4>
             </div>
           </div>
           <div class="gray"></div>
@@ -267,8 +274,11 @@
           <div class="content-title">
             <button class="btn-lightblue available-btn "><img src="./assets/image/kazakhstan.png" alt="">Казахстан
             </button>
-            <h3 class="heading available-heading">Карта от Freedom Bank <img src="./assets/image/kazakhstan.png" alt=""></h3>
-            <p class="title available-title">Freedom Card — это мультивалютная банковская карта, которая позволяет своему владельцу наслаждаться широким спектром возможностей и эксклюзивных предложений в любой точке мира.</p>
+            <h3 class="heading available-heading">Карта от Freedom Bank <img src="./assets/image/kazakhstan.png" alt="">
+            </h3>
+            <p class="title available-title">Freedom Card — это мультивалютная банковская карта, которая позволяет
+              своему владельцу наслаждаться широким спектром возможностей и эксклюзивных предложений в любой точке
+              мира.</p>
           </div>
         </div>
 
@@ -320,7 +330,8 @@
             <button class="btn-lightblue available-btn "><img src="./assets/image/kazakhstan.png" alt="">Казахстан
             </button>
             <h3 class="heading available-heading">Оформление ИИН <img src="./assets/image/kazakhstan.png" alt=""></h3>
-            <p class="title available-title">Помощь в удаленном получении ИИН Казахстана для граждан России. Быстро, просто и надежно!</p>
+            <p class="title available-title">Помощь в удаленном получении ИИН Казахстана для граждан России. Быстро,
+              просто и надежно!</p>
           </div>
         </div>
 
@@ -367,6 +378,519 @@
 
   </div>
 
+</section>
+
+
+<section class="map-comparison">
+  <div class="container map-comparison-content">
+    <h3 class="map-comparison-title">Сравнение карт</h3>
+    <p class="map-comparison-subtitle">Сравни доступные пакеты и выбери свой </p>
+
+    <div class="map-comparison-table">
+      <div class="table d-none d-lg-block">
+        <div class="table-tr">
+          <div class="table-th left-title"></div>
+          <div class="table-th">Freedom Bank</div>
+          <div class="table-th">Bakai Bank</div>
+          <div class="table-th">Optima Bank</div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">Страна</div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <img src="assets/image/kazakhstan.png" alt="kazakhstan">
+              <span class="map-comparison-table-item-country-name">Казахстан</span>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <img src="assets/image/kyrgyzstan.png" alt="kazakhstan">
+              <span class="map-comparison-table-item-country-name">Киргизия</span>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <img src="assets/image/kyrgyzstan.png" alt="kazakhstan">
+              <span class="map-comparison-table-item-country-name">Киргизия</span>
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">Валюта</div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Валюта</p>
+              USD, EUR, RUB, KZT
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Валюта</p>
+              USD
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Валюта</p>
+              KGS / USD
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Пополнение
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Пополнение</p>
+              SWIFT, Qiwi, Золотая
+              корона, МТС Деньги
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Пополнение</p>
+              SWIFT, Золотая
+              корона, BTB Express
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Пополнение</p>
+              SWIFT, Золотая корона,
+              BTB Express, Сбербанк
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Оформление без
+            доверенности
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+              <i class="fa-solid fa-circle-xmark c-grey"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Исходящий SWIFT
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+              USD
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+              <i class="fa-solid fa-circle-xmark c-grey"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+              USD, EUR
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Привязка к РФ номеру
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+              <i class="fa-solid fa-circle-xmark c-grey"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Apple/Google Pay
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+              <i class="fa-solid fa-circle-xmark c-grey"></i>
+              /
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+              <i class="fa-solid fa-circle-xmark c-grey"></i>
+              /
+              <i class="fa-solid fa-circle-check c-blue"></i>
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Сроки выпуска
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Сроки выпуска</p>
+              до 17 дней
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Сроки выпуска</p>
+              до 21 дня
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <p class="map-comparison-table-item-title">Сроки выпуска</p>
+              до 12 дней
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+            Стоимость
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <span class="price">15 000 ₽</span>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <span class="price">37 900 ₽</span>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item">
+              <span class="price">44 900 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="table-tr">
+          <div class="table-th left-title">
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item pt-2">
+              <button class="btn-transparent">Тарифы</button>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item pt-2">
+              <button class="btn-transparent">Тарифы</button>
+            </div>
+          </div>
+          <div class="table-td">
+            <div class="map-comparison-table-item pt-2">
+              <button class="btn-transparent">Тарифы</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="dots-slider-table mt-5 d-block d-lg-none">
+          <div class="dots-slider-table-body">
+            <div class="table-prev me-5">
+              <i class="fa-regular fa-angle-left"></i>
+            </div>
+            <span class="name-table-mobile">Freedom Bank</span>
+            <div class="table-next ms-5">
+              <i class="fa-regular fa-angle-right"></i>
+            </div>
+          </div>
+      </div>
+
+      <div class="d-block d-lg-none" id="table-slider">
+
+        <div class="table">
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item text-center">
+                <img src="assets/image/kazakhstan.png" alt="kazakhstan" class="d-inline-block">
+                <span class="map-comparison-table-item-country-name">Казахстан</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Валюта</p>
+                USD, EUR, RUB, KZT
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                SWIFT, Qiwi, Золотая
+                корона, МТС Деньги
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+                USD
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table- w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td  w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Сроки выпуска</p>
+                до 17 дней
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td  w-100">
+              <div class="map-comparison-table-item">
+                <span class="price">15 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item pt-2">
+                <button class="btn-transparent">Тарифы</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="table-td w-100">
+            <div class="map-comparison-table-item">
+              <img src="assets/image/kyrgyzstan.png" alt="kazakhstan" class="d-inline-block">
+              <span class="map-comparison-table-item-country-name">Киргизия</span>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Валюта</p>
+                USD
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Пополнение</p>
+                SWIFT, Золотая
+                корона, BTB Express
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+                <i class="fa-solid fa-circle-xmark c-grey"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+                <i class="fa-solid fa-circle-xmark c-grey"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+                <i class="fa-solid fa-circle-xmark c-grey"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+                <i class="fa-solid fa-circle-xmark c-grey"></i>
+                /
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Сроки выпуска</p>
+                до 21 дня
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <span class="price">37 900 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item pt-2">
+                <button class="btn-transparent">Тарифы</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="table-td w-100">
+            <div class="map-comparison-table-item">
+              <img src="assets/image/kyrgyzstan.png" alt="kazakhstan" class="d-inline-block">
+              <span class="map-comparison-table-item-country-name">Киргизия</span>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Валюта</p>
+                KGS / USD
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Пополнение</p>
+                SWIFT, Золотая корона,
+                BTB Express, Сбербанк
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Оформление без доверенности</p>
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Исходящий SWIFT</p>
+                USD, EUR
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Привязка к РФ номеру</p>
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Apple/Google Pay</p>
+                <i class="fa-solid fa-circle-xmark c-grey"></i>
+                /
+                <i class="fa-solid fa-circle-check c-blue"></i>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <p class="map-comparison-table-item-title">Сроки выпуска</p>
+                до 12 дней
+              </div>
+            </div>
+          </div>
+          <div class="table-tr w-100">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item">
+                <span class="price">44 900 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-tr">
+            <div class="table-td w-100">
+              <div class="map-comparison-table-item pt-2">
+                <button class="btn-transparent">Тарифы</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="map-comparison-message">
+      <i class="fa-regular fa-circle-exclamation me-3"></i>
+      Все цены указаны без учёта стоимости изготовления доверенности, отправки документов, внесения депозита и платы за
+      обслуживание.
+    </div>
+
+  </div>
 </section>
 
 

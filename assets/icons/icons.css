@@ -68,13 +68,27 @@
     content: "\f058"
 }
 
+.fa-circle-xmark:before {
+    content: "\f057"
+}
+
 .fa-image:before {
     content: "\f03e"
 }
 
-
 .fa-xmark:before {
     content: "\f00d"
+}
+
+.fa-circle-exclamation:before {
+    content: "\f06a"
+}
+.fa-angle-right:before {
+    content: "\f105"
+}
+
+.fa-angle-left:before {
+    content: "\f104"
 }
 
 

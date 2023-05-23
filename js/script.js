@@ -38,3 +38,14 @@ Button.on('click', function (){
 menu_bar.addEventListener('click', ()=>{
     navbar.classList.toggle('active')
 })
+
+
+$('#table-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    appendDots: $('.dots-slider-table'),
+    nextArrow: '.table-next',
+    prevArrow: '.table-prev'
+});
