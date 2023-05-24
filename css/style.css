@@ -1465,6 +1465,11 @@ footer {
   color: #fff;
 }
 
+@media (max-width: 992px) and (min-width: 768px) {
+  .header {
+    margin-top: 90px;
+  }
+}
 .header .container {
   max-width: 1372px !important;
 }
@@ -1487,12 +1492,43 @@ footer {
   top: 0;
   right: 0;
 }
+@media (max-width: 576px) {
+  .header-body:before {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 855px) {
+  .header-body {
+    height: 70rem;
+  }
+}
+@media (max-width: 576px) {
+  .header-body {
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+}
 .header-title {
   font-weight: 600;
   font-size: 2.75rem;
   line-height: 110%;
   color: #FFFFFF;
   margin-top: 2.5rem;
+}
+@media (max-width: 576px) {
+  .header-title {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .header-title {
+    width: 48%;
+  }
+}
+@media (min-width: 576px) {
+  .header-title {
+    width: 61%;
+  }
 }
 .header-description {
   font-weight: 500;
@@ -1507,17 +1543,57 @@ footer {
     width: 41%;
   }
 }
+@media (max-width: 576px) {
+  .header-description {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
 .header .kazakhstan-header-card-freedom {
   position: absolute;
   right: -3.75rem;
   top: 4.0625rem;
   width: 42.5rem;
 }
+@media (max-width: 1325px) {
+  .header .kazakhstan-header-card-freedom {
+    width: 32.5rem;
+    top: 17.0625rem;
+  }
+}
+@media (max-width: 1075px) {
+  .header .kazakhstan-header-card-freedom {
+    width: 32.5rem;
+    top: 20.0625rem;
+  }
+}
+@media (max-width: 855px) {
+  .header .kazakhstan-header-card-freedom {
+    top: 41.0625rem;
+  }
+}
+@media (max-width: 425px) {
+  .header .kazakhstan-header-card-freedom {
+    top: 41.0625rem;
+    right: -13rem;
+  }
+}
 .header .kazakhstan-header-card-freedom-back {
   position: absolute;
   right: 15rem;
   bottom: -3rem;
   width: 35.5rem;
+}
+@media (max-width: 1325px) {
+  .header .kazakhstan-header-card-freedom-back {
+    width: 25.5rem;
+    bottom: -4rem;
+  }
+}
+@media (max-width: 425px) {
+  .header .kazakhstan-header-card-freedom-back {
+    right: 1rem;
+  }
 }
 
 .info-block {
