@@ -392,6 +392,7 @@ a {
 }
 .cards .cards-backgraund .cards-container {
   display: flex;
+  margin-left: 5rem;
 }
 .cards .cards-backgraund .cards-container .card-content {
   position: relative;
