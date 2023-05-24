@@ -7,6 +7,8 @@ const Button = $('.btn-sign')
 const menu_bar = document.getElementById("menu-bar" )
 const navbar = document.querySelector('.navbar')
 
+AOS.init();
+
 $('.change-name-user-profile').on('click', function (){
     $('.user-profile-name').addClass(none);
     $('.form-change-name-user').removeClass(none)

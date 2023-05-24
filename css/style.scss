@@ -142,6 +142,10 @@ a{
   border: none!important;
   text-align: center;
   cursor: pointer;
+  transition: .3s linear;
+  &:hover{
+   background: rgb(66, 149, 218);
+  }
 }
 
 .btn-lightblue{
@@ -170,6 +174,12 @@ a{
   border: 1.5px solid rgba(168, 184, 197, 0.2);
   text-align: center;
   cursor: pointer;
+  transition: .3s linear;
+  &:hover{
+    background: #fff;
+    color: #0089EE;
+    border: 1.5px solid #fff;
+  }
 }
 
 $menuContent: 1372px;
@@ -564,8 +574,8 @@ $menuContent: 1372px;
 .available-cards{
     background-position: center;
     background-repeat: no-repeat;
-     background-size: cover;
-  padding: 0 1rem;
+    background-size: contain;
+     padding: 0 1rem;
 
   .available-container{
     margin-top: 8.125rem;
@@ -864,12 +874,19 @@ $menuContent: 1372px;
           .btn-blue {
             background: #fff;
             color: #76A0B7;
-
+            &:hover{
+              background: #0089EE;
+              color: #fff;
+            }
           }
 
           .btn-transparent {
             color: #fff;
             border: 1.5px solid rgba(255, 255, 255, 0.2);
+            &:hover{
+              background: #fff;
+              color: #76A0B7;
+            }
           }
         }
 
@@ -1392,8 +1409,10 @@ $menuContent: 1372px;
   font-size: 16px;
   line-height: 140%;
   color: #76A0B7;
+  transition: .3s linear;
   &:hover{
-    background: #e5e4e4;
+    background: #0089EE;
+    color: #fff;
   }
 
 }

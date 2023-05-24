@@ -131,6 +131,10 @@ a {
   border: none !important;
   text-align: center;
   cursor: pointer;
+  transition: 0.3s linear;
+}
+.btn-blue:hover {
+  background: rgb(66, 149, 218);
 }
 
 .btn-lightblue {
@@ -159,6 +163,12 @@ a {
   border: 1.5px solid rgba(168, 184, 197, 0.2);
   text-align: center;
   cursor: pointer;
+  transition: 0.3s linear;
+}
+.btn-transparent:hover {
+  background: #fff;
+  color: #0089EE;
+  border: 1.5px solid #fff;
 }
 
 .menu {
@@ -550,7 +560,7 @@ a {
 .available-cards {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 0 1rem;
 }
 .available-cards .available-container {
@@ -849,9 +859,17 @@ a {
   background: #fff;
   color: #76A0B7;
 }
+.available-cards .available-container .available-box-col-end .available-bottom .buttons .btn-blue:hover {
+  background: #0089EE;
+  color: #fff;
+}
 .available-cards .available-container .available-box-col-end .available-bottom .buttons .btn-transparent {
   color: #fff;
   border: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+.available-cards .available-container .available-box-col-end .available-bottom .buttons .btn-transparent:hover {
+  background: #fff;
+  color: #76A0B7;
 }
 @media (max-width: 768px) {
   .available-cards .available-container .available-box-col-end .available-bottom .price {
@@ -1385,9 +1403,11 @@ a {
   font-size: 16px;
   line-height: 140%;
   color: #76A0B7;
+  transition: 0.3s linear;
 }
 .btn-white:hover {
-  background: #e5e4e4;
+  background: #0089EE;
+  color: #fff;
 }
 
 .free-call-number {
