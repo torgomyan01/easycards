@@ -1461,6 +1461,10 @@ footer{
 
 // ------------------ kazakhstan.html --------------------
 
+.c-yellow{
+  color: #E37640 !important;
+}
+
 .kazakhstan{
   .btn-white{
     font-weight: 600;
@@ -1470,6 +1474,47 @@ footer{
     &:hover{
       color: #fff;
     }
+  }
+  .about-container{
+    background: url("../assets/image/kazakhstan-about-container.png") no-repeat top right, linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) !important;
+    background-size: cover !important;
+
+  }
+
+  .about-img-kazakhstan {
+    width: 100%;
+  }
+
+  .about-cards {
+    .about-container {
+      .content {
+        @media (max-width: 683px) {
+          flex-direction: column;
+        }
+
+        .content-image {
+          width: 34rem;
+          @media (max-width: 683px) {
+            position: relative;
+            right: 0;
+            width: 100%;
+          }
+        }
+        .content-title {
+          .about-heading, .about-title{
+            @media (max-width: 683px) {
+              padding-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .steps-body{
+    background: url(../assets/image/step-bg.png), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -1523,11 +1568,9 @@ footer{
       margin-top: 1.5rem;
     }
     @media (min-width: 992px) {
-      width: 48%;
+      width: 52%;
     }
-    @media (min-width: 576px) {
-      width: 61%;
-    }
+
   }
   &-description{
     font-weight: 500;
