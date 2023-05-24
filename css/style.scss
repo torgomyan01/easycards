@@ -187,7 +187,10 @@ $menuContent: 1372px;
     display: flex;
     align-items: center;
     background: #fff;
-    padding: 0 1rem;
+    padding: 0;
+    @media (max-width: $menuContent){
+      padding: 0 1rem;
+    }
     @media (max-width: 1024px) {
       border-bottom: 1px solid rgba(168, 184, 197, 0.2);
       justify-content: space-between;
@@ -1050,6 +1053,7 @@ $menuContent: 1372px;
   padding-bottom: 6.25rem;
   @media (max-width: 576px){
     padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
   }
   &-item{
     width: 100%;
@@ -1100,6 +1104,10 @@ $menuContent: 1372px;
 .steps{
   padding: 7.5rem 1rem 1rem;
 
+  @media (max-width: 576px){
+    padding: 4.5rem 1rem 1rem;
+  }
+
   &-card{
     position: absolute;
     right: -100px;
@@ -1126,6 +1134,7 @@ $menuContent: 1372px;
     position: relative;
     @media (max-width: 576px){
       padding: 2.5rem 2.5rem 0.625rem;
+      margin-top: 3rem;
     }
     @media (max-width: 320px){
       padding: 1.5rem 1.5rem 0.625rem;
@@ -1256,6 +1265,13 @@ $menuContent: 1372px;
 
 .footer-bg{
   background: linear-gradient(146.36deg, #F4F7FF 14.94%, rgba(244, 247, 255, 0) 59.69%);
+  position: relative;
+
+  &-stars{
+    position: absolute;
+    top: 11.25rem;
+    right: 30%;
+  }
 }
 
 .blog{

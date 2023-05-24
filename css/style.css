@@ -173,7 +173,12 @@ a {
   display: flex;
   align-items: center;
   background: #fff;
-  padding: 0 1rem;
+  padding: 0;
+}
+@media (max-width: 1372px) {
+  .menu-content {
+    padding: 0 1rem;
+  }
 }
 @media (max-width: 1024px) {
   .menu-content {
@@ -1032,6 +1037,7 @@ a {
 @media (max-width: 576px) {
   .visa-master {
     padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
   }
 }
 .visa-master-item {
@@ -1085,6 +1091,11 @@ a {
 .steps {
   padding: 7.5rem 1rem 1rem;
 }
+@media (max-width: 576px) {
+  .steps {
+    padding: 4.5rem 1rem 1rem;
+  }
+}
 .steps-card {
   position: absolute;
   right: -100px;
@@ -1119,6 +1130,7 @@ a {
 @media (max-width: 576px) {
   .steps-body {
     padding: 2.5rem 2.5rem 0.625rem;
+    margin-top: 3rem;
   }
 }
 @media (max-width: 320px) {
@@ -1246,6 +1258,12 @@ a {
 
 .footer-bg {
   background: linear-gradient(146.36deg, #F4F7FF 14.94%, rgba(244, 247, 255, 0) 59.69%);
+  position: relative;
+}
+.footer-bg-stars {
+  position: absolute;
+  top: 11.25rem;
+  right: 30%;
 }
 
 .blog {
