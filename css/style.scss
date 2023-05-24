@@ -409,6 +409,11 @@ $menuContent: 1372px;
     .cards-container {
       display: flex;
       margin-left: 5rem;
+      padding-right: 2.875rem;
+
+      @media (max-width: 768px){
+        margin-left: 1.875rem;
+      }
 
       .card-content {
         position: relative;
@@ -471,6 +476,8 @@ $menuContent: 1372px;
             display: none ;
             @media (max-width: 768px) {
               display: initial;
+              bottom: -50px;
+              position: relative;
             }
           }
 
@@ -573,8 +580,7 @@ $menuContent: 1372px;
 
 
 .available-cards{
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("../assets/image/bg_stars.png") no-repeat 5rem -17rem;
     background-size: contain;
      padding: 0 1rem;
 
@@ -800,6 +806,7 @@ $menuContent: 1372px;
             color: #0089EE;
             @media (max-width: 480px) {
               margin-left: 10px;
+              font-size: 2.5rem;
             }
           }
         }
@@ -1198,7 +1205,7 @@ $menuContent: 1372px;
     padding-top: 0;
   }
   &-body{
-    background: url(../assets/image/faq-bg.svg) no-repeat 65% 23%;
+    background: url(../assets/image/faq-bg.svg) no-repeat 65% -197px;
     background-size: 134%;
 
     .def-subtitle{
@@ -1302,13 +1309,26 @@ $menuContent: 1372px;
     border: 1.5px solid rgba(168, 184, 197, 0.2);
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
+
+    &:hover{
+      .blog-item-body{
+        bottom: 0;
+      }
+    }
+
     &-img{
       width: 100%;
       height: 16.25rem;
       @include bg;
+      margin-bottom: -5.3125rem;
     }
     &-body{
       padding: 1.5rem;
+      background: #fff;
+      transition: 0.3s;
+      position: relative;
+      bottom: -5.3125rem;
     }
     &-title{
       font-weight: 500;
