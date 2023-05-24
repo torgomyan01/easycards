@@ -226,7 +226,7 @@ $menuContent: 1372px;
         z-index: 10;
         background: #fff;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         display: flex !important;
         justify-content: center;
         align-items: center !important;
@@ -253,7 +253,7 @@ $menuContent: 1372px;
         @media (max-width: 869px) {
           margin: 15px 35px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           margin: 0.9375rem 0;
           display: block !important;
           font-size: 1.5rem;
@@ -343,6 +343,19 @@ $menuContent: 1372px;
       transform: rotateY(180deg);
       @media (max-width: 768px) {
         display: initial;
+      }
+
+      .fa-xmark{
+        display: none;
+      }
+
+      &.active{
+        .fa-xmark{
+          display: inline-block;
+        }
+        .fa-bars-sort{
+          display: none;
+        }
       }
     }
 
@@ -896,6 +909,7 @@ $menuContent: 1372px;
 //}
 
 .map-comparison{
+  padding: 0 1rem;
   &-content{
     @include bg;
     background-image: url(../assets/image/map-comparison-bg.png);

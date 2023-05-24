@@ -25,6 +25,10 @@
       .content-title{
         padding: 3.85rem;
 
+        @media (max-width: 576px){
+          padding: 3.85rem 1rem;
+        }
+
 
         .about-heading{
           color: #fff;
@@ -60,6 +64,10 @@
               display: block;
               margin: 1rem;
             }
+            @media (max-width: 576px) {
+              margin: 1rem 0;
+            }
+
           }
         }
 
@@ -119,6 +127,7 @@
 
 .users{
     margin-top: 6rem;
+  padding: 0 1rem;
   .users-container{
     background: url("../assets/image/bag-users-1248.png") no-repeat center;
     min-height: 22.8125rem;

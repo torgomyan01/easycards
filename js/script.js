@@ -4,7 +4,7 @@ const { none, show, active } = {
     active: 'active'
 }
 const Button = $('.btn-sign')
-const menu_bar = document.querySelector(".menu-content .bar" )
+const menu_bar = document.getElementById("menu-bar" )
 const navbar = document.querySelector('.navbar')
 
 $('.change-name-user-profile').on('click', function (){
@@ -36,7 +36,8 @@ Button.on('click', function (){
 })
 
 menu_bar.addEventListener('click', ()=>{
-    navbar.classList.toggle('active')
+    navbar.classList.toggle('active');
+    menu_bar.classList.toggle('active');
 })
 
 

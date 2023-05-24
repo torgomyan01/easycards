@@ -217,7 +217,7 @@ a {
     background: #fff;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .menu-content .navbar {
     display: flex !important;
     justify-content: center;
@@ -249,7 +249,7 @@ a {
     margin: 15px 35px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .menu-content .navbar a {
     margin: 0.9375rem 0;
     display: block !important;
@@ -331,6 +331,15 @@ a {
   .menu-content #menu-bar {
     display: initial;
   }
+}
+.menu-content #menu-bar .fa-xmark {
+  display: none;
+}
+.menu-content #menu-bar.active .fa-xmark {
+  display: inline-block;
+}
+.menu-content #menu-bar.active .fa-bars-sort {
+  display: none;
 }
 
 .cards {
@@ -868,6 +877,9 @@ a {
   }
 }
 
+.map-comparison {
+  padding: 0 1rem;
+}
 .map-comparison-content {
   background-repeat: no-repeat;
   background-position: center center;

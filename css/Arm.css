@@ -22,6 +22,11 @@
 .about-cards .about-container .content .content-title {
   padding: 3.85rem;
 }
+@media (max-width: 576px) {
+  .about-cards .about-container .content .content-title {
+    padding: 3.85rem 1rem;
+  }
+}
 .about-cards .about-container .content .content-title .about-heading {
   color: #fff;
   margin-bottom: 1.5rem;
@@ -64,6 +69,11 @@
   .about-cards .about-container .content .content-title .buttons .btn-about {
     display: block;
     margin: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .about-cards .about-container .content .content-title .buttons .btn-about {
+    margin: 1rem 0;
   }
 }
 .about-cards .about-container .content .content-image {
@@ -117,6 +127,7 @@
 
 .users {
   margin-top: 6rem;
+  padding: 0 1rem;
 }
 .users .users-container {
   background: url("../assets/image/bag-users-1248.png") no-repeat center;
