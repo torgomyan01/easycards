@@ -1455,6 +1455,10 @@ footer {
   }
 }
 
+.c-yellow {
+  color: #E37640 !important;
+}
+
 .kazakhstan .btn-white {
   font-weight: 600;
   font-size: 1rem;
@@ -1463,6 +1467,38 @@ footer {
 }
 .kazakhstan .btn-white:hover {
   color: #fff;
+}
+.kazakhstan .about-container {
+  background: url("../assets/image/kazakhstan-about-container.png") no-repeat top right, linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) !important;
+  background-size: cover !important;
+}
+.kazakhstan .about-img-kazakhstan {
+  width: 100%;
+}
+@media (max-width: 683px) {
+  .kazakhstan .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
+.kazakhstan .about-cards .about-container .content .content-image {
+  width: 34rem;
+}
+@media (max-width: 683px) {
+  .kazakhstan .about-cards .about-container .content .content-image {
+    position: relative;
+    right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 683px) {
+  .kazakhstan .about-cards .about-container .content .content-title .about-heading, .kazakhstan .about-cards .about-container .content .content-title .about-title {
+    padding-right: 0;
+  }
+}
+.kazakhstan .steps-body {
+  background: url(../assets/image/step-bg.png), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1522,12 +1558,7 @@ footer {
 }
 @media (min-width: 992px) {
   .header-title {
-    width: 48%;
-  }
-}
-@media (min-width: 576px) {
-  .header-title {
-    width: 61%;
+    width: 52%;
   }
 }
 .header-description {
