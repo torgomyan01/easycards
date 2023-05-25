@@ -567,7 +567,7 @@ a {
 }
 
 .available-cards {
-  background: url("../assets/image/bg_stars.png") no-repeat 5rem -17rem;
+  background: url("../assets/image/bg_stars.png") no-repeat -14rem -21rem;
   background-size: contain;
   padding: 0 1rem;
 }
