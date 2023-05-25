@@ -77,6 +77,14 @@ a {
   margin-top: 5rem;
 }
 
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem;
+}
+
 .container {
   max-width: 1248px !important;
 }
@@ -1367,6 +1375,7 @@ a {
 .requisites {
   padding-bottom: 5rem;
   position: relative;
+  margin-top: 6.25rem;
 }
 @media (max-width: 768px) {
   .requisites {
@@ -1745,6 +1754,21 @@ footer {
   padding-bottom: 5.4375rem;
   overflow: hidden;
 }
+@media (max-width: 1100px) {
+  .bakai-card .header-body {
+    overflow: unset;
+  }
+}
+@media (max-width: 855px) {
+  .bakai-card .header-body {
+    height: 58rem;
+  }
+}
+@media (max-width: 576px) {
+  .bakai-card .header-body {
+    height: 45rem;
+  }
+}
 .bakai-card .header-body:before {
   display: none;
 }
@@ -1782,11 +1806,34 @@ footer {
   right: 0;
   top: 0;
 }
+@media (max-width: 1120px) {
+  .bakai-header-bg {
+    right: -6.25rem;
+  }
+}
+@media (max-width: 1100px) {
+  .bakai-header-bg {
+    display: none;
+  }
+}
 
 .bakai-header-card {
   position: absolute;
   top: 5rem;
   right: 2rem;
+}
+@media (max-width: 1228px) {
+  .bakai-header-card {
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+}
+@media (max-width: 576px) {
+  .bakai-header-card {
+    width: 100%;
+  }
 }
 
 .c-bakai-blue {
@@ -1795,6 +1842,10 @@ footer {
 
 .c-green {
   color: #298B3F;
+}
+
+.content-title {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

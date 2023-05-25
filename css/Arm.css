@@ -82,7 +82,7 @@
 .about-cards .about-container .content .content-image {
   position: absolute;
   right: 2rem;
-  bottom: -2.5%;
+  bottom: 0;
 }
 @media (max-width: 1200px) {
   .about-cards .about-container .content .content-image {
