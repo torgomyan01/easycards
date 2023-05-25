@@ -83,6 +83,13 @@ a{
   margin-top: 5rem;
 }
 
+.mt-40{
+  margin-top: 2.5rem;
+}
+.mb-40{
+  margin-bottom: 2.5rem;
+}
+
 .container {
   max-width: 1248px !important;
 }
@@ -1377,6 +1384,7 @@ $menuContent: 1372px;
 .requisites{
   padding-bottom: 5rem;
   position: relative;
+  margin-top: 6.25rem;
 
   @media (max-width: 768px){
     padding-bottom: 10rem;
@@ -1745,6 +1753,15 @@ footer{
     background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
     padding-bottom: 5.4375rem;
     overflow: hidden;
+    @media (max-width: 1100px){
+      overflow: unset;
+    }
+    @media (max-width: 855px){
+      height: 58rem;
+    }
+    @media (max-width: 576px){
+      height: 45rem;
+    }
     &:before{
       display: none;
     }
@@ -1783,15 +1800,35 @@ footer{
     position: absolute;
   right: 0;
   top: 0;
+  @media (max-width: 1120px){
+    right: -6.25rem;
+  }
+  @media (max-width: 1100px){
+    display: none;
+  }
 }
 .bakai-header-card{
   position: absolute;
   top: 5rem;
   right: 2rem;
+
+  @media (max-width: 1228px){
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+  @media (max-width: 576px){
+   width: 100%;
+  }
 }
 .c-bakai-blue{
   color: #1E4165 !important;
 }
 .c-green{
   color: #298B3F;
+}
+
+.content-title{
+  margin-top: 2rem;
 }
