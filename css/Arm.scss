@@ -581,7 +581,6 @@
 // kazakhstan
 
 
-
 .kazakhstan{
 
   .btn-lightblue{
@@ -629,4 +628,151 @@
 }
 
 
+/// bakai-card
 
+
+
+.bakai-card {
+
+  .btn-lightblue {
+    color: #1E4165 !important;
+  }
+
+  .visa-master {
+    margin-top: 5rem;
+
+    .container {
+      position: relative;
+
+      .star1 {
+        position: absolute;
+        left: 90%;
+        top: 15%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .star2 {
+        position: absolute;
+        left: 13%;
+        top: 24%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .content-title {
+        text-align: center;
+
+      }
+
+
+    }
+
+
+  }
+
+
+  .about-cards {
+
+    .about-container {
+      width: 100% !important;
+      min-height: 29.8125rem;
+      background: url("../assets/image/bakai-card-about-bg.png"), linear-gradient(148.13deg, #325579 0%, #073768 100%) no-repeat center;
+
+      .content {
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+
+        .content-title {
+
+          .about-title {
+            color: #7BA5BC;
+          }
+
+          .buttons {
+            .btn-about {
+              color: #1E4165 !important;
+
+              &:hover {
+                background: #4497B3 !important;
+                color: #fff !important;
+              }
+            }
+          }
+
+        }
+
+
+        .content-image {
+          position: absolute;
+          right: 1.6rem;
+
+          @media (max-width: 1200px) {
+            right: 0;
+          }
+          @media (max-width: 1024px) {
+            right: 0;
+          }
+          @media (max-width: 768px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+
+          }
+          @media (max-width: 480px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+/// ..... faq
+
+  .faq{
+
+      .fa-minus{
+      color: #1E4165;
+      }
+
+    .fa-plus{
+      color:  #1E4165;
+    }
+
+  }
+
+  // ......faq end
+
+  // footer
+.footer-bg {
+
+
+  .btn-blue-dark {
+    background: #1E4165 !important;
+    color: #fff !important;
+    &:hover{
+      background: #6b9bcb !important;
+    }
+  }
+
+  .btn-white{
+    &:hover {
+      background: #4497B3 !important;
+      color: #fff !important;
+    }
+  }
+
+}
+
+  // footer end
+
+}

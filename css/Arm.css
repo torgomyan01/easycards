@@ -470,4 +470,102 @@
   background: #4497B3;
 }
 
+.bakai-card .btn-lightblue {
+  color: #1E4165 !important;
+}
+.bakai-card .visa-master {
+  margin-top: 5rem;
+}
+.bakai-card .visa-master .container {
+  position: relative;
+}
+.bakai-card .visa-master .container .star1 {
+  position: absolute;
+  left: 90%;
+  top: 15%;
+}
+@media (max-width: 768px) {
+  .bakai-card .visa-master .container .star1 {
+    display: none;
+  }
+}
+.bakai-card .visa-master .container .star2 {
+  position: absolute;
+  left: 13%;
+  top: 24%;
+}
+@media (max-width: 768px) {
+  .bakai-card .visa-master .container .star2 {
+    display: none;
+  }
+}
+.bakai-card .visa-master .container .content-title {
+  text-align: center;
+}
+.bakai-card .about-cards .about-container {
+  width: 100% !important;
+  min-height: 29.8125rem;
+  background: url("../assets/image/bakai-card-about-bg.png"), linear-gradient(148.13deg, #325579 0%, #073768 100%) no-repeat center;
+}
+@media (max-width: 768px) {
+  .bakai-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
+.bakai-card .about-cards .about-container .content .content-title .about-title {
+  color: #7BA5BC;
+}
+.bakai-card .about-cards .about-container .content .content-title .buttons .btn-about {
+  color: #1E4165 !important;
+}
+.bakai-card .about-cards .about-container .content .content-title .buttons .btn-about:hover {
+  background: #4497B3 !important;
+  color: #fff !important;
+}
+.bakai-card .about-cards .about-container .content .content-image {
+  position: absolute;
+  right: 1.6rem;
+}
+@media (max-width: 1200px) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    right: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+.bakai-card .faq .fa-minus {
+  color: #1E4165;
+}
+.bakai-card .faq .fa-plus {
+  color: #1E4165;
+}
+.bakai-card .footer-bg .btn-blue-dark {
+  background: #1E4165 !important;
+  color: #fff !important;
+}
+.bakai-card .footer-bg .btn-blue-dark:hover {
+  background: #6b9bcb !important;
+}
+.bakai-card .footer-bg .btn-white:hover {
+  background: #4497B3 !important;
+  color: #fff !important;
+}
+
 /*# sourceMappingURL=Arm.css.map */
