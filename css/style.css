@@ -445,8 +445,8 @@ a {
 }
 @media (max-width: 768px) {
   .cards .cards-backgraund .cards-container .card-image {
-    left: 10%;
-    top: 46%;
+    left: 8%;
+    top: 40%;
     overflow: hidden;
   }
 }
@@ -502,7 +502,7 @@ a {
   padding: 0 1rem;
 }
 .guarantee .guarantee-container .guarantee-content {
-  margin-left: 6.25rem;
+  margin-left: 1.5rem;
 }
 @media (max-width: 1200px) {
   .guarantee .guarantee-container .guarantee-content {
@@ -511,13 +511,13 @@ a {
 }
 @media (max-width: 768px) {
   .guarantee .guarantee-container .guarantee-content {
-    margin-top: 7.5rem;
+    margin-top: 9.5rem;
     position: relative;
   }
 }
 .guarantee .guarantee-container .guarantee-content .guarantee-box {
   display: flex;
-  padding-right: 0.9375rem;
+  padding-right: 2rem;
 }
 @media (max-width: 1024px) {
   .guarantee .guarantee-container .guarantee-content .guarantee-box {
@@ -534,6 +534,10 @@ a {
 }
 .guarantee .guarantee-container .guarantee-content .guarantee-box .box {
   min-width: 255px;
+}
+.guarantee .guarantee-container .guarantee-content .guarantee-box .image {
+  position: relative;
+  top: -2rem;
 }
 @media (max-width: 1024px) {
   .guarantee .guarantee-container .guarantee-content .guarantee-box .image {
@@ -575,7 +579,7 @@ a {
   padding: 0 1rem;
 }
 .available-cards .available-container {
-  margin-top: 8.125rem;
+  margin-top: 6.5rem;
 }
 .available-cards .available-container .available-title .btn-available {
   margin-bottom: 2.5rem;
@@ -629,6 +633,7 @@ a {
   }
 }
 .available-cards .available-container .available-content-row .available-box-col .content-top .content-title .available-btn {
+  padding: 0.3rem 0.5rem;
   margin-bottom: 1.875rem;
 }
 @media (max-width: 480px) {
@@ -1063,12 +1068,23 @@ a {
   background: #F4F7FF;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
+  position: relative;
 }
 @media (max-width: 576px) {
   .visa-master {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
   }
+}
+.visa-master .star1 {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+.visa-master .star2 {
+  position: absolute;
+  right: 36%;
+  top: 20%;
 }
 .visa-master-item {
   width: 100%;
