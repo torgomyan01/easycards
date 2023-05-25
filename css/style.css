@@ -1108,6 +1108,13 @@ a {
   margin-top: 1.5rem;
 }
 
+.table-price {
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #1E4165;
+}
+
 .def-title {
   font-weight: 600;
   font-size: 2.75rem;
