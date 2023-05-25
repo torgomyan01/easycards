@@ -278,7 +278,9 @@ $menuContent: 1372px;
             border: 0;
           }
         }
-
+        &:hover{
+          color: #0b5ed7;
+        }
       }
       &.active {
         @media (max-width: 1024px) {

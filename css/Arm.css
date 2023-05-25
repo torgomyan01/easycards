@@ -326,4 +326,148 @@
   }
 }
 
+.kirghizia .header-body {
+  background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
+  padding-bottom: 4rem;
+}
+.kirghizia .header-body:before {
+  background: url("../assets/image/header-logo.png") no-repeat top right;
+}
+.kirghizia .header-body .header-title {
+  padding-right: 5rem;
+}
+@media (max-width: 1024px) {
+  .kirghizia .header-body .header-title {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .kirghizia .header-body .header-title {
+    padding-right: 0;
+  }
+}
+.kirghizia .header-body .header-description {
+  color: #FFD188;
+}
+.kirghizia .header-body .btn-white {
+  color: #E37640;
+  background: #fff;
+  transition: 0.3s lianer;
+}
+.kirghizia .header-body .btn-white:hover {
+  background: #b24c17;
+  color: #fff;
+}
+.kirghizia .guarantee .guarantee-container .guarantee-content .content .title-top span {
+  color: #E37640;
+}
+.kirghizia .available-cards .btn-lightblue {
+  color: #E37640;
+  background: rgba(255, 209, 136, 0.2);
+}
+.kirghizia .available-cards .fa-circle-check {
+  color: #E37640;
+}
+.kirghizia .available-cards .check-price {
+  color: #E37640;
+}
+.kirghizia .available-cards .btn-transparent:hover {
+  color: #E37640;
+  background: #fff;
+}
+.kirghizia .available-cards .btn-blue-dark {
+  background: #E37640;
+  color: white;
+}
+.kirghizia .available-cards .btn-blue-dark:hover {
+  background: #e78558;
+}
+.kirghizia .map-comparison .fa-circle-check {
+  color: #E37640;
+}
+.kirghizia .map-comparison .price {
+  color: #E37640;
+}
+.kirghizia .map-comparison .btn-transparent:hover {
+  color: #E37640;
+}
+.kirghizia .about-cards .about-container {
+  background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
+}
+.kirghizia .about-cards .about-container .content .content-title .about-title {
+  color: #BAE1FF;
+  font-weight: 600;
+}
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about {
+  color: #4497B3 !important;
+}
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about:hover {
+  background: #4497B3;
+  color: #fff !important;
+}
+.kirghizia .visa-master .btn-lightblue {
+  color: #E37640;
+  background: rgba(255, 209, 136, 0.2);
+}
+.kirghizia .steps .btn-lightblue {
+  color: #E37640;
+  background: rgba(255, 209, 136, 0.2);
+}
+.kirghizia .steps-body {
+  background: url("../assets/image/khirgizia-step-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+}
+.kirghizia .steps .steps-subtitle {
+  color: #FFD188;
+}
+.kirghizia .faq .btn-lightblue {
+  color: #E37640;
+  background: rgba(255, 209, 136, 0.2);
+}
+.kirghizia .faq .fa-minus {
+  color: #E37640;
+}
+.kirghizia .faq .fa-plus {
+  color: #E37640;
+}
+.kirghizia .footer-bg .btn-lightblue {
+  color: #E37640;
+  background: rgba(255, 209, 136, 0.2);
+}
+.kirghizia .footer-bg .requisites-name {
+  color: #FFD188;
+}
+.kirghizia .footer-bg .btn-blue-dark {
+  background: #E37640;
+}
+.kirghizia .footer-bg .btn-blue-dark:hover {
+  background: #f19a6d;
+}
+.kirghizia .footer-bg .btn-white {
+  color: #E37640;
+}
+.kirghizia .footer-bg .btn-white:hover {
+  background: #E37640;
+  color: #fff;
+}
+
+.kazakhstan .btn-lightblue {
+  color: #4497B3 !important;
+}
+.kazakhstan .header .info-block {
+  cursor: pointer;
+}
+.kazakhstan .header .btn-white {
+  transition: 0.5s linear;
+}
+.kazakhstan .header .btn-white:hover {
+  background: #4497B3;
+}
+.kazakhstan .about-cards .btn-about:hover {
+  background: #E37640 !important;
+  color: #fff !important;
+}
+.kazakhstan .footer-bg .btn-white:hover {
+  background: #4497B3;
+}
+
 /*# sourceMappingURL=Arm.css.map */

@@ -311,3 +311,322 @@
 
 // ----------------  kirghizia -----------------------
 
+
+
+
+.kirghizia{
+
+  // header
+
+  .header {
+
+    &-body {
+      background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
+      padding-bottom: 4rem;
+      &:before {
+        background: url("../assets/image/header-logo.png") no-repeat top right;
+      }
+
+      .header-title{
+        padding-right: 5rem;
+        @media (max-width: 1024px){
+          padding-right: 2rem;
+        }
+        @media (max-width: 768px){
+          padding-right: 0;
+        }
+      }
+
+      .header-description{
+        color: #FFD188;
+      }
+
+      .btn-white{
+        color: #E37640;
+        background: #fff;
+        transition: .3s lianer;
+        &:hover{
+          background: #b24c17;
+          color: #fff;
+        }
+      }
+    }
+
+  }
+  // gurantee
+
+  .guarantee{
+
+    .guarantee-container{
+
+.guarantee-content {
+
+  .content {
+
+    .title-top {
+      span{
+        color: #E37640;
+      }
+    }
+
+  }
+
+}
+
+    }
+
+
+  }
+
+  // end gurantee
+
+
+
+  /// available-cards
+
+.available-cards{
+
+  .btn-lightblue{
+    color: #E37640;
+    background: rgba(255, 209, 136, 0.2);
+  }
+
+  .fa-circle-check{
+    color: #E37640;
+  }
+
+  .check-price{
+    color: #E37640;
+  }
+
+  .btn-transparent{
+    &:hover{
+      color: #E37640;
+      background: #fff;
+    }
+  }
+
+  .btn-blue-dark{
+    background: #E37640;
+    color: white;
+    &:hover{
+      background: #e78558;
+    }
+  }
+
+}
+
+  // ..en available-cards
+
+
+  //........ map-comparison
+
+.map-comparison{
+
+.fa-circle-check{
+  color: #E37640;
+}
+
+  .price{
+    color: #E37640;
+  }
+
+  .btn-transparent{
+    &:hover{
+      color: #E37640;
+    }
+  }
+
+}
+
+  // ........ map-comparison end
+
+  //...... about
+
+.about-cards{
+
+  .about-container{
+    background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
+
+    .content {
+
+      .content-title {
+
+        .about-title {
+          color: #BAE1FF;
+          font-weight: 600;
+        }
+
+        .buttons{
+          .btn-about{
+            color: #4497B3 !important;
+            &:hover{
+              background: #4497B3;
+              color: #fff !important;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+}
+
+  /// end about
+
+  // ..........visa master
+
+  .visa-master{
+
+    .btn-lightblue{
+      color: #E37640;
+      background: rgba(255, 209, 136, 0.2);
+    }
+
+  }
+
+  /// ........ visa master end
+
+
+  // ....... steos
+
+  .steps{
+
+    .btn-lightblue{
+      color: #E37640;
+      background: rgba(255, 209, 136, 0.2);
+    }
+
+    &-body {
+      background: url("../assets/image/khirgizia-step-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+    }
+
+
+    .steps-subtitle{
+      color: #FFD188;
+    }
+
+
+  }
+
+
+   ////.. steps end
+
+
+  // ... faq
+
+
+  .faq{
+
+    .btn-lightblue{
+      color: #E37640;
+      background: rgba(255, 209, 136, 0.2);
+    }
+
+    .fa-minus{
+      color: #E37640;
+    }
+
+    .fa-plus{
+      color: #E37640;
+    }
+
+  }
+
+  /// .. .en faq
+
+
+  // footer
+
+.footer-bg{
+
+  .btn-lightblue{
+    color: #E37640;
+    background: rgba(255, 209, 136, 0.2);
+  }
+
+  .requisites-name{
+    color: #FFD188;
+  }
+
+
+  .btn-blue-dark{
+    background: #E37640;
+    &:hover{
+      background: #f19a6d;
+    }
+  }
+
+  .btn-white{
+    color: #E37640;
+    &:hover{
+      background: #E37640;
+      color: #fff;
+    }
+  }
+
+
+
+}
+
+
+  // footer end
+
+
+}
+
+
+// kazakhstan
+
+
+
+.kazakhstan{
+
+  .btn-lightblue{
+    color: #4497B3 !important;
+  }
+
+  .header{
+    .info-block{
+      cursor: pointer;
+    }
+
+    .btn-white{
+      transition: .5s linear;
+      &:hover{
+        background: #4497B3;
+      }
+    }
+
+  }
+
+
+  .about-cards{
+
+  .btn-about {
+    &:hover{
+      background: #E37640 !important;
+      color: #fff !important;
+    }
+  }
+
+  }
+
+
+  .footer-bg{
+
+    .btn-white{
+      &:hover{
+        background: #4497B3;
+      }
+    }
+
+  }
+
+
+}
+
+
+

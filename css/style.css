@@ -278,6 +278,9 @@ a {
     border: 0;
   }
 }
+.menu-content .navbar a:hover {
+  color: #0b5ed7;
+}
 @media (max-width: 1024px) {
   .menu-content .navbar.active {
     z-index: 10;
