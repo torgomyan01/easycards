@@ -344,14 +344,19 @@
   .header {
 
     &-body {
+      padding-bottom: 1rem;
       background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
-      padding-bottom: 4rem;
       &:before {
-        background: url("../assets/image/header-logo.png") no-repeat top right;
+        background: url("../assets/image/header-logo.png")no-repeat top right;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
       }
 
       .header-title{
-        padding-right: 5rem;
+        padding-right: 2rem;
         @media (max-width: 1024px){
           padding-right: 2rem;
         }
@@ -368,12 +373,16 @@
         color: #E37640;
         background: #fff;
         transition: .3s lianer;
+        margin-bottom: 3rem;
+        position: relative;
+        top: -1rem;
         &:hover{
           background: #b24c17;
           color: #fff;
         }
       }
     }
+
 
   }
   // gurantee
@@ -409,6 +418,25 @@
 
 .available-cards{
 
+
+  .media{
+    display: none;
+    @media (max-width: 360px) {
+      display: initial;
+    }
+  }
+
+  .decstop{
+    @media (max-width: 360px) {
+      display: none;
+    }
+  }
+
+  .star1{
+    position: relative;
+    left: 90%;
+  }
+
   .btn-lightblue{
     color: #E37640;
     background: rgba(255, 209, 136, 0.2);
@@ -434,6 +462,44 @@
     color: white;
     &:hover{
       background: #e78558;
+    }
+  }
+
+  .check-bank-subtitle{
+    @media (max-width: 360px) {
+      display: none;
+    }
+  }
+
+  .price-btn{
+    @media (max-width: 480px) {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .check-price{
+      @media (max-width: 480px) {
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+  .buttons{
+    @media (max-width: 360px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    button {
+      @media (max-width: 360px) {
+        display: block;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+        padding: 1.5rem 5rem;
+      }
     }
   }
 
@@ -464,20 +530,33 @@
 
   // ........ map-comparison end
 
+  //  table
+
+  .map-comparison{
+
+    .fa-circle-exclamation{
+      font-size: 1.6rem;
+    }
+
+  }
+
+  // table end
+
+
   //...... about
 
 .about-cards{
+    min-height: 18.5rem;
 
   .about-container{
     background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
-
     .content {
 
       .content-title {
-
         .about-title {
           color: #BAE1FF;
           font-weight: 600;
+          margin-bottom: 1rem;
         }
 
         .buttons{
@@ -490,6 +569,10 @@
           }
         }
 
+      }
+
+      .content-image{
+        bottom: -1.8%;
       }
 
     }
@@ -561,6 +644,19 @@
   /// .. .en faq
 
 
+  // users
+
+  .users{
+
+    .content-title{
+      padding-top: 1.7rem;
+      padding-left: 1.5rem;
+    }
+
+  }
+
+  /// end user
+
   // footer
 
 .footer-bg{
@@ -590,7 +686,9 @@
     }
   }
 
-
+.free-call-text{
+  color: #FFD188;
+}
 
 }
 

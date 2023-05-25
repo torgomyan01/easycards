@@ -331,14 +331,19 @@
 }
 
 .kirghizia .header-body {
+  padding-bottom: 1rem;
   background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
-  padding-bottom: 4rem;
 }
 .kirghizia .header-body:before {
   background: url("../assets/image/header-logo.png") no-repeat top right;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 .kirghizia .header-body .header-title {
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 @media (max-width: 1024px) {
   .kirghizia .header-body .header-title {
@@ -357,6 +362,9 @@
   color: #E37640;
   background: #fff;
   transition: 0.3s lianer;
+  margin-bottom: 3rem;
+  position: relative;
+  top: -1rem;
 }
 .kirghizia .header-body .btn-white:hover {
   background: #b24c17;
@@ -364,6 +372,23 @@
 }
 .kirghizia .guarantee .guarantee-container .guarantee-content .content .title-top span {
   color: #E37640;
+}
+.kirghizia .available-cards .media {
+  display: none;
+}
+@media (max-width: 360px) {
+  .kirghizia .available-cards .media {
+    display: initial;
+  }
+}
+@media (max-width: 360px) {
+  .kirghizia .available-cards .decstop {
+    display: none;
+  }
+}
+.kirghizia .available-cards .star1 {
+  position: relative;
+  left: 90%;
 }
 .kirghizia .available-cards .btn-lightblue {
   color: #E37640;
@@ -386,6 +411,39 @@
 .kirghizia .available-cards .btn-blue-dark:hover {
   background: #e78558;
 }
+@media (max-width: 360px) {
+  .kirghizia .available-cards .check-bank-subtitle {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .kirghizia .available-cards .price-btn {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .kirghizia .available-cards .price-btn .check-price {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .kirghizia .available-cards .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
+  .kirghizia .available-cards .buttons button {
+    display: block;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    padding: 1.5rem 5rem;
+  }
+}
 .kirghizia .map-comparison .fa-circle-check {
   color: #E37640;
 }
@@ -395,12 +453,19 @@
 .kirghizia .map-comparison .btn-transparent:hover {
   color: #E37640;
 }
+.kirghizia .map-comparison .fa-circle-exclamation {
+  font-size: 1.6rem;
+}
+.kirghizia .about-cards {
+  min-height: 18.5rem;
+}
 .kirghizia .about-cards .about-container {
   background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
 }
 .kirghizia .about-cards .about-container .content .content-title .about-title {
   color: #BAE1FF;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 .kirghizia .about-cards .about-container .content .content-title .buttons .btn-about {
   color: #4497B3 !important;
@@ -408,6 +473,9 @@
 .kirghizia .about-cards .about-container .content .content-title .buttons .btn-about:hover {
   background: #4497B3;
   color: #fff !important;
+}
+.kirghizia .about-cards .about-container .content .content-image {
+  bottom: -1.8%;
 }
 .kirghizia .visa-master .btn-lightblue {
   color: #E37640;
@@ -433,6 +501,10 @@
 .kirghizia .faq .fa-plus {
   color: #E37640;
 }
+.kirghizia .users .content-title {
+  padding-top: 1.7rem;
+  padding-left: 1.5rem;
+}
 .kirghizia .footer-bg .btn-lightblue {
   color: #E37640;
   background: rgba(255, 209, 136, 0.2);
@@ -452,6 +524,9 @@
 .kirghizia .footer-bg .btn-white:hover {
   background: #E37640;
   color: #fff;
+}
+.kirghizia .footer-bg .free-call-text {
+  color: #FFD188;
 }
 
 .kazakhstan .btn-lightblue {
