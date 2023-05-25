@@ -1707,3 +1707,62 @@ footer{
     background: #4eaccc;
   }
 }
+
+
+// ------------------- bakai-card ---------------------
+
+.bakai-card{
+  .header-body{
+    background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+    padding-bottom: 5.4375rem;
+    overflow: hidden;
+    &:before{
+      display: none;
+    }
+  }
+  .info-block{
+    background: rgba(0, 137, 238, 0.1);
+    color: #0089EE;
+  }
+  .header-title{
+    color: #1E1E1E;
+  }
+  .header-description{
+    color: #A8B8C5;
+  }
+  .steps-body{
+    background: url("../assets/image/step-bg-bakai.png"), linear-gradient(148.13deg, #325579 0%, #073768 100%) no-repeat center;
+  }
+}
+
+.btn-bakai-dark-blue{
+  background: #1E4165;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding: 1.25rem 1.5rem;
+  transition: 0.3s all !important;
+  &:hover{
+    background: #7BA5BC;
+    color: #fff;
+  }
+}
+
+.bakai-header-bg{
+    position: absolute;
+  right: 0;
+  top: 0;
+}
+.bakai-header-card{
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+}
+.c-bakai-blue{
+  color: #1E4165 !important;
+}
+.c-green{
+  color: #298B3F;
+}
