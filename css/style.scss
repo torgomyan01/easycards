@@ -454,8 +454,8 @@ $menuContent: 1372px;
           top: 40%;
         }
         @media (max-width: 768px){
-          left: 10%;
-          top: 46%;
+          left: 8%;
+          top: 40%;
           overflow: hidden;
         }
         @media (max-width: 480px){
@@ -512,18 +512,19 @@ $menuContent: 1372px;
 
 
     .guarantee-content {
-        margin-left: 6.25rem;
+        margin-left: 1.5rem;
       @media (max-width: 1200px) {
         margin-left: 0;
       }
       @media (max-width: 768px) {
-        margin-top: 7.5rem;
+        margin-top: 9.5rem;
         position: relative;
       }
+
+
       .guarantee-box {
         display: flex ;
-
-        padding-right: 0.9375rem;
+        padding-right: 2rem;
         @media (max-width: 1024px) {
           display: initial ;
           padding-right: 0.5rem;
@@ -532,7 +533,6 @@ $menuContent: 1372px;
         @media (max-width: 768px) {
           display: flex;
           margin: 1.25rem 0;
-
         }
 
         .box{
@@ -540,6 +540,8 @@ $menuContent: 1372px;
         }
 
         .image{
+          position: relative;
+          top: -2rem;
           @media (max-width: 1024px) {
             margin-left: 1.25rem;
           }
@@ -585,10 +587,11 @@ $menuContent: 1372px;
      padding: 0 1rem;
 
   .available-container{
-    margin-top: 8.125rem;
+    margin-top: 6.5rem;
+
     .available-title{
 
-      .btn-available{
+      .btn-available {
         margin-bottom: 2.5rem;
       }
 
@@ -642,6 +645,7 @@ $menuContent: 1372px;
         }
 
         .available-btn{
+          padding: 0.3rem .5rem;
           @media (max-width: 480px) {
             display: none;
           }
@@ -1076,10 +1080,26 @@ $menuContent: 1372px;
   background: #F4F7FF;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
+  position: relative;
   @media (max-width: 576px){
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
   }
+
+  .star1{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+  }
+
+  .star2{
+    position: absolute;
+    right: 36%;
+    top: 20%;
+  }
+
+
+
   &-item{
     width: 100%;
     height: 100%;
