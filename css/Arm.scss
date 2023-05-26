@@ -344,15 +344,22 @@
   .header {
 
     &-body {
-      padding-bottom: 1rem;
+      padding-top: 6.5rem;
+      padding-bottom: 6.5rem;
       background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
       &:before {
         background: url("../assets/image/header-logo.png")no-repeat top right;
         background-size: cover;
         position: absolute;
-        top: 0;
+        top: 2%;
         right: 0;
         bottom: 0;
+        @media (max-width: 1200px) {
+          top: 10%;
+        }
+        @media (max-width: 768px) {
+            top: 40%;
+        }
       }
 
       .header-title{
@@ -373,9 +380,6 @@
         color: #E37640;
         background: #fff;
         transition: .3s lianer;
-        margin-bottom: 3rem;
-        position: relative;
-        top: -1rem;
         &:hover{
           background: #b24c17;
           color: #fff;
@@ -475,18 +479,23 @@
     @media (max-width: 480px) {
       display: flex !important;
       justify-content: center;
-      align-items: center;
+     align-items: center;
     }
 
     .check-price{
       @media (max-width: 480px) {
         margin-right: 10px;
+        font-size: 2rem;
+        margin-top: .8rem;
       }
     }
 
   }
 
   .buttons{
+    @media (max-width: 480px) {
+      display: flex;
+    }
     @media (max-width: 360px) {
       display: flex;
       justify-content: center;
@@ -498,7 +507,7 @@
         display: block;
         margin-bottom: 10px !important;
         width: 100% !important;
-        padding: 1.5rem 5rem;
+        padding: 1.5rem 6rem;
       }
     }
   }
@@ -546,17 +555,17 @@
   //...... about
 
 .about-cards{
-    min-height: 18.5rem;
+    min-height: 19rem;
 
   .about-container{
     background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
     .content {
 
       .content-title {
+
         .about-title {
           color: #BAE1FF;
           font-weight: 600;
-          margin-bottom: 1rem;
         }
 
         .buttons{
@@ -570,9 +579,13 @@
         }
 
       }
-
       .content-image{
-        bottom: -1.8%;
+      @media (max-width: 1024px) {
+        right: 0;
+      }
+        @media (max-width: 1024px) {
+          right: -16%;
+        }
       }
 
     }
@@ -723,7 +736,90 @@
   }
 
 
+  // available-cards
+
+  .available-cards{
+
+
+    .media{
+      display: none;
+      @media (max-width: 360px) {
+        display: initial;
+      }
+    }
+
+    .decstop{
+      @media (max-width: 360px) {
+        display: none;
+      }
+    }
+
+    .star1{
+      position: relative;
+      left: 90%;
+    }
+
+
+    .check-bank-subtitle{
+      @media (max-width: 360px) {
+        display: none;
+      }
+    }
+
+    .price-btn{
+      @media (max-width: 480px) {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .check-price{
+        @media (max-width: 480px) {
+          margin-right: 10px;
+          font-size: 2rem;
+          margin-top: .8rem;
+        }
+      }
+
+    }
+
+    .buttons{
+      @media (max-width: 480px) {
+        display: flex;
+      }
+      @media (max-width: 360px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      button {
+        @media (max-width: 360px) {
+          display: block;
+          margin-bottom: 10px !important;
+          width: 100% !important;
+          padding: 1.5rem 6rem;
+        }
+      }
+    }
+
+  }
+
+
+  // available-cardsA-end
+
+
+
   .about-cards{
+
+    .content-image{
+      @media (max-width: 1024px) {
+        right: -5%;
+      }
+      @media (max-width: 1024px) {
+        right: -8% !important;
+      }
+    }
 
   .btn-about {
     &:hover{
@@ -734,6 +830,19 @@
 
   }
 
+  // users
+
+  .users{
+
+    .content-title{
+      padding-top: .1rem;
+      padding-left: .5rem;
+    }
+
+  }
+
+
+  // users end
 
   .footer-bg{
 
@@ -758,6 +867,9 @@
   .btn-lightblue {
     color: #1E4165 !important;
   }
+
+
+
 
   .visa-master {
     margin-top: 5rem;

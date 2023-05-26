@@ -547,11 +547,6 @@ a {
   position: relative;
   top: -2rem;
 }
-@media (max-width: 1024px) {
-  .guarantee .guarantee-container .guarantee-content .guarantee-box .image {
-    margin-left: 1.25rem;
-  }
-}
 @media (max-width: 768px) {
   .guarantee .guarantee-container .guarantee-content .guarantee-box .image {
     margin: 0;
