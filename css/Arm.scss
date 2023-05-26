@@ -342,24 +342,74 @@
   // header
 
   .header {
+    .kazakhstan-header-card-freedom {
+      @media (max-width: 855px){
+        top: 19.0625rem !important;
+        right: -12rem !important;
+      }
+      @media (max-width: 768px){
+        top: 25.0625rem !important;
+      }
+      @media (max-width: 425px){
+        top: 38.0625rem !important;
+        right: -5rem !important;
+      }
+    }
+    .kazakhstan-header-card-freedom-back {
+      @media (max-width: 855px){
+        bottom: -3rem;
+        right: 6rem;
+      }
+      @media (max-width: 425px){
+        bottom: -5rem;
+        right: 6rem;
+      }
+    }
+
+
 
     &-body {
       padding-top: 6.5rem;
-      padding-bottom: 6.5rem;
-      background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
+      padding-bottom: 5.5rem;
+      background: url("../assets/image/header-logo.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
+      background-position: 44rem -13rem, 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media (max-width: 1325px){
+        background-position: 35rem 1rem, 0 0;
+      }
+
+      @media (max-width: 855px){
+        height: 50rem;
+      }
+
+      @media (max-width: 768px){
+        height: 56rem;
+        background-position: 20rem 15rem, 0 0;
+      }
+
+
+      @media (max-width: 425px){
+        height: 63rem;
+        background-position: 2rem 15rem, 0 0;
+      }
+
+
       &:before {
-        background: url("../assets/image/header-logo.png")no-repeat top right;
-        background-size: cover;
-        position: absolute;
-        top: 2%;
-        right: 0;
-        bottom: 0;
-        @media (max-width: 1200px) {
-          top: 10%;
-        }
-        @media (max-width: 768px) {
-            top: 40%;
-        }
+        display: none;
+        //background: url("../assets/image/header-logo.png") no-repeat top right;
+        //background-size: cover;
+        //position: absolute;
+        //top: 0;
+        //right: 0;
+        //bottom: 0;
+        //@media (max-width: 1200px) {
+        //  top: 10%;
+        //}
+        //@media (max-width: 768px) {
+        //    top: 40%;
+        //}
       }
 
       .header-title{

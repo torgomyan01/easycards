@@ -544,6 +544,9 @@ $menuContent: 1372px;
 
         .box{
           min-width: 255px;
+          @media (max-width: 991px) {
+            align-items: start !important;
+          }
         }
 
         .image{
@@ -558,6 +561,9 @@ $menuContent: 1372px;
         }
         .content{
           margin-left: 1.3125rem;
+          @media (max-width: 991px) {
+            margin-left: 0;
+          }
           .title-top{
             font-style: normal;
             font-weight: 500;

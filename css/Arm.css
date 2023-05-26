@@ -330,28 +330,67 @@
   }
 }
 
-.kirghizia .header-body {
-  padding-top: 6.5rem;
-  padding-bottom: 6.5rem;
-  background: linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
-}
-.kirghizia .header-body:before {
-  background: url("../assets/image/header-logo.png") no-repeat top right;
-  background-size: cover;
-  position: absolute;
-  top: 2%;
-  right: 0;
-  bottom: 0;
-}
-@media (max-width: 1200px) {
-  .kirghizia .header-body:before {
-    top: 10%;
+@media (max-width: 855px) {
+  .kirghizia .header .kazakhstan-header-card-freedom {
+    top: 19.0625rem !important;
+    right: -12rem !important;
   }
 }
 @media (max-width: 768px) {
-  .kirghizia .header-body:before {
-    top: 40%;
+  .kirghizia .header .kazakhstan-header-card-freedom {
+    top: 25.0625rem !important;
   }
+}
+@media (max-width: 425px) {
+  .kirghizia .header .kazakhstan-header-card-freedom {
+    top: 38.0625rem !important;
+    right: -5rem !important;
+  }
+}
+@media (max-width: 855px) {
+  .kirghizia .header .kazakhstan-header-card-freedom-back {
+    bottom: -3rem;
+    right: 6rem;
+  }
+}
+@media (max-width: 425px) {
+  .kirghizia .header .kazakhstan-header-card-freedom-back {
+    bottom: -5rem;
+    right: 6rem;
+  }
+}
+.kirghizia .header-body {
+  padding-top: 6.5rem;
+  padding-bottom: 5.5rem;
+  background: url("../assets/image/header-logo.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%);
+  background-position: 44rem -13rem, 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1325px) {
+  .kirghizia .header-body {
+    background-position: 35rem 1rem, 0 0;
+  }
+}
+@media (max-width: 855px) {
+  .kirghizia .header-body {
+    height: 50rem;
+  }
+}
+@media (max-width: 768px) {
+  .kirghizia .header-body {
+    height: 56rem;
+    background-position: 20rem 15rem, 0 0;
+  }
+}
+@media (max-width: 425px) {
+  .kirghizia .header-body {
+    height: 63rem;
+    background-position: 2rem 15rem, 0 0;
+  }
+}
+.kirghizia .header-body:before {
+  display: none;
 }
 .kirghizia .header-body .header-title {
   padding-right: 2rem;
