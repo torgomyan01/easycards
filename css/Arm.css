@@ -795,7 +795,7 @@
 }
 @media (max-width: 576px) {
   .freedom-card .header-body {
-    height: 45rem;
+    height: 50rem;
   }
 }
 .freedom-card .header-body:before {

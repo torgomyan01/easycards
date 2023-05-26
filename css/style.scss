@@ -202,6 +202,7 @@ $menuContent: 1372px;
     max-width: $menuContent !important;
     min-height: 6.25rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background: #fff;
     padding: 0;
@@ -1570,6 +1571,7 @@ footer{
   }
   .container{
     max-width: $menuContent !important;
+    padding: 0;
   }
   &-body{
     background: linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
