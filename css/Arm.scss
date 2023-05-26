@@ -152,7 +152,7 @@
 
 
 .users{
-    margin-top: 6rem;
+    margin-top: 2rem;
   padding: 0 1rem;
   .users-container{
     background: url("../assets/image/bag-users-1248.png") no-repeat center;
@@ -1055,6 +1055,264 @@
   }
 
 }
+
+  // footer end
+
+}
+
+
+
+/// freddom card html and
+
+.freedom-card{
+  .header-body{
+    background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+    padding-bottom: 5.4375rem;
+    overflow: hidden;
+    @media (max-width: 1100px){
+      overflow: unset;
+    }
+    @media (max-width: 855px){
+      height: 58rem;
+    }
+    @media (max-width: 576px){
+      height: 45rem;
+    }
+    &:before{
+      display: none;
+    }
+  }
+  .info-block{
+    background: rgba(0, 137, 238, 0.1);
+    color: #0089EE;
+  }
+  .header-title{
+    color: #1E1E1E;
+  }
+  .header-description{
+    color: #A8B8C5;
+  }
+  .steps-body{
+    background: url("../assets/image/freedom-steps-bg.png"), linear-gradient(148.13deg, #32A64D 0%, #297538 100%) no-repeat center;
+    .steps-subtitle{
+      color: #A0D8A7;
+    }
+  }
+}
+
+.btn-bakai-dark-blue{
+  background: #1E4165;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding: 1.25rem 1.5rem;
+  transition: 0.3s all !important;
+  &:hover{
+    background: #7BA5BC;
+    color: #fff;
+  }
+}
+
+.bakai-header-bg{
+  position: absolute;
+  right: 0;
+  top: 0;
+  @media (max-width: 1120px){
+    right: -6.25rem;
+  }
+  @media (max-width: 1100px){
+    display: none;
+  }
+}
+.bakai-header-card{
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+
+  @media (max-width: 1228px){
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+  @media (max-width: 576px){
+    width: 100%;
+  }
+}
+.c-bakai-blue{
+  color:  #298B3F !important;
+}
+.c-green{
+  color: #298B3F;
+}
+
+.content-title{
+  margin-top: 2rem;
+}
+
+// freedom Card And end
+
+
+/// freedom card Arm
+
+
+.freedom-card {
+
+  .btn-lightblue {
+    background: rgba(164, 238, 202, 0.2);
+    color:  #298B3F !important;
+  }
+
+  .btn-bakai-dark-blue{
+    background:  #298B3F;
+    &:hover{
+      background: #49b65f;
+    }
+  }
+
+
+
+
+  .visa-master {
+    margin-top: 5rem;
+
+    .container {
+      position: relative;
+
+      .star1 {
+        position: absolute;
+        left: 90%;
+        top: 15%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .star2 {
+        position: absolute;
+        left: 13%;
+        top: 24%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .content-title {
+        text-align: center;
+
+      }
+
+      .visa-master-item-subtitle{
+        color: #A8B8C5;
+      }
+
+    }
+
+
+  }
+
+
+  .about-cards {
+
+    .about-container {
+      width: 100% !important;
+      min-height: 29.8125rem;
+      background: url("../assets/image/freedom-about-bg.png"), linear-gradient(148.13deg, #32A64D 0%, #297538 100%) no-repeat center;
+
+      .content {
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+
+        .content-title {
+
+          .about-title {
+            color: #A0D8A7;
+          }
+
+          .buttons {
+            .btn-about {
+              color: #298B3F !important;
+              &:hover {
+                background: #29b449 !important;
+                color: #fff !important;
+              }
+            }
+          }
+
+        }
+
+
+        .content-image {
+          position: absolute;
+          right: 1.6rem;
+
+          @media (max-width: 1200px) {
+            right: 0;
+          }
+          @media (max-width: 1024px) {
+            right: 0;
+          }
+          @media (max-width: 768px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+
+          }
+          @media (max-width: 480px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /// ..... faq
+
+  .faq{
+
+    .fa-minus{
+      color: #298B3F;
+    }
+
+    .fa-plus{
+      color: #298B3F;
+    }
+
+  }
+
+  // ......faq end
+
+  // footer
+  .footer-bg {
+
+
+    .btn-blue-dark {
+      background:  #298B3F !important;
+      color: #fff !important;
+      &:hover{
+        background: #49b65f !important;
+      }
+    }
+
+    .btn-white{
+      background:  #fff !important;
+      color: #298B3F;
+      &:hover{
+        background: #49b65f !important;
+        color: #FFFFFF;
+      }
+    }
+
+  }
 
   // footer end
 

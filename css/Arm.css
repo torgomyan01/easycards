@@ -133,7 +133,7 @@
 }
 
 .users {
-  margin-top: 6rem;
+  margin-top: 2rem;
   padding: 0 1rem;
 }
 .users .users-container {
@@ -776,6 +776,220 @@
 .bakai-card .footer-bg .btn-white:hover {
   background: #4497B3 !important;
   color: #fff !important;
+}
+
+.freedom-card .header-body {
+  background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+  padding-bottom: 5.4375rem;
+  overflow: hidden;
+}
+@media (max-width: 1100px) {
+  .freedom-card .header-body {
+    overflow: unset;
+  }
+}
+@media (max-width: 855px) {
+  .freedom-card .header-body {
+    height: 58rem;
+  }
+}
+@media (max-width: 576px) {
+  .freedom-card .header-body {
+    height: 45rem;
+  }
+}
+.freedom-card .header-body:before {
+  display: none;
+}
+.freedom-card .info-block {
+  background: rgba(0, 137, 238, 0.1);
+  color: #0089EE;
+}
+.freedom-card .header-title {
+  color: #1E1E1E;
+}
+.freedom-card .header-description {
+  color: #A8B8C5;
+}
+.freedom-card .steps-body {
+  background: url("../assets/image/freedom-steps-bg.png"), linear-gradient(148.13deg, #32A64D 0%, #297538 100%) no-repeat center;
+}
+.freedom-card .steps-body .steps-subtitle {
+  color: #A0D8A7;
+}
+
+.btn-bakai-dark-blue {
+  background: #1E4165;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding: 1.25rem 1.5rem;
+  transition: 0.3s all !important;
+}
+.btn-bakai-dark-blue:hover {
+  background: #7BA5BC;
+  color: #fff;
+}
+
+.bakai-header-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 1120px) {
+  .bakai-header-bg {
+    right: -6.25rem;
+  }
+}
+@media (max-width: 1100px) {
+  .bakai-header-bg {
+    display: none;
+  }
+}
+
+.bakai-header-card {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+}
+@media (max-width: 1228px) {
+  .bakai-header-card {
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+}
+@media (max-width: 576px) {
+  .bakai-header-card {
+    width: 100%;
+  }
+}
+
+.c-bakai-blue {
+  color: #298B3F !important;
+}
+
+.c-green {
+  color: #298B3F;
+}
+
+.content-title {
+  margin-top: 2rem;
+}
+
+.freedom-card .btn-lightblue {
+  background: rgba(164, 238, 202, 0.2);
+  color: #298B3F !important;
+}
+.freedom-card .btn-bakai-dark-blue {
+  background: #298B3F;
+}
+.freedom-card .btn-bakai-dark-blue:hover {
+  background: #49b65f;
+}
+.freedom-card .visa-master {
+  margin-top: 5rem;
+}
+.freedom-card .visa-master .container {
+  position: relative;
+}
+.freedom-card .visa-master .container .star1 {
+  position: absolute;
+  left: 90%;
+  top: 15%;
+}
+@media (max-width: 768px) {
+  .freedom-card .visa-master .container .star1 {
+    display: none;
+  }
+}
+.freedom-card .visa-master .container .star2 {
+  position: absolute;
+  left: 13%;
+  top: 24%;
+}
+@media (max-width: 768px) {
+  .freedom-card .visa-master .container .star2 {
+    display: none;
+  }
+}
+.freedom-card .visa-master .container .content-title {
+  text-align: center;
+}
+.freedom-card .visa-master .container .visa-master-item-subtitle {
+  color: #A8B8C5;
+}
+.freedom-card .about-cards .about-container {
+  width: 100% !important;
+  min-height: 29.8125rem;
+  background: url("../assets/image/freedom-about-bg.png"), linear-gradient(148.13deg, #32A64D 0%, #297538 100%) no-repeat center;
+}
+@media (max-width: 768px) {
+  .freedom-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
+.freedom-card .about-cards .about-container .content .content-title .about-title {
+  color: #A0D8A7;
+}
+.freedom-card .about-cards .about-container .content .content-title .buttons .btn-about {
+  color: #298B3F !important;
+}
+.freedom-card .about-cards .about-container .content .content-title .buttons .btn-about:hover {
+  background: #29b449 !important;
+  color: #fff !important;
+}
+.freedom-card .about-cards .about-container .content .content-image {
+  position: absolute;
+  right: 1.6rem;
+}
+@media (max-width: 1200px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    right: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+.freedom-card .faq .fa-minus {
+  color: #298B3F;
+}
+.freedom-card .faq .fa-plus {
+  color: #298B3F;
+}
+.freedom-card .footer-bg .btn-blue-dark {
+  background: #298B3F !important;
+  color: #fff !important;
+}
+.freedom-card .footer-bg .btn-blue-dark:hover {
+  background: #49b65f !important;
+}
+.freedom-card .footer-bg .btn-white {
+  background: #fff !important;
+  color: #298B3F;
+}
+.freedom-card .footer-bg .btn-white:hover {
+  background: #49b65f !important;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=Arm.css.map */
