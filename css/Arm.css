@@ -1,5 +1,5 @@
 .about-cards {
-  margin-top: 6.25rem;
+  margin-top: 6rem;
   margin-bottom: 6.25rem;
 }
 .about-cards .about-container {
@@ -7,6 +7,7 @@
   width: 100% !important;
   min-height: 18.5rem;
   background: url("../assets/image/bg-star.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+  background-size: contain;
   border-radius: 0.75rem;
 }
 .about-cards .about-container .content {
@@ -19,8 +20,14 @@
     flex-direction: column;
   }
 }
+.about-cards .about-container .content .content-title1 {
+  padding-top: 0.5rem !important;
+  padding-left: 2rem !important;
+}
 .about-cards .about-container .content .content-title {
-  padding: 2.5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 @media (max-width: 576px) {
   .about-cards .about-container .content .content-title {
@@ -140,7 +147,10 @@
   background: url("../assets/image/bag-users-1248.png") no-repeat center;
   min-height: 22.8125rem;
   background-size: contain;
-  padding: 3rem;
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 0.5rem;
   border-radius: 1rem;
 }
 @media (max-width: 1024px) {
@@ -174,7 +184,7 @@
 }
 .users .users-container .content .content-title .users-heading {
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 @media (max-width: 480px) {
   .users .users-container .content .content-title .users-heading {
@@ -183,7 +193,7 @@
 }
 .users .users-container .content .content-title .users-title {
   color: #BAE1FF;
-  width: 80%;
+  width: 85%;
   margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
@@ -420,6 +430,9 @@
 .kirghizia .guarantee .guarantee-container .guarantee-content .content .title-top span {
   color: #E37640;
 }
+.kirghizia .available-cards .avalibe-star {
+  top: 5.9% !important;
+}
 .kirghizia .available-cards .media {
   display: none;
 }
@@ -432,10 +445,6 @@
   .kirghizia .available-cards .decstop {
     display: none;
   }
-}
-.kirghizia .available-cards .star1 {
-  position: relative;
-  left: 90%;
 }
 .kirghizia .available-cards .btn-lightblue {
   color: #E37640;
@@ -512,11 +521,16 @@
 }
 .kirghizia .about-cards {
   min-height: 19rem;
+  margin-top: 10rem;
 }
 .kirghizia .about-cards .about-container {
   background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
 }
+.kirghizia .about-cards .about-container .content .content-title {
+  padding-top: 0.2rem !important;
+}
 .kirghizia .about-cards .about-container .content .content-title .about-title {
+  margin-top: -1rem !important;
   color: #BAE1FF;
   font-weight: 600;
 }
@@ -527,14 +541,19 @@
   background: #4497B3;
   color: #fff !important;
 }
+.kirghizia .about-cards .about-container .content .content-image {
+  bottom: -4.9%;
+}
 @media (max-width: 1024px) {
   .kirghizia .about-cards .about-container .content .content-image {
     right: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 1024px) {
   .kirghizia .about-cards .about-container .content .content-image {
     right: -16%;
+    bottom: 0;
   }
 }
 .kirghizia .visa-master .btn-lightblue {
@@ -600,6 +619,9 @@
 }
 .kazakhstan .header .btn-white:hover {
   background: #4497B3;
+}
+.kazakhstan .available-cards .avalibe-star {
+  top: 5.9% !important;
 }
 .kazakhstan .available-cards .media {
   display: none;
@@ -683,6 +705,9 @@
 .bakai-card .btn-lightblue {
   color: #1E4165 !important;
 }
+.bakai-card .guarantee .bakai-card-span {
+  color: #1E4165 !important;
+}
 .bakai-card .visa-master {
   margin-top: 5rem;
 }
@@ -735,15 +760,18 @@
 .bakai-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
+  bottom: -7.5%;
 }
 @media (max-width: 1200px) {
   .bakai-card .about-cards .about-container .content .content-image {
     right: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 1024px) {
   .bakai-card .about-cards .about-container .content .content-image {
     right: 0;
+    bottom: 0%;
   }
 }
 @media (max-width: 768px) {
@@ -945,15 +973,18 @@
 .freedom-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
+  bottom: -6%;
 }
 @media (max-width: 1200px) {
   .freedom-card .about-cards .about-container .content .content-image {
     right: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 1024px) {
   .freedom-card .about-cards .about-container .content .content-image {
     right: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 768px) {

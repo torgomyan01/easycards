@@ -159,7 +159,7 @@ a{
   background: rgba(0, 137, 238, 0.1);
   color: #0089EE;
   border-radius: 0.25rem;
-  padding: 0.3125rem 1.5rem;
+  padding: 0.3125rem 1rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -596,9 +596,21 @@ $menuContent: 1372px;
 // Available cards
 
 .available-cards{
-  background: url("../assets/image/bg_stars.png") no-repeat -14rem -21rem;
-    background-size: contain;
-     padding: 0 1rem;
+  margin-top: 13.125rem;
+  background: url("../assets/image/bg_stars.png") no-repeat -14rem -14rem;
+  background-size: contain;
+  padding: 0 1rem;
+  position: relative;
+
+  .avalibe-star{
+    position: absolute;
+    left: 13.4%;
+    top: 2.8%;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
 
   .available-container{
     margin-top: 6.5rem;
@@ -702,8 +714,8 @@ $menuContent: 1372px;
       .available-checks{
         display: flex;
         justify-content: center;
-        margin-top: -3rem;
-        margin-left: 23rem;
+        margin-top: 0;
+        margin-left: 25.3rem;
         @media (max-width: 1024px) {
           justify-content: space-around;
           margin: 0;
@@ -1108,9 +1120,23 @@ $menuContent: 1372px;
 
   .star2{
     position: absolute;
-    right: 36%;
-    top: 20%;
+    right: 32%;
+    top: 19%;
   }
+
+  .visa-heading{
+    margin-left: 2rem;
+
+    .btn-lightblue{
+      margin-bottom: -1rem;
+    }
+
+    .def-title{
+      margin-bottom: -1rem;
+    }
+
+  }
+
 
 
 
@@ -1166,6 +1192,7 @@ $menuContent: 1372px;
   margin-top: 1.5rem;
 }
 
+// steps
 
 .steps{
   padding: 7.5rem 1rem 1rem;
@@ -1215,7 +1242,7 @@ $menuContent: 1372px;
     font-weight: 500;
     font-size: 1.25rem;
     color: #FFFFFF;
-    margin-top: 2rem;
+    margin-top: .2rem;
     @media (max-width: 768px){
       margin-top: 0;
     }
@@ -1333,6 +1360,7 @@ $menuContent: 1372px;
   background: linear-gradient(146.36deg, #F4F7FF 14.94%, rgba(244, 247, 255, 0) 59.69%);
   position: relative;
 
+
   &-stars{
     position: absolute;
     top: 11.25rem;
@@ -1343,6 +1371,17 @@ $menuContent: 1372px;
 .blog{
   padding-top: 6.25rem;
   margin-top: 6.25rem;
+
+
+  .footer-heading {
+    margin-left: .8rem;
+    .def-title{
+      margin-top: 2.3rem;
+      margin-bottom: -.5rem !important;
+    }
+
+  }
+
 
   &-item{
     width: 100%;
@@ -1520,9 +1559,7 @@ footer{
     }
   }
   .about-container{
-    background: url("../assets/image/kazakhstan-about-container.png") no-repeat top right, linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) !important;
-    background-size: cover !important;
-
+    background: url("../assets/image/bg-star.png") , linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center !important;
   }
 
   .about-img-kazakhstan {
@@ -1530,6 +1567,7 @@ footer{
   }
 
   .about-cards {
+    margin-top: 10rem;
     .about-container {
       .content {
         @media (max-width: 683px) {
@@ -1537,7 +1575,11 @@ footer{
         }
 
         .content-image {
+          bottom: -5%;
           width: 34rem;
+          @media (max-width: 683px) {
+            bottom: 4%;
+          }
           @media (max-width: 683px) {
             position: relative;
             right: 0;
@@ -1545,7 +1587,9 @@ footer{
           }
         }
         .content-title {
+          padding-top: 0;
           .about-heading, .about-title{
+            margin-bottom: 1.5rem;
             @media (max-width: 683px) {
               padding-right: 0;
             }

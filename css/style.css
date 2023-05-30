@@ -149,7 +149,7 @@ a {
   background: rgba(0, 137, 238, 0.1);
   color: #0089EE;
   border-radius: 0.25rem;
-  padding: 0.3125rem 1.5rem;
+  padding: 0.3125rem 1rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -588,9 +588,21 @@ a {
 }
 
 .available-cards {
-  background: url("../assets/image/bg_stars.png") no-repeat -14rem -21rem;
+  margin-top: 13.125rem;
+  background: url("../assets/image/bg_stars.png") no-repeat -14rem -14rem;
   background-size: contain;
   padding: 0 1rem;
+  position: relative;
+}
+.available-cards .avalibe-star {
+  position: absolute;
+  left: 13.4%;
+  top: 2.8%;
+}
+@media (max-width: 1024px) {
+  .available-cards .avalibe-star {
+    display: none;
+  }
 }
 .available-cards .available-container {
   margin-top: 6.5rem;
@@ -689,8 +701,8 @@ a {
 .available-cards .available-container .available-content-row .available-box-col .available-checks {
   display: flex;
   justify-content: center;
-  margin-top: -3rem;
-  margin-left: 23rem;
+  margin-top: 0;
+  margin-left: 25.3rem;
 }
 @media (max-width: 1024px) {
   .available-cards .available-container .available-content-row .available-box-col .available-checks {
@@ -1097,8 +1109,17 @@ a {
 }
 .visa-master .star2 {
   position: absolute;
-  right: 36%;
-  top: 20%;
+  right: 32%;
+  top: 19%;
+}
+.visa-master .visa-heading {
+  margin-left: 2rem;
+}
+.visa-master .visa-heading .btn-lightblue {
+  margin-bottom: -1rem;
+}
+.visa-master .visa-heading .def-title {
+  margin-bottom: -1rem;
 }
 .visa-master-item {
   width: 100%;
@@ -1214,7 +1235,7 @@ a {
   font-weight: 500;
   font-size: 1.25rem;
   color: #FFFFFF;
-  margin-top: 2rem;
+  margin-top: 0.2rem;
 }
 @media (max-width: 768px) {
   .steps-title {
@@ -1336,6 +1357,13 @@ a {
 .blog {
   padding-top: 6.25rem;
   margin-top: 6.25rem;
+}
+.blog .footer-heading {
+  margin-left: 0.8rem;
+}
+.blog .footer-heading .def-title {
+  margin-top: 2.3rem;
+  margin-bottom: -0.5rem !important;
 }
 .blog-item {
   width: 100%;
@@ -1510,11 +1538,13 @@ footer {
   color: #fff;
 }
 .kazakhstan .about-container {
-  background: url("../assets/image/kazakhstan-about-container.png") no-repeat top right, linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) !important;
-  background-size: cover !important;
+  background: url("../assets/image/bg-star.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center !important;
 }
 .kazakhstan .about-img-kazakhstan {
   width: 100%;
+}
+.kazakhstan .about-cards {
+  margin-top: 10rem;
 }
 @media (max-width: 683px) {
   .kazakhstan .about-cards .about-container .content {
@@ -1522,7 +1552,13 @@ footer {
   }
 }
 .kazakhstan .about-cards .about-container .content .content-image {
+  bottom: -5%;
   width: 34rem;
+}
+@media (max-width: 683px) {
+  .kazakhstan .about-cards .about-container .content .content-image {
+    bottom: 4%;
+  }
 }
 @media (max-width: 683px) {
   .kazakhstan .about-cards .about-container .content .content-image {
@@ -1530,6 +1566,12 @@ footer {
     right: 0;
     width: 100%;
   }
+}
+.kazakhstan .about-cards .about-container .content .content-title {
+  padding-top: 0;
+}
+.kazakhstan .about-cards .about-container .content .content-title .about-heading, .kazakhstan .about-cards .about-container .content .content-title .about-title {
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 683px) {
   .kazakhstan .about-cards .about-container .content .content-title .about-heading, .kazakhstan .about-cards .about-container .content .content-title .about-title {
