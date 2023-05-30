@@ -1304,6 +1304,7 @@ a {
   border: 0;
   margin-bottom: 0.5625rem;
   background: transparent;
+  border-bottom: 1px solid rgba(168, 184, 197, 0.2) !important;
 }
 .accordion-faq .accordion-header {
   border: 0 solid #fff !important;
@@ -1321,7 +1322,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-left: 0;
-  border-bottom: 1px solid rgba(168, 184, 197, 0.2) !important;
   height: 6.25rem;
   background: transparent;
   box-shadow: unset;
@@ -1895,6 +1895,10 @@ footer {
 
 .content-title {
   margin-top: 2rem;
+}
+
+.row-steps-header {
+  padding-left: 2.1875rem;
 }
 
 /*# sourceMappingURL=style.css.map */
