@@ -778,7 +778,7 @@
 }
 
 
-// kazakhstan
+//..........kazakhstan
 
 
 .kazakhstan{
@@ -930,7 +930,7 @@
 }
 
 
-/// bakai-card
+///................... bakai-card
 
 
 
@@ -1029,7 +1029,7 @@
           }
           @media (max-width: 1024px) {
             right: 0;
-            bottom: 0%;
+            bottom: 0;
           }
           @media (max-width: 768px) {
             position: unset;
@@ -1070,6 +1070,9 @@
   // footer
 .footer-bg {
 
+  .bakai-name{
+    color: #7BA5BC !important;
+  }
 
   .btn-blue-dark {
     background: #1E4165 !important;
@@ -1094,7 +1097,7 @@
 
 
 
-/// freddom card html and
+/// ...........freddom card html and
 
 .freedom-card{
   .header-body{
@@ -1314,11 +1317,11 @@
   .faq{
 
     .fa-minus{
-      color: #298B3F;
+      color: #298B3F !important;
     }
 
     .fa-plus{
-      color: #298B3F;
+      color: #298B3F !important;
     }
 
   }
@@ -1328,6 +1331,9 @@
   // footer
   .footer-bg {
 
+    .freedom-name{
+      color: #A0D8A7 !important;
+    }
 
     .btn-blue-dark {
       background:  #298B3F !important;
@@ -1351,3 +1357,279 @@
   // footer end
 
 }
+
+// freedom card arm end
+
+
+// optimal card and
+
+
+.optimal-card{
+  .header-body{
+    background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+    padding-bottom: 5.4375rem;
+    overflow: hidden;
+    @media (max-width: 1100px){
+      overflow: unset;
+    }
+    @media (max-width: 855px){
+      height: 58rem;
+    }
+    @media (max-width: 576px){
+      height: 50rem;
+    }
+    &:before{
+      display: none;
+    }
+  }
+  .info-block{
+    background: rgba(0, 137, 238, 0.1);
+    color: #0089EE;
+  }
+  .header-title{
+    color: #1E1E1E;
+  }
+  .header-description{
+    color: #A8B8C5;
+  }
+  .steps-body{
+    background: url("../assets/image/khirgizia-step-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+    .steps-subtitle{
+      color: #FFD188;
+    }
+  }
+}
+
+.btn-bakai-dark-blue{
+  background: #1E4165;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding: 1.25rem 1.5rem;
+  transition: 0.3s all !important;
+  &:hover{
+    background: #7BA5BC;
+    color: #fff;
+  }
+}
+
+.bakai-header-bg{
+  position: absolute;
+  right: 0;
+  top: 0;
+  @media (max-width: 1120px){
+    right: -6.25rem;
+  }
+  @media (max-width: 1100px){
+    display: none;
+  }
+}
+.bakai-header-card{
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+
+  @media (max-width: 1228px){
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+  @media (max-width: 576px){
+    width: 100%;
+  }
+}
+.c-bakai-blue{
+  color:  #298B3F !important;
+}
+.c-orange{
+  color: #E37640;
+}
+
+.content-title{
+  margin-top: 2rem;
+}
+
+
+// optimal card and end
+
+
+// optimal Card Arm
+
+
+.optimal-card{
+
+  .btn-lightblue {
+    background: rgba(255, 209, 136, 0.2);
+    color: #E37640 !important;
+  }
+
+  .btn-bakai-dark-blue{
+    background:  #E37640;
+    &:hover{
+      background: rgba(236, 114, 54, 0.86);
+    }
+  }
+
+  .guarantee{
+
+  .optimal-gurante-span{
+    color: #E37640 !important;
+  }
+
+  }
+
+
+
+  .visa-master {
+    margin-top: 5rem;
+
+    .container {
+      position: relative;
+
+      .star1 {
+        position: absolute;
+        left: 90%;
+        top: 15%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .star2 {
+        position: absolute;
+        left: 13%;
+        top: 24%;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .content-title {
+        text-align: center;
+
+      }
+
+      .visa-master-item-subtitle{
+        color: #A8B8C5;
+      }
+
+    }
+
+
+  }
+
+
+  .about-cards {
+
+    .about-container {
+      width: 100% !important;
+      min-height: 29.8125rem;
+      background: url("../assets/image/optimal-card-about-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+
+      .content{
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+
+        .content-title {
+
+          .about-title {
+            color: #FFD188;
+          }
+
+          .buttons {
+            .btn-about {
+              color: #E37640 !important;
+              &:hover {
+                background: #E37640 !important;
+                color: #fff !important;
+              }
+            }
+          }
+
+        }
+
+
+        .content-image {
+          position: absolute;
+          right: 1.6rem;
+          bottom: -7.5%;
+          @media (max-width: 1200px) {
+            right: 0;
+            bottom: 0;
+          }
+          @media (max-width: 1024px) {
+            right: 0;
+            bottom: 0;
+          }
+          @media (max-width: 768px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+
+          }
+          @media (max-width: 480px) {
+            position: unset;
+            display: flex;
+            justify-content: center;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /// ..... faq
+
+  .faq{
+
+    .fa-minus{
+      color: #E37640 !important;
+    }
+
+    .fa-plus{
+      color: #E37640 !important;
+    }
+
+  }
+
+  // ......faq end
+
+  // footer
+  .footer-bg {
+
+    .optimal-name{
+     color: #FFD188 !important;
+    }
+
+
+    .btn-blue-dark {
+      background: #E37640 !important;
+      color: #fff !important;
+      &:hover{
+        background: rgba(236, 114, 54, 0.86) !important;
+      }
+    }
+
+    .btn-white{
+      background:  #fff !important;
+      color: #E37640 !important;
+      &:hover{
+        background: #E37640 !important;
+        color: #fff !important;
+      }
+    }
+
+  }
+
+  // footer end
+
+}
+
+ /// optimal card arm end

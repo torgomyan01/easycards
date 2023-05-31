@@ -1578,6 +1578,9 @@ footer {
     padding-right: 0;
   }
 }
+.kazakhstan .about-cards .about-container .content .content-title .about-title {
+  color: #FFD188;
+}
 .kazakhstan .steps-body {
   background: url(../assets/image/step-bg.png), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
   background-repeat: no-repeat;
@@ -1834,6 +1837,9 @@ footer {
 .bakai-card .steps-body {
   background: url("../assets/image/step-bg-bakai.png"), linear-gradient(148.13deg, #325579 0%, #073768 100%) no-repeat center;
 }
+.bakai-card .steps-body .steps-subtitle {
+  color: #7BA5BC;
+}
 
 .btn-bakai-dark-blue {
   background: #1E4165;
@@ -1889,8 +1895,8 @@ footer {
   color: #1E4165 !important;
 }
 
-.c-green {
-  color: #298B3F;
+.c-blues {
+  color: #1E4165 !important;
 }
 
 .content-title {

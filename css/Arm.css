@@ -771,7 +771,7 @@
 @media (max-width: 1024px) {
   .bakai-card .about-cards .about-container .content .content-image {
     right: 0;
-    bottom: 0%;
+    bottom: 0;
   }
 }
 @media (max-width: 768px) {
@@ -793,6 +793,9 @@
 }
 .bakai-card .faq .fa-plus {
   color: #1E4165;
+}
+.bakai-card .footer-bg .bakai-name {
+  color: #7BA5BC !important;
 }
 .bakai-card .footer-bg .btn-blue-dark {
   background: #1E4165 !important;
@@ -1002,10 +1005,13 @@
   }
 }
 .freedom-card .faq .fa-minus {
-  color: #298B3F;
+  color: #298B3F !important;
 }
 .freedom-card .faq .fa-plus {
-  color: #298B3F;
+  color: #298B3F !important;
+}
+.freedom-card .footer-bg .freedom-name {
+  color: #A0D8A7 !important;
 }
 .freedom-card .footer-bg .btn-blue-dark {
   background: #298B3F !important;
@@ -1021,6 +1027,229 @@
 .freedom-card .footer-bg .btn-white:hover {
   background: #49b65f !important;
   color: #FFFFFF;
+}
+
+.optimal-card .header-body {
+  background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
+  padding-bottom: 5.4375rem;
+  overflow: hidden;
+}
+@media (max-width: 1100px) {
+  .optimal-card .header-body {
+    overflow: unset;
+  }
+}
+@media (max-width: 855px) {
+  .optimal-card .header-body {
+    height: 58rem;
+  }
+}
+@media (max-width: 576px) {
+  .optimal-card .header-body {
+    height: 50rem;
+  }
+}
+.optimal-card .header-body:before {
+  display: none;
+}
+.optimal-card .info-block {
+  background: rgba(0, 137, 238, 0.1);
+  color: #0089EE;
+}
+.optimal-card .header-title {
+  color: #1E1E1E;
+}
+.optimal-card .header-description {
+  color: #A8B8C5;
+}
+.optimal-card .steps-body {
+  background: url("../assets/image/khirgizia-step-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+}
+.optimal-card .steps-body .steps-subtitle {
+  color: #FFD188;
+}
+
+.btn-bakai-dark-blue {
+  background: #1E4165;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding: 1.25rem 1.5rem;
+  transition: 0.3s all !important;
+}
+.btn-bakai-dark-blue:hover {
+  background: #7BA5BC;
+  color: #fff;
+}
+
+.bakai-header-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 1120px) {
+  .bakai-header-bg {
+    right: -6.25rem;
+  }
+}
+@media (max-width: 1100px) {
+  .bakai-header-bg {
+    display: none;
+  }
+}
+
+.bakai-header-card {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+}
+@media (max-width: 1228px) {
+  .bakai-header-card {
+    width: 34.25rem;
+    right: 0;
+    top: unset;
+    bottom: -10rem;
+  }
+}
+@media (max-width: 576px) {
+  .bakai-header-card {
+    width: 100%;
+  }
+}
+
+.c-bakai-blue {
+  color: #298B3F !important;
+}
+
+.c-orange {
+  color: #E37640;
+}
+
+.content-title {
+  margin-top: 2rem;
+}
+
+.optimal-card .btn-lightblue {
+  background: rgba(255, 209, 136, 0.2);
+  color: #E37640 !important;
+}
+.optimal-card .btn-bakai-dark-blue {
+  background: #E37640;
+}
+.optimal-card .btn-bakai-dark-blue:hover {
+  background: rgba(236, 114, 54, 0.86);
+}
+.optimal-card .guarantee .optimal-gurante-span {
+  color: #E37640 !important;
+}
+.optimal-card .visa-master {
+  margin-top: 5rem;
+}
+.optimal-card .visa-master .container {
+  position: relative;
+}
+.optimal-card .visa-master .container .star1 {
+  position: absolute;
+  left: 90%;
+  top: 15%;
+}
+@media (max-width: 768px) {
+  .optimal-card .visa-master .container .star1 {
+    display: none;
+  }
+}
+.optimal-card .visa-master .container .star2 {
+  position: absolute;
+  left: 13%;
+  top: 24%;
+}
+@media (max-width: 768px) {
+  .optimal-card .visa-master .container .star2 {
+    display: none;
+  }
+}
+.optimal-card .visa-master .container .content-title {
+  text-align: center;
+}
+.optimal-card .visa-master .container .visa-master-item-subtitle {
+  color: #A8B8C5;
+}
+.optimal-card .about-cards .about-container {
+  width: 100% !important;
+  min-height: 29.8125rem;
+  background: url("../assets/image/optimal-card-about-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
+}
+@media (max-width: 768px) {
+  .optimal-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
+.optimal-card .about-cards .about-container .content .content-title .about-title {
+  color: #FFD188;
+}
+.optimal-card .about-cards .about-container .content .content-title .buttons .btn-about {
+  color: #E37640 !important;
+}
+.optimal-card .about-cards .about-container .content .content-title .buttons .btn-about:hover {
+  background: #E37640 !important;
+  color: #fff !important;
+}
+.optimal-card .about-cards .about-container .content .content-image {
+  position: absolute;
+  right: 1.6rem;
+  bottom: -7.5%;
+}
+@media (max-width: 1200px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    right: 0;
+    bottom: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    right: 0;
+    bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+.optimal-card .faq .fa-minus {
+  color: #E37640 !important;
+}
+.optimal-card .faq .fa-plus {
+  color: #E37640 !important;
+}
+.optimal-card .footer-bg .optimal-name {
+  color: #FFD188 !important;
+}
+.optimal-card .footer-bg .btn-blue-dark {
+  background: #E37640 !important;
+  color: #fff !important;
+}
+.optimal-card .footer-bg .btn-blue-dark:hover {
+  background: rgba(236, 114, 54, 0.86) !important;
+}
+.optimal-card .footer-bg .btn-white {
+  background: #fff !important;
+  color: #E37640 !important;
+}
+.optimal-card .footer-bg .btn-white:hover {
+  background: #E37640 !important;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=Arm.css.map */

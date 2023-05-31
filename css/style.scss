@@ -1594,6 +1594,9 @@ footer{
               padding-right: 0;
             }
           }
+          .about-title{
+            color: #FFD188;
+          }
         }
       }
     }
@@ -1830,6 +1833,9 @@ footer{
   }
   .steps-body{
     background: url("../assets/image/step-bg-bakai.png"), linear-gradient(148.13deg, #325579 0%, #073768 100%) no-repeat center;
+    .steps-subtitle{
+      color: #7BA5BC;
+    }
   }
 }
 
@@ -1877,8 +1883,8 @@ footer{
 .c-bakai-blue{
   color: #1E4165 !important;
 }
-.c-green{
-  color: #298B3F;
+.c-blues {
+  color: #1E4165 !important;
 }
 
 .content-title{
