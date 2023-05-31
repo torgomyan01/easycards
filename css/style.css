@@ -1408,13 +1408,249 @@ a {
 
 .requisites {
   padding-bottom: 5rem;
-  position: relative;
   margin-top: 6.25rem;
+  height: 33.3125rem;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .requisites {
+    margin-bottom: 10rem;
+  }
 }
 @media (max-width: 768px) {
   .requisites {
     padding-bottom: 10rem;
+    height: 45.9375rem;
+    padding-top: 2rem;
   }
+}
+@media (max-width: 630px) {
+  .requisites {
+    height: 53.9375rem;
+    margin-bottom: 8rem;
+  }
+}
+.requisites .item-1 {
+  position: absolute;
+  top: 11.9375rem;
+  left: 3.75rem;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
+  .requisites .item-1 {
+    top: 9.4375rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-1 {
+    top: 6.9375rem;
+    left: 3.75rem;
+  }
+  .requisites .item-1 .requisites-name {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-1 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-2 {
+  position: absolute;
+  top: 11.9375rem;
+  left: 28.4375rem;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
+  .requisites .item-2 {
+    top: 14.75rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-2 {
+    top: 13.375rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-2 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-3 {
+  position: absolute;
+  top: 17.25rem;
+  left: 3.75rem;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
+  .requisites .item-3 {
+    top: 9.4375rem;
+    left: 28.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-3 {
+    top: 18.4375rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-3 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-4 {
+  position: absolute;
+  top: 17.25rem;
+  left: 22.625rem;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
+  .requisites .item-4 {
+    top: 14.75rem;
+    left: 28.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-4 {
+    top: 23.5rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-4 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-5 {
+  position: absolute;
+  top: 17.25rem;
+  left: 34.5625rem;
+  transition: 0.3s;
+}
+@media (max-width: 1280px) {
+  .requisites .item-5 {
+    top: 11.9375rem;
+    left: 40.1875rem;
+  }
+}
+@media (max-width: 1024px) {
+  .requisites .item-5 {
+    top: 20.0625rem;
+    left: 28.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-5 {
+    top: 28.5625rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-5 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-6 {
+  position: absolute;
+  top: 17.25rem;
+  left: 54.0625rem;
+  transition: 0.3s;
+}
+@media (max-width: 1280px) {
+  .requisites .item-6 {
+    left: 35.8125rem;
+  }
+}
+@media (max-width: 1024px) {
+  .requisites .item-6 {
+    top: 25.375rem;
+    left: 28.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-6 {
+    top: 33.625rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-6 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-7 {
+  position: absolute;
+  top: 25.0625rem;
+  left: 3.75rem;
+  transition: 0.3s;
+}
+@media (max-width: 1140px) {
+  .requisites .item-7 {
+    top: 23.3125rem;
+  }
+}
+@media (max-width: 1024px) {
+  .requisites .item-7 {
+    top: 20.0625rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-7 {
+    top: 40.1875rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-7 {
+    left: 2.5rem;
+  }
+}
+.requisites .item-8 {
+  position: absolute;
+  top: 25.0625rem;
+  left: 27rem;
+  transition: 0.3s;
+}
+@media (max-width: 1280px) {
+  .requisites .item-8 {
+    left: 20.25rem;
+  }
+}
+@media (max-width: 1140px) {
+  .requisites .item-8 {
+    left: 3.75rem;
+    top: 28.1875rem;
+  }
+}
+@media (max-width: 1024px) {
+  .requisites .item-8 {
+    top: 25.8125rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .requisites .item-8 {
+    top: 29.1875rem;
+    left: 28.25rem;
+  }
+}
+@media (max-width: 630px) {
+  .requisites .item-8 {
+    top: 46.1875rem;
+    left: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .requisites .item-8 {
+    left: 2.5rem;
+  }
+}
+.requisites-socsites {
+  margin-top: -10px;
 }
 .requisites-tg {
   width: 25.1875rem;
@@ -1426,11 +1662,37 @@ a {
   box-shadow: 0 1.875rem 5rem -1.875rem rgba(2, 49, 86, 0.1);
   border-radius: 0.75rem;
   padding: 1.25rem;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
+  .requisites-tg {
+    transform: translateY(80%);
+  }
 }
 @media (max-width: 768px) {
   .requisites-tg {
-    width: calc(100% - 1.25rem);
-    right: 0.625rem;
+    transform: translateY(0);
+    top: 6.9375rem;
+    right: unset;
+    left: 28.25rem;
+    bottom: auto;
+    width: 19.25rem;
+  }
+}
+@media (max-width: 630px) {
+  .requisites-tg {
+    bottom: 0;
+    transform: translateY(85%);
+    top: unset;
+    right: 2.5rem;
+    left: 3.75rem;
+    width: calc(100% - 7.5rem);
+  }
+}
+@media (max-width: 576px) {
+  .requisites-tg {
+    left: 2.5rem;
+    width: calc(100% - 5rem);
   }
 }
 .requisites-tg .fa-telegram {
@@ -1471,7 +1733,7 @@ a {
   font-size: 1rem;
   line-height: 140%;
   color: #C6E5F7;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 .requisites-info {
   font-weight: 500;
@@ -1510,9 +1772,10 @@ a {
 }
 
 .icon-call-white {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   margin-right: 0.5rem;
+  margin-top: -10px;
 }
 
 footer {
