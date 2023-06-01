@@ -44,11 +44,6 @@ a {
     font-size: 14px;
   }
 }
-@media (max-width: 768px) {
-  html {
-    font-size: 12px;
-  }
-}
 .trans {
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -439,6 +434,7 @@ a {
   display: flex;
   margin-left: 5rem;
   padding-right: 2.875rem;
+  padding-left: 0;
 }
 @media (max-width: 768px) {
   .cards .cards-backgraund .cards-container {
@@ -448,11 +444,6 @@ a {
 .cards .cards-backgraund .cards-container .card-content {
   position: relative;
   margin-top: 8.75rem;
-}
-@media (max-width: 1024px) {
-  .cards .cards-backgraund .cards-container .card-content {
-    left: 1rem;
-  }
 }
 @media (max-width: 768px) {
   .cards .cards-backgraund .cards-container .card-content {
@@ -502,6 +493,17 @@ a {
 .cards .cards-backgraund .cards-container .card-image .cards1024 {
   margin-top: 1rem;
 }
+@media (max-width: 1485px) and (min-width: 1025px) {
+  .cards .cards-backgraund .cards-container .card-image .cards1024 {
+    transform: scale(0.8);
+    margin-right: -62px;
+  }
+}
+@media (max-width: 1386px) and (min-width: 1025px) {
+  .cards .cards-backgraund .cards-container .card-image .cards1024 {
+    margin-right: -200px;
+  }
+}
 @media (max-width: 1024px) {
   .cards .cards-backgraund .cards-container .card-image .cards1024 {
     width: 700px;
@@ -528,9 +530,23 @@ a {
   right: 0;
   bottom: 5rem;
 }
+@media (max-width: 1485px) and (min-width: 1025px) {
+  .cards .cards-backgraund .cards-container .image-blue {
+    transform: scale(0.8);
+    right: -62px;
+  }
+}
+@media (max-width: 1386px) and (min-width: 1025px) {
+  .cards .cards-backgraund .cards-container .image-blue {
+    transform: scale(0.6);
+    right: -124px;
+  }
+}
 @media (max-width: 1024px) {
   .cards .cards-backgraund .cards-container .image-blue {
     right: 0;
+    width: 20.75rem;
+    overflow: hidden;
   }
 }
 @media (max-width: 768px) {
@@ -542,6 +558,11 @@ a {
 .guarantee {
   margin-top: 5rem;
   padding: 0 1rem;
+}
+@media (max-width: 576px) {
+  .guarantee {
+    margin-top: 8rem;
+  }
 }
 .guarantee .guarantee-container .guarantee-content {
   margin-left: 1.5rem;
@@ -1233,10 +1254,20 @@ a {
   right: 20%;
   top: 10%;
 }
+@media (max-width: 1024px) {
+  .visa-master .star1 {
+    top: 4%;
+  }
+}
 .visa-master .star2 {
   position: absolute;
   right: 32%;
   top: 19%;
+}
+@media (max-width: 1024px) {
+  .visa-master .star2 {
+    top: 8%;
+  }
 }
 .visa-master .visa-heading {
   margin-left: 2rem;
@@ -1253,6 +1284,10 @@ a {
   border: 1.5px solid rgba(168, 184, 197, 0.2);
   border-radius: 0.75rem;
   padding: 2rem;
+  transition: 0.3s;
+}
+.visa-master-item:hover {
+  border: 1.5px solid rgba(168, 184, 197, 0.8);
 }
 .visa-master-item-title {
   font-weight: 500;
@@ -1383,7 +1418,7 @@ a {
 }
 
 .faq {
-  margin-top: 50px;
+  margin-top: 2.5rem;
   padding-top: 6.25rem;
 }
 @media (max-width: 768px) and (min-width: 576px) {
@@ -1480,6 +1515,11 @@ a {
   top: 11.25rem;
   right: 30%;
 }
+@media (max-width: 768px) {
+  .footer-bg-stars {
+    display: none;
+  }
+}
 
 .blog {
   padding-top: 6.25rem;
@@ -1524,6 +1564,7 @@ a {
   font-size: 1.25rem;
   line-height: 120%;
   color: #1E1E1E;
+  height: 3rem;
 }
 .blog-item-description {
   font-weight: 600;
@@ -1532,6 +1573,12 @@ a {
   color: #A8B8C5;
   margin-top: 1.5rem;
   margin-bottom: 0;
+  height: 10rem;
+}
+@media (max-width: 1024px) {
+  .blog-item-description {
+    height: 14rem;
+  }
 }
 
 .requisites {
@@ -1540,7 +1587,7 @@ a {
   height: 33.3125rem;
   position: relative;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .requisites {
     margin-bottom: 10rem;
   }
@@ -1550,6 +1597,7 @@ a {
     padding-bottom: 10rem;
     height: 45.9375rem;
     padding-top: 2rem;
+    padding-left: 2.5rem;
   }
 }
 @media (max-width: 630px) {
@@ -1573,7 +1621,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-1 {
     top: 6.9375rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
   .requisites .item-1 .requisites-name {
     width: 70%;
@@ -1600,7 +1648,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-2 {
     top: 13.375rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1624,7 +1672,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-3 {
     top: 18.4375rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1648,7 +1696,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-4 {
     top: 23.5rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1678,7 +1726,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-5 {
     top: 28.5625rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1689,7 +1737,7 @@ a {
 .requisites .item-6 {
   position: absolute;
   top: 17.25rem;
-  left: 54.0625rem;
+  left: 54rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1707,7 +1755,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-6 {
     top: 33.625rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1736,7 +1784,7 @@ a {
 @media (max-width: 768px) {
   .requisites .item-7 {
     top: 40.1875rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1777,7 +1825,7 @@ a {
 @media (max-width: 630px) {
   .requisites .item-8 {
     top: 46.1875rem;
-    left: 3.75rem;
+    left: 2.5rem;
   }
 }
 @media (max-width: 576px) {
@@ -1869,6 +1917,7 @@ a {
   line-height: 110%;
   color: #FFFFFF;
   margin-bottom: 5rem;
+  margin-top: 1rem;
 }
 .requisites-name {
   font-weight: 600;
