@@ -991,7 +991,7 @@
 }
 
 .content-title {
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .freedom-card .btn-lightblue {
@@ -1220,10 +1220,6 @@
 
 .c-orange {
   color: #E37640;
-}
-
-.content-title {
-  margin-top: 2rem;
 }
 
 .optimal-card .btn-lightblue {

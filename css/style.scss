@@ -634,11 +634,15 @@ $menuContent: 1372px;
 // Available cards
 
 .available-cards{
-  margin-top: 13.125rem;
+  margin-top: 4rem;
   background: url("../assets/image/bg_stars.png") no-repeat -14rem -14rem;
   background-size: contain;
   padding: 0 1rem;
   position: relative;
+
+  @media (min-width: 576px) {
+    margin-top: 13.125rem;
+  }
 
   .avalibe-star{
     position: absolute;
@@ -649,9 +653,24 @@ $menuContent: 1372px;
     }
   }
 
+  .buttons{
+    @media (max-width: 576px){
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .btn-blue{
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
 
   .available-container{
-    margin-top: 6.5rem;
+    @media (min-width: 576px) {
+      margin-top: 6.5rem;
+    }
 
     .available-title{
 
@@ -888,6 +907,19 @@ $menuContent: 1372px;
               -ms-flex-direction: unset;
               flex-direction: unset;
               top: -1rem;
+
+              width: 100%;
+              @include flex('sb', 'c');
+              button{
+                order: 3;
+                margin-right: 0 !important;
+              }
+              .gray{
+                order: 2;
+              }
+              span{
+                order: 1;
+              }
             }
             .gray{
               display: none;
@@ -936,11 +968,7 @@ $menuContent: 1372px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         @media (max-width: 1024px) {
           display: block;

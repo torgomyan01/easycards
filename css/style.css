@@ -625,11 +625,16 @@ a {
 }
 
 .available-cards {
-  margin-top: 13.125rem;
+  margin-top: 4rem;
   background: url("../assets/image/bg_stars.png") no-repeat -14rem -14rem;
   background-size: contain;
   padding: 0 1rem;
   position: relative;
+}
+@media (min-width: 576px) {
+  .available-cards {
+    margin-top: 13.125rem;
+  }
 }
 .available-cards .avalibe-star {
   position: absolute;
@@ -641,8 +646,22 @@ a {
     display: none;
   }
 }
-.available-cards .available-container {
-  margin-top: 6.5rem;
+@media (max-width: 576px) {
+  .available-cards .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .available-cards .buttons .btn-blue {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 576px) {
+  .available-cards .available-container {
+    margin-top: 6.5rem;
+  }
 }
 .available-cards .available-container .available-title .btn-available {
   margin-bottom: 2.5rem;
@@ -874,6 +893,20 @@ a {
     -ms-flex-direction: unset;
     flex-direction: unset;
     top: -1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .price button {
+    order: 3;
+    margin-right: 0 !important;
+  }
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .price .gray {
+    order: 2;
+  }
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .price span {
+    order: 1;
   }
 }
 .available-cards .available-container .available-content-row .available-box-col .available-bottom .price .gray {
@@ -921,11 +954,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 @media (max-width: 1024px) {
