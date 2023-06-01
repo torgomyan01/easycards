@@ -1,10 +1,10 @@
 @import "helper";
 
-
-.about-cards{
+.about-cards {
   margin-top: 6rem;
   margin-bottom: 6.25rem;
-  .about-container{
+
+  .about-container {
     position: relative;
     width: 100% !important;
     min-height: 18.5rem;
@@ -13,30 +13,37 @@
     border-radius: 0.75rem;
 
 
-    .content{
+    .content {
       position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       @media (max-width: 480px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
       }
 
-      .content-title1{
+      .content-title1 {
         padding-top: .5rem !important;
         padding-left: 2rem !important;
       }
 
-      .content-title{
+      .content-title {
         padding-top: 1rem;
         padding-left: 2rem;
         padding-bottom: 2rem;
 
-        @media (max-width: 576px){
+        @media (max-width: 576px) {
           padding: 3.85rem 1rem;
         }
 
 
-        .about-heading{
+        .about-heading {
           color: #fff;
           margin-bottom: 1.5rem;
           @media (max-width: 768px) {
@@ -47,7 +54,7 @@
           }
         }
 
-        .about-title{
+        .about-title {
           color: #F4F7FF;
           margin-bottom: 2.3rem;
           @media (max-width: 1200px) {
@@ -61,8 +68,8 @@
           }
         }
 
-        .buttons{
-          .btn-about{
+        .buttons {
+          .btn-about {
             margin-right: 1rem;
             background: #fff;
             color: #1E1E1E;
@@ -73,8 +80,9 @@
             @media (max-width: 576px) {
               margin: 1rem 0;
             }
-            &:hover{
-            color: #0089EE;
+
+            &:hover {
+              color: #0089EE;
             }
 
           }
@@ -82,7 +90,7 @@
 
       }
 
-      .content-image{
+      .content-image {
         position: absolute;
         right: 2rem;
         bottom: 0;
@@ -94,18 +102,22 @@
         }
         @media (max-width: 480px) {
           position: unset;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
         }
 
-        .about-img{
+        .about-img {
 
           @media (max-width: 1024px) {
             display: none;
           }
         }
 
-        .about-img-1024{
+        .about-img-1024 {
           display: none;
           @media (max-width: 1024px) {
             display: initial;
@@ -115,7 +127,7 @@
           }
         }
 
-        .about-img-480{
+        .about-img-480 {
           display: none;
           @media (max-width: 480px) {
             display: initial;
@@ -133,11 +145,11 @@
 // visa master
 
 
-.visa-master{
+.visa-master {
 
-  .container{
+  .container {
 
-    .visa-master-row{
+    .visa-master-row {
       margin-top: 6rem !important;
     }
 
@@ -152,17 +164,17 @@
 // steps
 
 
-
 // steps end
 
 
 /// users
 
 
-.users{
-    margin-top: 2rem;
+.users {
+  margin-top: 2rem;
   padding: 0 1rem;
-  .users-container{
+
+  .users-container {
     background: url("../assets/image/bag-users-1248.png") no-repeat center;
     min-height: 22.8125rem;
     background-size: contain;
@@ -172,35 +184,39 @@
     padding-right: .5rem;
     border-radius: 1rem;
     @media (max-width: 1024px) {
-      background: url("../assets/image/bag-users-1024.png")no-repeat center;
+      background: url("../assets/image/bag-users-1024.png") no-repeat center;
     }
     @media (max-width: 768px) {
-      background: url("../assets/image/bag-users-768.png")no-repeat center;
+      background: url("../assets/image/bag-users-768.png") no-repeat center;
     }
     @media (max-width: 480px) {
-      background: url("../assets/image/bag-users-480.png")no-repeat center;
+      background: url("../assets/image/bag-users-480.png") no-repeat center;
     }
     @media (max-width: 360px) {
-      background: url("../assets/image/bag-users-360.png")no-repeat center;
+      background: url("../assets/image/bag-users-360.png") no-repeat center;
     }
 
-    .content{
+    .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       @media (max-width: 768px) {
         display: block;
       }
 
-      .content-title{
-        .users-heading{
+      .content-title {
+        .users-heading {
           color: #fff;
-          margin-bottom: .5rem ;
+          margin-bottom: .5rem;
           @media (max-width: 480px) {
             width: 12.5rem;
           }
         }
 
-        .users-title{
+        .users-title {
           color: #BAE1FF;
           width: 85%;
           margin-bottom: 1rem;
@@ -216,27 +232,39 @@
 
       }
 
-      .content-title2{
+      .content-title2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-top: 1.75rem;
         @media (max-width: 768px) {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
           justify-content: end;
         }
         @media (max-width: 480px) {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
         }
 
-        .box{
+        .box {
           width: 160px;
           margin-right: 6.25rem;
-          &:last-child{
+
+          &:last-child {
             margin-right: 2.5rem;
           }
+
           @media (max-width: 1024px) {
             margin-right: 4.375rem;
-            &:last-child{
+            &:last-child {
               margin-right: 2rem;
             }
           }
@@ -244,7 +272,7 @@
             margin-right: 6rem;
             position: relative;
             margin-top: 7rem;
-            &:last-child{
+            &:last-child {
               margin-right: 0;
               left: 0;
             }
@@ -253,7 +281,7 @@
             margin-right: 4rem;
             position: relative;
             top: 12.5rem;
-            &:last-child{
+            &:last-child {
               margin-right: 0;
               top: -2rem;
             }
@@ -262,17 +290,18 @@
             margin-right: 4rem;
             position: relative;
             top: 16.5rem;
-            &:last-child{
+            &:last-child {
               margin-right: 0;
               top: 4rem;
             }
           }
 
-          h2{
+          h2 {
             font-weight: 500;
             font-size: 5rem;
             color: #fff;
-            span{
+
+            span {
               font-size: 2.3rem;
               color: #fff;
               position: relative;
@@ -281,7 +310,7 @@
             }
           }
 
-          span{
+          span {
             color: #BAE1FF;
             font-weight: 600;
             margin-top: -1rem;
@@ -295,37 +324,48 @@
       }
 
     }
-    .button{
+
+    .button {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: end;
       margin-right: 3.125rem;
-      margin-top:  2.5rem;
+      margin-top: 2.5rem;
       @media (max-width: 768px) {
-       position: relative;
+        position: relative;
         top: 1rem;
       }
       @media (max-width: 480px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
         justify-content: left;
         margin-top: 17rem;
       }
       @media (max-width: 360px) {
-          margin-top: 23rem;
+        margin-top: 23rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         margin-right: 0;
         width: 290px;
       }
 
-      .btn-users{
+      .btn-users {
         background: #fff;
         color: #1E1E1E;
 
-        img{
+        img {
           margin-left: .8rem;
         }
       }
 
-      p{
+      p {
         font-style: italic;
         font-weight: 600;
         font-size: 14px;
@@ -347,37 +387,35 @@
 // ----------------  kirghizia -----------------------
 
 
-
-
-.kirghizia{
+.kirghizia {
 
   // header
 
   .header {
     .kazakhstan-header-card-freedom {
-      @media (max-width: 855px){
+      @media (max-width: 855px) {
         top: 19.0625rem !important;
         right: -12rem !important;
       }
-      @media (max-width: 768px){
+      @media (max-width: 768px) {
         top: 25.0625rem !important;
       }
-      @media (max-width: 425px){
+      @media (max-width: 425px) {
         top: 38.0625rem !important;
         right: -5rem !important;
       }
     }
+
     .kazakhstan-header-card-freedom-back {
-      @media (max-width: 855px){
+      @media (max-width: 855px) {
         bottom: -3rem;
         right: 6rem;
       }
-      @media (max-width: 425px){
+      @media (max-width: 425px) {
         bottom: -5rem;
         right: 6rem;
       }
     }
-
 
 
     &-body {
@@ -388,21 +426,21 @@
       background-repeat: no-repeat;
       background-size: cover;
 
-      @media (max-width: 1325px){
+      @media (max-width: 1325px) {
         background-position: 35rem 1rem, 0 0;
       }
 
-      @media (max-width: 855px){
+      @media (max-width: 855px) {
         height: 50rem;
       }
 
-      @media (max-width: 768px){
+      @media (max-width: 768px) {
         height: 56rem;
         background-position: 20rem 15rem, 0 0;
       }
 
 
-      @media (max-width: 425px){
+      @media (max-width: 425px) {
         height: 63rem;
         background-position: 2rem 15rem, 0 0;
       }
@@ -410,39 +448,29 @@
 
       &:before {
         display: none;
-        //background: url("../assets/image/header-logo.png") no-repeat top right;
-        //background-size: cover;
-        //position: absolute;
-        //top: 0;
-        //right: 0;
-        //bottom: 0;
-        //@media (max-width: 1200px) {
-        //  top: 10%;
-        //}
-        //@media (max-width: 768px) {
-        //    top: 40%;
-        //}
       }
 
-      .header-title{
+      .header-title {
         padding-right: 2rem;
-        @media (max-width: 1024px){
+        @media (max-width: 1024px) {
           padding-right: 2rem;
         }
-        @media (max-width: 768px){
+        @media (max-width: 768px) {
           padding-right: 0;
         }
       }
 
-      .header-description{
+      .header-description {
         color: #FFD188;
       }
 
-      .btn-white{
+      .btn-white {
         color: #E37640;
         background: #fff;
+        -webkit-transition: .3s lianer;
         transition: .3s lianer;
-        &:hover{
+
+        &:hover {
           background: #b24c17;
           color: #fff;
         }
@@ -451,25 +479,26 @@
 
 
   }
+
   // gurantee
 
-  .guarantee{
+  .guarantee {
 
-    .guarantee-container{
+    .guarantee-container {
 
-.guarantee-content {
+      .guarantee-content {
 
-  .content {
+        .content {
 
-    .title-top {
-      span{
-        color: #E37640;
+          .title-top {
+            span {
+              color: #E37640;
+            }
+          }
+
+        }
+
       }
-    }
-
-  }
-
-}
 
     }
 
@@ -479,132 +508,150 @@
   // end gurantee
 
 
-
   /// available-cards
 
-.available-cards{
+  .available-cards {
 
-  .avalibe-star{
-    top: 5.9% !important;
-  }
-
-  .media{
-    display: none;
-    @media (max-width: 360px) {
-      display: initial;
+    .avalibe-star {
+      top: 5.9% !important;
     }
-  }
 
-  .decstop{
-    @media (max-width: 360px) {
+    .media {
       display: none;
-    }
-  }
-
-
-  .btn-lightblue{
-    color: #E37640;
-    background: rgba(255, 209, 136, 0.2);
-  }
-
-  .fa-circle-check{
-    color: #E37640;
-  }
-
-  .check-price{
-    color: #E37640;
-  }
-
-  .btn-transparent{
-    &:hover{
-      color: #E37640;
-      background: #fff;
-    }
-  }
-
-  .btn-blue-dark{
-    background: #E37640;
-    color: white;
-    &:hover{
-      background: #e78558;
-    }
-  }
-
-  .check-bank-subtitle{
-    @media (max-width: 360px) {
-      display: none;
-    }
-  }
-
-  .price-btn{
-    @media (max-width: 480px) {
-      display: flex !important;
-      justify-content: center;
-     align-items: center;
-    }
-
-    .check-price{
-      @media (max-width: 480px) {
-        margin-right: 10px;
-        font-size: 2rem;
-        margin-top: .8rem;
-      }
-    }
-
-  }
-
-  .buttons{
-    @media (max-width: 480px) {
-      display: flex;
-    }
-    @media (max-width: 360px) {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    button {
       @media (max-width: 360px) {
-        display: block;
-        margin-bottom: 10px !important;
-        width: 100% !important;
-        padding: 1.5rem 6rem;
+        display: initial;
       }
     }
-  }
 
-}
+    .decstop {
+      @media (max-width: 360px) {
+        display: none;
+      }
+    }
+
+
+    .btn-lightblue {
+      color: #E37640;
+      background: rgba(255, 209, 136, 0.2);
+    }
+
+    .fa-circle-check {
+      color: #E37640;
+    }
+
+    .check-price {
+      color: #E37640;
+    }
+
+    .btn-transparent {
+      &:hover {
+        color: #E37640;
+        background: #fff;
+      }
+    }
+
+    .btn-blue-dark {
+      background: #E37640;
+      color: white;
+
+      &:hover {
+        background: #e78558;
+      }
+    }
+
+    .check-bank-subtitle {
+      @media (max-width: 360px) {
+        display: none;
+      }
+    }
+
+    .price-btn {
+      @media (max-width: 480px) {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+
+      .check-price {
+        @media (max-width: 480px) {
+          margin-right: 10px;
+          font-size: 2rem;
+          margin-top: .8rem;
+        }
+      }
+
+    }
+
+    .buttons {
+      @media (max-width: 480px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      @media (max-width: 360px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+
+      button {
+        @media (max-width: 360px) {
+          display: block;
+          margin-bottom: 10px !important;
+          width: 100% !important;
+          padding: 1.5rem 6rem;
+        }
+      }
+    }
+
+  }
 
   // ..en available-cards
 
 
   //........ map-comparison
 
-.map-comparison{
+  .map-comparison {
 
-.fa-circle-check{
-  color: #E37640;
-}
-
-  .price{
-    color: #E37640;
-  }
-
-  .btn-transparent{
-    &:hover{
+    .fa-circle-check {
       color: #E37640;
     }
-  }
 
-}
+    .price {
+      color: #E37640;
+    }
+
+    .btn-transparent {
+      &:hover {
+        color: #E37640;
+      }
+    }
+
+  }
 
   // ........ map-comparison end
 
   //  table
 
-  .map-comparison{
+  .map-comparison {
 
-    .fa-circle-exclamation{
+    .fa-circle-exclamation {
       font-size: 1.6rem;
     }
 
@@ -615,57 +662,61 @@
 
   //...... about
 
-.about-cards{
+  .about-cards {
     min-height: 19rem;
-  margin-top: 10rem;
+    margin-top: 10rem;
 
-  .about-container{
-    background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
-    .content {
+    .about-container {
+      background: url("../assets/image/bg-star.png"), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%) no-repeat center;
 
-      .content-title {
-        padding-top: .2rem !important;
-        .about-title {
-          margin-top: -1rem !important;
-          color: #BAE1FF;
-          font-weight: 600;
+      .content {
+
+        .content-title {
+          padding-top: .2rem !important;
+
+          .about-title {
+            margin-top: -1rem !important;
+            color: #BAE1FF;
+            font-weight: 600;
+          }
+
+          .buttons {
+            .btn-about {
+              color: #4497B3 !important;
+
+              &:hover {
+                background: #4497B3;
+                color: #fff !important;
+              }
+            }
+          }
+
         }
 
-        .buttons{
-          .btn-about{
-            color: #4497B3 !important;
-            &:hover{
-              background: #4497B3;
-              color: #fff !important;
-            }
+        .content-image {
+          bottom: -4.9%;
+          @media (max-width: 1024px) {
+            right: 0;
+            bottom: 0;
+          }
+          @media (max-width: 1024px) {
+            right: -16%;
+            bottom: 0;
           }
         }
 
       }
-      .content-image{
-        bottom: -4.9%;
-      @media (max-width: 1024px) {
-        right: 0;
-        bottom: 0;
-      }
-        @media (max-width: 1024px) {
-          right: -16%;
-          bottom: 0;
-        }
-      }
-
     }
-  }
 
-}
+  }
 
   /// end about
 
   // ..........visa master
 
-  .visa-master{
+  .visa-master {
 
-    .btn-lightblue{
+    .btn-lightblue {
       color: #E37640;
       background: rgba(255, 209, 136, 0.2);
     }
@@ -677,9 +728,9 @@
 
   // ....... steos
 
-  .steps{
+  .steps {
 
-    .btn-lightblue{
+    .btn-lightblue {
       color: #E37640;
       background: rgba(255, 209, 136, 0.2);
     }
@@ -689,7 +740,7 @@
     }
 
 
-    .steps-subtitle{
+    .steps-subtitle {
       color: #FFD188;
     }
 
@@ -697,24 +748,24 @@
   }
 
 
-   ////.. steps end
+  ////.. steps end
 
 
   // ... faq
 
 
-  .faq{
+  .faq {
 
-    .btn-lightblue{
+    .btn-lightblue {
       color: #E37640;
       background: rgba(255, 209, 136, 0.2);
     }
 
-    .fa-minus{
+    .fa-minus {
       color: #E37640;
     }
 
-    .fa-plus{
+    .fa-plus {
       color: #E37640;
     }
 
@@ -725,9 +776,9 @@
 
   // users
 
-  .users{
+  .users {
 
-    .content-title{
+    .content-title {
       padding-top: 1.7rem;
       padding-left: 1.5rem;
     }
@@ -738,41 +789,40 @@
 
   // footer
 
-.footer-bg{
+  .footer-bg {
 
-  .btn-lightblue{
-    color: #E37640;
-    background: rgba(255, 209, 136, 0.2);
-  }
-
-  .requisites-name{
-    color: #FFD188;
-  }
-
-
-  .btn-blue-dark{
-    background: #E37640;
-    &:hover{
-      background: #f19a6d;
+    .btn-lightblue {
+      color: #E37640;
+      background: rgba(255, 209, 136, 0.2);
     }
-  }
 
-  .btn-white{
-    color: #E37640;
-    &:hover{
+    .requisites-name {
+      color: #FFD188;
+    }
+
+
+    .btn-blue-dark {
       background: #E37640;
-      color: #fff;
+
+      &:hover {
+        background: #f19a6d;
+      }
     }
+
+    .btn-white {
+      color: #E37640;
+
+      &:hover {
+        background: #E37640;
+        color: #fff;
+      }
+    }
+
+    .free-call-text {
+      color: #FFD188;
+    }
+
   }
-
-.free-call-text{
-  color: #FFD188;
-}
-
-}
-
-
-  // footer end
 
 
 }
@@ -781,20 +831,22 @@
 //..........kazakhstan
 
 
-.kazakhstan{
+.kazakhstan {
 
-  .btn-lightblue{
+  .btn-lightblue {
     color: #4497B3 !important;
   }
 
-  .header{
-    .info-block{
+  .header {
+    .info-block {
       cursor: pointer;
     }
 
-    .btn-white{
+    .btn-white {
+      -webkit-transition: .5s linear;
       transition: .5s linear;
-      &:hover{
+
+      &:hover {
         background: #4497B3;
       }
     }
@@ -804,46 +856,52 @@
 
   // available-cards
 
-  .available-cards{
+  .available-cards {
 
-    .avalibe-star{
+    .avalibe-star {
       top: 5.9% !important;
     }
 
 
-    .media{
+    .media {
       display: none;
       @media (max-width: 360px) {
         display: initial;
       }
     }
 
-    .decstop{
+    .decstop {
       @media (max-width: 360px) {
         display: none;
       }
     }
 
-    .star1{
+    .star1 {
       position: relative;
       left: 90%;
     }
 
 
-    .check-bank-subtitle{
+    .check-bank-subtitle {
       @media (max-width: 360px) {
         display: none;
       }
     }
 
-    .price-btn{
+    .price-btn {
       @media (max-width: 480px) {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
       }
 
-      .check-price{
+      .check-price {
         @media (max-width: 480px) {
           margin-right: 10px;
           font-size: 2rem;
@@ -853,16 +911,28 @@
 
     }
 
-    .buttons{
+    .buttons {
       @media (max-width: 480px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
       }
       @media (max-width: 360px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
       }
+
       button {
         @media (max-width: 360px) {
           display: block;
@@ -879,12 +949,10 @@
   // available-cardsA-end
 
 
-
-  .about-cards{
-
+  .about-cards {
 
 
-    .content-image{
+    .content-image {
       @media (max-width: 1024px) {
         right: -5%;
       }
@@ -893,20 +961,20 @@
       }
     }
 
-  .btn-about {
-    &:hover{
-      background: #E37640 !important;
-      color: #fff !important;
+    .btn-about {
+      &:hover {
+        background: #E37640 !important;
+        color: #fff !important;
+      }
     }
-  }
 
   }
 
   // users
 
-  .users{
+  .users {
 
-    .content-title{
+    .content-title {
       padding-top: .1rem;
       padding-left: .5rem;
     }
@@ -916,10 +984,10 @@
 
   // users end
 
-  .footer-bg{
+  .footer-bg {
 
-    .btn-white{
-      &:hover{
+    .btn-white {
+      &:hover {
         background: #4497B3;
       }
     }
@@ -933,7 +1001,6 @@
 ///................... bakai-card
 
 
-
 .bakai-card {
 
   .btn-lightblue {
@@ -941,11 +1008,11 @@
   }
 
 
-  .guarantee{
+  .guarantee {
 
-.bakai-card-span{
-  color: #1E4165 !important;
-}
+    .bakai-card-span {
+      color: #1E4165 !important;
+    }
 
   }
 
@@ -995,6 +1062,9 @@
 
       .content {
         @media (max-width: 768px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
         }
 
@@ -1033,13 +1103,21 @@
           }
           @media (max-width: 768px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
 
           }
           @media (max-width: 480px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
           }
 
@@ -1051,16 +1129,16 @@
 
   }
 
-/// ..... faq
+  /// ..... faq
 
-  .faq{
+  .faq {
 
-      .fa-minus{
+    .fa-minus {
       color: #1E4165;
-      }
+    }
 
-    .fa-plus{
-      color:  #1E4165;
+    .fa-plus {
+      color: #1E4165;
     }
 
   }
@@ -1068,74 +1146,79 @@
   // ......faq end
 
   // footer
-.footer-bg {
+  .footer-bg {
 
-  .bakai-name{
-    color: #7BA5BC !important;
-  }
-
-  .btn-blue-dark {
-    background: #1E4165 !important;
-    color: #fff !important;
-    &:hover{
-      background: #6b9bcb !important;
+    .bakai-name {
+      color: #7BA5BC !important;
     }
-  }
 
-  .btn-white{
-    &:hover {
-      background: #4497B3 !important;
+    .btn-blue-dark {
+      background: #1E4165 !important;
       color: #fff !important;
+
+      &:hover {
+        background: #6b9bcb !important;
+      }
     }
+
+    .btn-white {
+      &:hover {
+        background: #4497B3 !important;
+        color: #fff !important;
+      }
+    }
+
   }
 
-}
-
-  // footer end
 
 }
-
 
 
 /// ...........freddom card html and
 
-.freedom-card{
-  .header-body{
+.freedom-card {
+  .header-body {
     background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
     padding-bottom: 5.4375rem;
     overflow: hidden;
-    @media (max-width: 1100px){
+    @media (max-width: 1100px) {
       overflow: unset;
     }
-    @media (max-width: 855px){
+    @media (max-width: 855px) {
       height: 58rem;
     }
-    @media (max-width: 576px){
+    @media (max-width: 576px) {
       height: 50rem;
     }
-    &:before{
+
+    &:before {
       display: none;
     }
   }
-  .info-block{
+
+  .info-block {
     background: rgba(0, 137, 238, 0.1);
     color: #0089EE;
   }
-  .header-title{
+
+  .header-title {
     color: #1E1E1E;
   }
-  .header-description{
+
+  .header-description {
     color: #A8B8C5;
   }
-  .steps-body{
+
+  .steps-body {
     background: url("../assets/image/freedom-steps-bg.png"), linear-gradient(148.13deg, #32A64D 0%, #297538 100%) no-repeat center;
-    .steps-subtitle{
+
+    .steps-subtitle {
       color: #A0D8A7;
     }
   }
 }
 
-.btn-bakai-dark-blue{
+.btn-bakai-dark-blue {
   background: #1E4165;
   border-radius: 4px;
   font-weight: 600;
@@ -1143,47 +1226,52 @@
   line-height: 120%;
   color: #FFFFFF;
   padding: 1.25rem 1.5rem;
+  -webkit-transition: 0.3s all !important;
   transition: 0.3s all !important;
-  &:hover{
+
+  &:hover {
     background: #7BA5BC;
     color: #fff;
   }
 }
 
-.bakai-header-bg{
+.bakai-header-bg {
   position: absolute;
   right: 0;
   top: 0;
-  @media (max-width: 1120px){
+  @media (max-width: 1120px) {
     right: -6.25rem;
   }
-  @media (max-width: 1100px){
+  @media (max-width: 1100px) {
     display: none;
   }
 }
-.bakai-header-card{
+
+.bakai-header-card {
   position: absolute;
   top: 5rem;
   right: 2rem;
 
-  @media (max-width: 1228px){
+  @media (max-width: 1228px) {
     width: 34.25rem;
     right: 0;
     top: unset;
     bottom: -10rem;
   }
-  @media (max-width: 576px){
+  @media (max-width: 576px) {
     width: 100%;
   }
 }
-.c-bakai-blue{
-  color:  #298B3F !important;
+
+.c-bakai-blue {
+  color: #298B3F !important;
 }
-.c-green{
+
+.c-green {
   color: #298B3F;
 }
 
-.content-title{
+.content-title {
   margin-top: 2rem;
 }
 
@@ -1197,17 +1285,16 @@
 
   .btn-lightblue {
     background: rgba(164, 238, 202, 0.2);
-    color:  #298B3F !important;
+    color: #298B3F !important;
   }
 
-  .btn-bakai-dark-blue{
-    background:  #298B3F;
-    &:hover{
+  .btn-bakai-dark-blue {
+    background: #298B3F;
+
+    &:hover {
       background: #49b65f;
     }
   }
-
-
 
 
   .visa-master {
@@ -1239,7 +1326,7 @@
 
       }
 
-      .visa-master-item-subtitle{
+      .visa-master-item-subtitle {
         color: #A8B8C5;
       }
 
@@ -1258,6 +1345,9 @@
 
       .content {
         @media (max-width: 768px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
         }
 
@@ -1270,6 +1360,7 @@
           .buttons {
             .btn-about {
               color: #298B3F !important;
+
               &:hover {
                 background: #29b449 !important;
                 color: #fff !important;
@@ -1294,13 +1385,21 @@
           }
           @media (max-width: 768px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
 
           }
           @media (max-width: 480px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
           }
 
@@ -1314,13 +1413,13 @@
 
   /// ..... faq
 
-  .faq{
+  .faq {
 
-    .fa-minus{
+    .fa-minus {
       color: #298B3F !important;
     }
 
-    .fa-plus{
+    .fa-plus {
       color: #298B3F !important;
     }
 
@@ -1331,22 +1430,24 @@
   // footer
   .footer-bg {
 
-    .freedom-name{
+    .freedom-name {
       color: #A0D8A7 !important;
     }
 
     .btn-blue-dark {
-      background:  #298B3F !important;
+      background: #298B3F !important;
       color: #fff !important;
-      &:hover{
+
+      &:hover {
         background: #49b65f !important;
       }
     }
 
-    .btn-white{
-      background:  #fff !important;
+    .btn-white {
+      background: #fff !important;
       color: #298B3F;
-      &:hover{
+
+      &:hover {
         background: #49b65f !important;
         color: #FFFFFF;
       }
@@ -1354,7 +1455,6 @@
 
   }
 
-  // footer end
 
 }
 
@@ -1364,43 +1464,49 @@
 // optimal card and
 
 
-.optimal-card{
-  .header-body{
+.optimal-card {
+  .header-body {
     background: linear-gradient(100.25deg, #F4F7FF 0%, #EBEFF9 100%);
     padding-bottom: 5.4375rem;
     overflow: hidden;
-    @media (max-width: 1100px){
+    @media (max-width: 1100px) {
       overflow: unset;
     }
-    @media (max-width: 855px){
+    @media (max-width: 855px) {
       height: 58rem;
     }
-    @media (max-width: 576px){
+    @media (max-width: 576px) {
       height: 50rem;
     }
-    &:before{
+
+    &:before {
       display: none;
     }
   }
-  .info-block{
+
+  .info-block {
     background: rgba(0, 137, 238, 0.1);
     color: #0089EE;
   }
-  .header-title{
+
+  .header-title {
     color: #1E1E1E;
   }
-  .header-description{
+
+  .header-description {
     color: #A8B8C5;
   }
-  .steps-body{
+
+  .steps-body {
     background: url("../assets/image/khirgizia-step-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
-    .steps-subtitle{
+
+    .steps-subtitle {
       color: #FFD188;
     }
   }
 }
 
-.btn-bakai-dark-blue{
+.btn-bakai-dark-blue {
   background: #1E4165;
   border-radius: 4px;
   font-weight: 600;
@@ -1408,47 +1514,52 @@
   line-height: 120%;
   color: #FFFFFF;
   padding: 1.25rem 1.5rem;
+  -webkit-transition: 0.3s all !important;
   transition: 0.3s all !important;
-  &:hover{
+
+  &:hover {
     background: #7BA5BC;
     color: #fff;
   }
 }
 
-.bakai-header-bg{
+.bakai-header-bg {
   position: absolute;
   right: 0;
   top: 0;
-  @media (max-width: 1120px){
+  @media (max-width: 1120px) {
     right: -6.25rem;
   }
-  @media (max-width: 1100px){
+  @media (max-width: 1100px) {
     display: none;
   }
 }
-.bakai-header-card{
+
+.bakai-header-card {
   position: absolute;
   top: 5rem;
   right: 2rem;
 
-  @media (max-width: 1228px){
+  @media (max-width: 1228px) {
     width: 34.25rem;
     right: 0;
     top: unset;
     bottom: -10rem;
   }
-  @media (max-width: 576px){
+  @media (max-width: 576px) {
     width: 100%;
   }
 }
-.c-bakai-blue{
-  color:  #298B3F !important;
+
+.c-bakai-blue {
+  color: #298B3F !important;
 }
-.c-orange{
+
+.c-orange {
   color: #E37640;
 }
 
-.content-title{
+.content-title {
   margin-top: 2rem;
 }
 
@@ -1459,28 +1570,28 @@
 // optimal Card Arm
 
 
-.optimal-card{
+.optimal-card {
 
   .btn-lightblue {
     background: rgba(255, 209, 136, 0.2);
     color: #E37640 !important;
   }
 
-  .btn-bakai-dark-blue{
-    background:  #E37640;
-    &:hover{
+  .btn-bakai-dark-blue {
+    background: #E37640;
+
+    &:hover {
       background: rgba(236, 114, 54, 0.86);
     }
   }
 
-  .guarantee{
+  .guarantee {
 
-  .optimal-gurante-span{
-    color: #E37640 !important;
+    .optimal-gurante-span {
+      color: #E37640 !important;
+    }
+
   }
-
-  }
-
 
 
   .visa-master {
@@ -1512,7 +1623,7 @@
 
       }
 
-      .visa-master-item-subtitle{
+      .visa-master-item-subtitle {
         color: #A8B8C5;
       }
 
@@ -1529,8 +1640,11 @@
       min-height: 29.8125rem;
       background: url("../assets/image/optimal-card-about-bg.png"), linear-gradient(97.51deg, #F5A357 0%, #DB392F 100%) no-repeat center;
 
-      .content{
+      .content {
         @media (max-width: 768px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
         }
 
@@ -1543,6 +1657,7 @@
           .buttons {
             .btn-about {
               color: #E37640 !important;
+
               &:hover {
                 background: #E37640 !important;
                 color: #fff !important;
@@ -1567,13 +1682,21 @@
           }
           @media (max-width: 768px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
 
           }
           @media (max-width: 480px) {
             position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
           }
 
@@ -1587,13 +1710,13 @@
 
   /// ..... faq
 
-  .faq{
+  .faq {
 
-    .fa-minus{
+    .fa-minus {
       color: #E37640 !important;
     }
 
-    .fa-plus{
+    .fa-plus {
       color: #E37640 !important;
     }
 
@@ -1604,23 +1727,25 @@
   // footer
   .footer-bg {
 
-    .optimal-name{
-     color: #FFD188 !important;
+    .optimal-name {
+      color: #FFD188 !important;
     }
 
 
     .btn-blue-dark {
       background: #E37640 !important;
       color: #fff !important;
-      &:hover{
+
+      &:hover {
         background: rgba(236, 114, 54, 0.86) !important;
       }
     }
 
-    .btn-white{
-      background:  #fff !important;
+    .btn-white {
+      background: #fff !important;
       color: #E37640 !important;
-      &:hover{
+
+      &:hover {
         background: #E37640 !important;
         color: #fff !important;
       }
@@ -1628,8 +1753,4 @@
 
   }
 
-  // footer end
-
 }
-
- /// optimal card arm end
