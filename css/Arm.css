@@ -18,6 +18,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-top: 1.5rem;
 }
 @media (max-width: 480px) {
   .about-cards .about-container .content {
@@ -992,6 +993,10 @@
 
 .content-title {
   margin-top: 0;
+}
+
+.users-content-title {
+  margin-top: 2rem;
 }
 
 .freedom-card .btn-lightblue {

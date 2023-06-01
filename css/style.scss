@@ -173,6 +173,8 @@ a{
   border: none!important;
   text-align: center;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 }
 
 .btn-transparent{
@@ -283,7 +285,7 @@ $menuContent: 1372px;
         -webkit-transform: translateX(-50%) translateY(-100%);
         transform: translateX(-50%) translateY(-100%);
         width: 100%;
-        background: rgb(255 255 255 / 55%);
+        background: rgb(255 255 255 / 90%);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
       }
