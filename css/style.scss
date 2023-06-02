@@ -157,7 +157,7 @@ a{
   -webkit-transition: .3s linear;
   transition: .3s linear;
   &:hover{
-    background: rgb(66, 149, 218);
+    background: #1EA7FF;
   }
 }
 
@@ -299,6 +299,9 @@ $menuContent: 1372px;
         line-height: 160%;
         color: #1E1E1E;
         white-space: nowrap;
+        &.active{
+          font-weight: 700;
+        }
         @media (max-width: 1024px) {
           margin: 15px 50px;
           line-height: 140%;
@@ -356,16 +359,6 @@ $menuContent: 1372px;
         color: #0089EE;
         font-size: 1.25rem;
 
-      }
-
-      .fa-whatsapp {
-        color: #51C941;
-        font-size: 2.5rem;
-      }
-
-      .fa-telegram {
-        color: #65A6E7;
-        font-size: 2.5rem;
       }
 
       .contact {
@@ -1220,6 +1213,13 @@ $menuContent: 1372px;
       font-size: 1rem;
       line-height: 160%;
       color: #A8B8C5;
+      @include flex('c', 'c');
+      img{
+        margin-right: 8px;
+      }
+      i{
+        margin: 0 2px;
+      }
       .price{
         font-weight: 500;
         font-size: 1.25rem;
@@ -1525,6 +1525,8 @@ $menuContent: 1372px;
     font-size: 1rem;
     line-height: 160%;
     color: #A8B8C5;
+    padding-top: 0;
+    margin-top: -10px;
 
   }
 
@@ -1854,7 +1856,8 @@ $menuContent: 1372px;
     }
   }
   &-socsites{
-    margin-top: -10px;
+    margin-top: -12px !important;
+    margin-left: 10px;
   }
 
 
@@ -2060,7 +2063,8 @@ footer{
   .steps-body{
     background: url(../assets/image/step-bg.png), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: bottom right;
   }
 }
 
@@ -2253,7 +2257,7 @@ footer{
 }
 
 .btn-blue-dark{
-  background: #4497B3;
+  background: #0089EE;
   border-radius: 0.25rem;
   padding: 1rem 1.25rem;
   font-weight: 600;
@@ -2264,7 +2268,7 @@ footer{
   transition: 0.3s;
   &:hover{
     color: #FFFFFF;
-    background: #4eaccc;
+    background: #1EA7FF;
   }
 }
 
@@ -2365,4 +2369,66 @@ footer{
 
 .row-steps-header{
   padding-left: 2.1875rem;
+}
+
+.menu-soc-site-icon{
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.tel-block-menu{
+  @include flex('sb', 'c');
+  a{
+    transition: .3s;
+  }
+  &:hover{
+    a{
+      color: #0089EE !important;
+    }
+  }
+}
+
+.soc-site-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  @include flex('c', 'c');
+  color: #fff;
+  font-size: 21px;
+  img{
+    transition: 0.2s;
+  }
+  &:hover{
+    img{
+      transform: scale(1.2);
+    }
+  }
+  &.whatsapp{
+    background: #51C941;
+  }
+  &.tg{
+    background: #65A6E7;
+  }
+}
+
+.btn-about{
+  transition: 0.3s;
+  color: #1E4165;
+  &:hover{
+    background: #6EBCE6 !important;
+    color: #fff !important;
+  }
+}
+.btn-download{
+  &:hover{
+    background: #4497B3 !important;
+  }
+}
+.btn-about-white{
+  &:hover{
+    background: #7BA5BC !important;
+    color: #fff !important;
+  }
 }

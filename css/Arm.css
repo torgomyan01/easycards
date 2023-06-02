@@ -195,7 +195,6 @@
 .about-cards .about-container .content .content-title .buttons .btn-about {
   margin-right: 1rem;
   background: #fff;
-  color: #1E1E1E;
 }
 @media (max-width: 768px) {
   .about-cards .about-container .content .content-title .buttons .btn-about {
@@ -276,30 +275,28 @@
   background: url("../assets/image/bag-users-1248.png") no-repeat center;
   min-height: 22.8125rem;
   background-size: contain;
-  padding-top: 2.5rem;
-  padding-left: 3rem;
-  padding-bottom: 3rem;
-  padding-right: 0.5rem;
+  padding: 2.5rem 0.5rem 3rem 3rem;
   border-radius: 1rem;
 }
 @media (max-width: 1024px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-1024.png") no-repeat center;
+    background: url("../assets/image/bag-users-1024.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
   }
 }
 @media (max-width: 768px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-768.png") no-repeat center;
+    background: url("../assets/image/bag-users-768.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
   }
 }
 @media (max-width: 480px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-480.png") no-repeat center;
+    padding-bottom: 0;
+    background: url("../assets/image/bag-users-480.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
   }
 }
 @media (max-width: 350px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-360.png") no-repeat center;
+    background: url("../assets/image/bag-users-360.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
   }
 }
 .users .users-container .content {
@@ -489,8 +486,8 @@
     display: flex;
     -webkit-box-pack: left;
     -ms-flex-pack: left;
-    justify-content: left;
-    margin-top: 17rem;
+    margin-top: 15rem;
+    justify-content: center;
   }
 }
 @media (max-width: 350px) {
@@ -523,6 +520,7 @@
 @media (max-width: 480px) {
   .users .users-container .button p {
     margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -743,13 +741,6 @@
   color: #BAE1FF;
   font-weight: 600;
 }
-.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about {
-  color: #4497B3 !important;
-}
-.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about:hover {
-  background: #4497B3;
-  color: #fff !important;
-}
 .kirghizia .about-cards .about-container .content .content-image {
   bottom: -8%;
 }
@@ -824,8 +815,8 @@
   cursor: pointer;
 }
 .kazakhstan .header .btn-white {
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 .kazakhstan .header .btn-white:hover {
   background: #4497B3;
@@ -998,13 +989,6 @@
     width: auto;
   }
 }
-.bakai-card .about-cards .about-container .content .content-title .buttons .btn-about {
-  color: #1E4165 !important;
-}
-.bakai-card .about-cards .about-container .content .content-title .buttons .btn-about:hover {
-  background: #4497B3 !important;
-  color: #fff !important;
-}
 .bakai-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
@@ -1111,22 +1095,6 @@
   color: #A0D8A7;
 }
 
-.btn-bakai-dark-blue {
-  background: #1E4165;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 120%;
-  color: #FFFFFF;
-  padding: 1.25rem 1.5rem;
-  -webkit-transition: 0.3s all !important;
-  transition: 0.3s all !important;
-}
-.btn-bakai-dark-blue:hover {
-  background: #7BA5BC;
-  color: #fff;
-}
-
 .bakai-header-bg {
   position: absolute;
   right: 0;
@@ -1174,8 +1142,15 @@
   margin-top: 0;
 }
 
-.users-content-title {
-  margin-top: 2rem;
+@media (min-width: 577px) {
+  .users-content-title {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .users-content-title {
+    top: 0 !important;
+  }
 }
 
 .freedom-card .btn-lightblue {
@@ -1186,7 +1161,7 @@
   background: #298B3F;
 }
 .freedom-card .btn-bakai-dark-blue:hover {
-  background: #49b65f;
+  background: #47A95D;
 }
 .freedom-card .visa-master {
   margin-top: 5rem;
@@ -1249,7 +1224,7 @@
   color: #298B3F !important;
 }
 .freedom-card .about-cards .about-container .content .content-title .buttons .btn-about:hover {
-  background: #29b449 !important;
+  background: #47A95D !important;
   color: #fff !important;
 }
 .freedom-card .about-cards .about-container .content .content-image {

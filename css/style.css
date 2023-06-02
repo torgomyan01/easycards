@@ -142,7 +142,7 @@ a {
   transition: 0.3s linear;
 }
 .btn-blue:hover {
-  background: rgb(66, 149, 218);
+  background: #1EA7FF;
 }
 
 .btn-lightblue {
@@ -288,6 +288,9 @@ a {
   color: #1E1E1E;
   white-space: nowrap;
 }
+.menu-content .navbar a.active {
+  font-weight: 700;
+}
 @media (max-width: 1024px) {
   .menu-content .navbar a {
     margin: 15px 50px;
@@ -347,14 +350,6 @@ a {
 .menu-content .icons .fa-phone {
   color: #0089EE;
   font-size: 1.25rem;
-}
-.menu-content .icons .fa-whatsapp {
-  color: #51C941;
-  font-size: 2.5rem;
-}
-.menu-content .icons .fa-telegram {
-  color: #65A6E7;
-  font-size: 2.5rem;
 }
 .menu-content .icons .contact a {
   font-style: normal;
@@ -1223,6 +1218,15 @@ a {
   font-size: 1rem;
   line-height: 160%;
   color: #A8B8C5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-comparison-table-item img {
+  margin-right: 8px;
+}
+.map-comparison-table-item i {
+  margin: 0 2px;
 }
 .map-comparison-table-item .price {
   font-weight: 500;
@@ -1545,6 +1549,8 @@ a {
   font-size: 1rem;
   line-height: 160%;
   color: #A8B8C5;
+  padding-top: 0;
+  margin-top: -10px;
 }
 .accordion-faq .accordion-item {
   border: 0;
@@ -1919,7 +1925,8 @@ a {
   }
 }
 .requisites-socsites {
-  margin-top: -10px;
+  margin-top: -12px !important;
+  margin-left: 10px;
 }
 .requisites-tg {
   width: 25.1875rem;
@@ -2127,7 +2134,8 @@ footer {
 .kazakhstan .steps-body {
   background: url(../assets/image/step-bg.png), linear-gradient(264.89deg, #7BD5EB 0%, #57A4D0 100%);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: bottom right;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -2347,7 +2355,7 @@ footer {
 }
 
 .btn-blue-dark {
-  background: #4497B3;
+  background: #0089EE;
   border-radius: 0.25rem;
   padding: 1rem 1.25rem;
   font-weight: 600;
@@ -2359,7 +2367,7 @@ footer {
 }
 .btn-blue-dark:hover {
   color: #FFFFFF;
-  background: #4eaccc;
+  background: #1EA7FF;
 }
 
 .bakai-card .header-body {
@@ -2472,6 +2480,66 @@ footer {
 
 .row-steps-header {
   padding-left: 2.1875rem;
+}
+
+.menu-soc-site-icon {
+  transition: 0.3s;
+}
+.menu-soc-site-icon:hover {
+  transform: scale(1.1);
+}
+
+.tel-block-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tel-block-menu a {
+  transition: 0.3s;
+}
+.tel-block-menu:hover a {
+  color: #0089EE !important;
+}
+
+.soc-site-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 21px;
+}
+.soc-site-icon img {
+  transition: 0.2s;
+}
+.soc-site-icon:hover img {
+  transform: scale(1.2);
+}
+.soc-site-icon.whatsapp {
+  background: #51C941;
+}
+.soc-site-icon.tg {
+  background: #65A6E7;
+}
+
+.btn-about {
+  transition: 0.3s;
+  color: #1E4165;
+}
+.btn-about:hover {
+  background: #6EBCE6 !important;
+  color: #fff !important;
+}
+
+.btn-download:hover {
+  background: #4497B3 !important;
+}
+
+.btn-about-white:hover {
+  background: #7BA5BC !important;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */

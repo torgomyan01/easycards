@@ -48,7 +48,7 @@
 
         <nav class="navbar">
           <a href="#cards" class="me-4">Карты</a>
-          <a href="#map-comparison" class="me-4">Сравнение карт</a>
+          <a href="#map-comparison" class="me-4 active">Сравнение карт</a>
           <a href="#visa-master" class="me-4">Возможности</a>
           <a href="#steps" class="me-4">Шаги открытия</a>
           <a href="#faq" class="me-4">FAQ</a>
@@ -57,13 +57,23 @@
       </div>
 
       <div class="icons d-flex align-items-center ms-5">
-        <a href="#"><i class="fa-light fa-phone me-3"></i></a>
-        <div class="contact mt-2 me-3">
-          <a href="tel:8 800 250-52-96 ">8 800 250-52-96 </a> <br>
-          <span class="text-nowrap">Бесплатная консультация</span>
+        <div class="tel-block-menu">
+          <img src="assets/image/Phone.png" alt="Phone" class="me-1">
+          <div class="contact mt-2 me-3">
+            <a href="tel:8 800 250-52-96 ">8 800 250-52-96 </a> <br>
+            <span class="text-nowrap">Бесплатная консультация</span>
+          </div>
         </div>
-        <a href="#"><i class="fa-brands fa-telegram me-3"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="me-2">
+          <div class="soc-site-icon tg">
+            <img src="assets/image/tg.svg" alt="wp-tg" style="margin-left: -3px;">
+          </div>
+        </a>
+        <a href="#">
+          <div class="soc-site-icon whatsapp">
+            <img src="assets/image/wp-app.svg" alt="wp-app">
+          </div>
+        </a>
       </div>
 
       <div id="menu-bar" class="menu-bar">
@@ -1034,10 +1044,10 @@
         <button class="btn-lightblue available-btn ">Шаги открытия</button>
 
         <div class="row justify-content-between align-items-start mt-5">
-          <div class="col-12 col-md-8 ">
+          <div class="col-12 col-md-8 ps-0">
             <h3 class="def-title mt-0">5 простых шагов до открытия <br> иностранной карты</h3>
           </div>
-          <div class="col-12 col-md-4 sub">
+          <div class="col-12 col-md-4  ps-0 sub">
             <p class="def-subtitle mt-0">Пользуйся картой сразу после получения. Осуществляй быстрые переводы, покупки, оплату коммунальных услуг и многое другое</p>
           </div>
         </div>
@@ -1286,8 +1296,11 @@
 
       <div class="button">
         <div>
-        <button class="btn-blue btn-users" >Подробнее на <img src="./assets/image/users-btn.png" alt="#"></button>
-        <p>На Отзовике с июня 2022 года</p>
+          <button class="btn-blue btn-users d-flex justify-content-center align-items-center" >
+            Подробнее на
+            <img src="./assets/image/users-btn.png" alt="#">
+          </button>
+          <p>На Отзовике с июня 2022 года</p>
         </div>
       </div>
 
@@ -1416,7 +1429,7 @@
 
 
           <div class="requisites-item item-7">
-            <button class="btn btn-white w-auto">
+            <button class="btn btn-white w-auto btn-download">
               <i class="fa-regular fa-arrow-down-to-bracket me-2"></i>
               Скачать договор
             </button>
