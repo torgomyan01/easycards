@@ -38,8 +38,8 @@
 }
 @media (max-width: 350px) {
   .about-cards .about-container .startop {
-    left: 80%;
-    top: 58%;
+    left: 84%;
+    top: 63%;
   }
 }
 .about-cards .about-container .starleft {
@@ -92,8 +92,8 @@
 }
 @media (max-width: 350px) {
   .about-cards .about-container .starright {
-    left: 35%;
-    top: 60%;
+    left: 33%;
+    top: 62%;
   }
 }
 .about-cards .about-container .content {
@@ -189,7 +189,7 @@
 }
 @media (max-width: 350px) {
   .about-cards .about-container .content .content-title .buttons {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 }
 .about-cards .about-container .content .content-title .buttons .btn-about {
@@ -297,7 +297,7 @@
     background: url("../assets/image/bag-users-480.png") no-repeat center;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 350px) {
   .users .users-container {
     background: url("../assets/image/bag-users-360.png") no-repeat center;
   }
@@ -313,6 +313,18 @@
 @media (max-width: 768px) {
   .users .users-container .content {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  .users .users-container .content .content-title {
+    position: relative;
+    top: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .users .users-container .content .content-title {
+    position: relative;
+    top: 2rem;
   }
 }
 .users .users-container .content .content-title .users-heading {
@@ -331,6 +343,7 @@
 }
 @media (max-width: 768px) {
   .users .users-container .content .content-title .users-title {
+    margin-top: 2rem;
     width: 60%;
     margin-bottom: 0;
   }
@@ -349,6 +362,7 @@
 }
 @media (max-width: 768px) {
   .users .users-container .content .content-title2 {
+    margin-top: -2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -404,15 +418,16 @@
     top: -2rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 350px) {
   .users .users-container .content .content-title2 .box {
     margin-right: 4rem;
     position: relative;
-    top: 16.5rem;
+    top: 13.5rem;
   }
   .users .users-container .content .content-title2 .box:last-child {
-    margin-right: 0;
-    top: 4rem;
+    margin-right: 2rem;
+    top: 3rem;
+    left: -4.5rem;
   }
 }
 .users .users-container .content .content-title2 .box h2 {
@@ -427,12 +442,29 @@
   top: -2rem;
   left: -1.4rem;
 }
+@media (max-width: 350px) {
+  .users .users-container .content .content-title2 .box h2 span {
+    display: none;
+  }
+}
 .users .users-container .content .content-title2 .box span {
   color: #BAE1FF;
   font-weight: 600;
   margin-top: -1rem;
   font-size: 1rem;
   line-height: 140%;
+}
+@media (max-width: 768px) {
+  .users .users-container .content .content-title2 .box span {
+    position: relative;
+    top: -1rem;
+  }
+}
+@media (max-width: 350px) {
+  .users .users-container .content .content-title2 .box span {
+    position: relative;
+    top: 0rem;
+  }
 }
 .users .users-container .button {
   display: -webkit-box;
@@ -447,7 +479,7 @@
 @media (max-width: 768px) {
   .users .users-container .button {
     position: relative;
-    top: 1rem;
+    top: -1rem;
   }
 }
 @media (max-width: 480px) {
@@ -461,13 +493,14 @@
     margin-top: 17rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 350px) {
   .users .users-container .button {
-    margin-top: 23rem;
+    margin-top: 17rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-right: 0;
+    position: relative;
+    left: -2rem;
     width: 290px;
   }
 }
@@ -484,7 +517,7 @@
   font-size: 14px;
   line-height: 160%;
   color: #BAE1FF;
-  margin-left: 3.9375rem;
+  margin-left: 3.6rem;
   margin-top: 0.7rem;
 }
 @media (max-width: 480px) {
