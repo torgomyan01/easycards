@@ -746,7 +746,7 @@
   color: #fff !important;
 }
 .kirghizia .about-cards .about-container .content .content-image {
-  bottom: -4.9%;
+  bottom: -8%;
 }
 @media (max-width: 1024px) {
   .kirghizia .about-cards .about-container .content .content-image {
@@ -902,9 +902,13 @@
     padding: 1.5rem 6rem;
   }
 }
+.kazakhstan .about-cards .content-image {
+  bottom: -8% !important;
+}
 @media (max-width: 1024px) {
   .kazakhstan .about-cards .content-image {
     right: -5%;
+    bottom: 0 !important;
   }
 }
 @media (max-width: 1024px) {
@@ -985,7 +989,7 @@
 .bakai-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
-  bottom: -7.5%;
+  bottom: -9.4%;
 }
 @media (max-width: 1200px) {
   .bakai-card .about-cards .about-container .content .content-image {
@@ -1217,7 +1221,7 @@
 .freedom-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
-  bottom: -6%;
+  bottom: -7.7%;
 }
 @media (max-width: 1200px) {
   .freedom-card .about-cards .about-container .content .content-image {
@@ -1448,7 +1452,7 @@
 .optimal-card .about-cards .about-container .content .content-image {
   position: absolute;
   right: 1.6rem;
-  bottom: -7.5%;
+  bottom: -9.4%;
 }
 @media (max-width: 1200px) {
   .optimal-card .about-cards .about-container .content .content-image {

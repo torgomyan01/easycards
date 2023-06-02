@@ -586,7 +586,6 @@ $menuContent: 1372px;
 .guarantee{
   margin-top: 5rem;
   padding: 0 1rem;
-  margin-bottom: 11rem;
   @media (max-width: 1024px){
     margin-bottom: 0;
   }
@@ -681,12 +680,14 @@ $menuContent: 1372px;
 
 .available-cards{
   margin-top: 1rem !important;
+  position: relative;
+  top: 4rem;
   background: url("../assets/image/bg_stars.png") no-repeat -14rem -14rem;
   background-size: contain;
   padding: 0 1rem;
-  position: relative;
   @media (max-width: 1024px) {
     margin-top: 8rem !important;
+    top: 0;
   }
 
   @media (min-width: 768px) {
