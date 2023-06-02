@@ -272,9 +272,9 @@
   padding: 0 1rem;
 }
 .users .users-container {
-  background: url("../assets/image/bag-users-1248.png") no-repeat center;
+  background: url("../assets/image/bag-users-1248.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
   min-height: 22.8125rem;
-  background-size: contain;
+  background-size: 100% 100%;
   padding: 2.5rem 0.5rem 3rem 3rem;
   border-radius: 1rem;
 }
