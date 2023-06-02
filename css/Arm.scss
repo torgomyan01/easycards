@@ -13,6 +13,71 @@
     background-size: contain;
     border-radius: 0.75rem;
 
+    .startop{
+      position: absolute;
+      left: 49%;
+      top: 12%;
+      @media (max-width: 1024px) {
+        left: 54%;
+        top: 48%;
+      }
+      @media (max-width: 768px) {
+        left: 90%;
+        top: 6%;
+      }
+      @media (max-width: 480px) {
+        left: 80%;
+        top: 35%;
+        width: 28px;
+        height: 28px;
+      }
+      @media (max-width: 350px) {
+        left: 80%;
+        top: 58%;
+      }
+    }
+
+    .starleft{
+      position: absolute;
+      left: 8%;
+      top: 87%;
+      @media (max-width: 768px) {
+        left: 45%;
+        top: 25%;
+      }
+      @media (max-width: 480px) {
+        left: 35%;
+        top: 55%;
+      }
+      @media (max-width: 350px) {
+        left: 90%;
+        top: 5%;
+      }
+    }
+
+    .starright{
+      position: absolute;
+      left: 95%;
+      top: 85%;
+      @media (max-width: 1024px) {
+          display: none;
+      }
+      @media (max-width: 768px) {
+        display: initial;
+        left: 40%;
+        top: 85%;
+      }
+      @media (max-width: 480px) {
+        left: 90%;
+        top: 90%;
+        width: 12px;
+        height: 12px;
+      }
+      @media (max-width: 350px) {
+        left: 35%;
+        top: 60%;
+      }
+    }
 
     .content {
       position: relative;
@@ -53,9 +118,11 @@
           margin-bottom: 1.5rem;
           @media (max-width: 768px) {
             padding-right: 35rem;
+            font-size: 44px;
           }
           @media (max-width: 480px) {
             padding-right: 0;
+            font-size: 32px;
           }
         }
 
@@ -66,14 +133,30 @@
             padding-right: 30rem;
           }
           @media (max-width: 768px) {
-            padding-right: 25rem;
+            width: 660px;
           }
           @media (max-width: 480px) {
             padding-right: 0;
+            width: 370px;
+            color: #BAE1FF;
+          }
+          @media (max-width: 350px) {
+            padding-right: 0;
+            width: 280px;
           }
         }
 
         .buttons {
+          @media (max-width: 768px) {
+            margin-left: -1rem  ;
+          }
+          @media (max-width: 480px) {
+              margin-bottom: -3.125rem !important ;
+              margin-left: 0 ;
+          }
+          @media (max-width: 350px) {
+            margin-left: 2rem;
+          }
           .btn-about {
             margin-right: 1rem;
             background: #fff;
@@ -102,6 +185,7 @@
         @media (max-width: 1200px) {
           right: 1rem;
         }
+
         @media (max-width: 1024px) {
           right: -11px;
         }
