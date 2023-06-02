@@ -2287,12 +2287,26 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 350px) {
+  .check-bank img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
 .check-bank-title {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 120%;
   color: #1E1E1E;
   margin-top: 40px;
+}
+@media (max-width: 350px) {
+  .check-bank-title {
+    position: relative;
+    font-size: 1.2rem;
+    top: -15.5rem;
+    text-align: center;
+  }
 }
 .check-bank-subtitle {
   font-weight: 600;

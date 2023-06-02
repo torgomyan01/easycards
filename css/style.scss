@@ -2197,6 +2197,10 @@ footer{
     @media (max-width: 576px){
       width: 100%;
     }
+    @media (max-width: 350px){
+      width: 100%;
+      margin-top: 1rem;
+    }
   }
   &-title{
     font-weight: 500;
@@ -2204,7 +2208,12 @@ footer{
     line-height: 120%;
     color: #1E1E1E;
     margin-top: 40px;
-
+    @media (max-width: 350px) {
+      position: relative;
+      font-size: 1.2rem;
+      top: -15.5rem;
+      text-align: center;
+    }
   }
   &-subtitle{
     font-weight: 600;

@@ -32,8 +32,8 @@
   .about-cards .about-container .startop {
     left: 80%;
     top: 35%;
-    width: 28px;
-    height: 28px;
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }
 @media (max-width: 350px) {
@@ -86,8 +86,8 @@
   .about-cards .about-container .starright {
     left: 90%;
     top: 90%;
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
   }
 }
 @media (max-width: 350px) {
@@ -140,13 +140,13 @@
 @media (max-width: 768px) {
   .about-cards .about-container .content .content-title .about-heading {
     padding-right: 35rem;
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 }
 @media (max-width: 480px) {
   .about-cards .about-container .content .content-title .about-heading {
     padding-right: 0;
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 .about-cards .about-container .content .content-title .about-title {
@@ -166,14 +166,14 @@
 @media (max-width: 480px) {
   .about-cards .about-container .content .content-title .about-title {
     padding-right: 0;
-    width: 370px;
+    width: 23.125rem;
     color: #BAE1FF;
   }
 }
 @media (max-width: 350px) {
   .about-cards .about-container .content .content-title .about-title {
     padding-right: 0;
-    width: 280px;
+    width: 17.5rem;
   }
 }
 @media (max-width: 768px) {
@@ -382,7 +382,7 @@
   }
 }
 .users .users-container .content .content-title2 .box {
-  width: 160px;
+  width: 10rem;
   margin-right: 6.25rem;
 }
 .users .users-container .content .content-title2 .box:last-child {
@@ -501,7 +501,7 @@
     justify-content: center;
     position: relative;
     left: -2rem;
-    width: 290px;
+    width: 18.125rem;
   }
 }
 .users .users-container .button .btn-users {
@@ -514,7 +514,7 @@
 .users .users-container .button p {
   font-style: italic;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 160%;
   color: #BAE1FF;
   margin-left: 3.6rem;
@@ -679,6 +679,11 @@
     margin-top: 0.8rem;
   }
 }
+@media (max-width: 21.875rem) {
+  .kirghizia .available-cards .price-btn .check-price {
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 480px) {
   .kirghizia .available-cards .buttons {
     display: -webkit-box;
@@ -706,9 +711,9 @@
 @media (max-width: 360px) {
   .kirghizia .available-cards .buttons button {
     display: block;
-    margin-bottom: 10px !important;
+    text-align: center;
+    margin-bottom: 0.625rem !important;
     width: 100% !important;
-    padding: 1.5rem 6rem;
   }
 }
 .kirghizia .map-comparison .fa-circle-check {
@@ -870,6 +875,11 @@
     margin-top: 0.8rem;
   }
 }
+@media (max-width: 21.875rem) {
+  .kazakhstan .available-cards .price-btn .check-price {
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 480px) {
   .kazakhstan .available-cards .buttons {
     display: -webkit-box;
@@ -897,9 +907,9 @@
 @media (max-width: 360px) {
   .kazakhstan .available-cards .buttons button {
     display: block;
-    margin-bottom: 10px !important;
+    margin-bottom: 0.625rem !important;
     width: 100% !important;
-    padding: 1.5rem 6rem;
+    text-align: center;
   }
 }
 .kazakhstan .about-cards .content-image {
@@ -973,11 +983,20 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
   }
 }
 .bakai-card .about-cards .about-container .content .content-title .about-title {
   color: #7BA5BC;
+}
+@media (max-width: 768px) {
+  .bakai-card .about-cards .about-container .content .content-title .about-title {
+    width: 800px;
+  }
+}
+@media (max-width: 30rem) {
+  .bakai-card .about-cards .about-container .content .content-title .about-title {
+    width: auto;
+  }
 }
 .bakai-card .about-cards .about-container .content .content-title .buttons .btn-about {
   color: #1E4165 !important;
@@ -999,19 +1018,19 @@
 }
 @media (max-width: 1024px) {
   .bakai-card .about-cards .about-container .content .content-image {
-    right: 0;
+    right: -5rem;
     bottom: 0;
   }
 }
 @media (max-width: 768px) {
   .bakai-card .about-cards .about-container .content .content-image {
-    position: unset;
+    right: -10rem;
+    bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
   }
 }
 @media (max-width: 480px) {
@@ -1023,6 +1042,12 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+@media (max-width: 21.875rem) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    position: relative;
+    right: -4rem;
   }
 }
 .bakai-card .faq .fa-minus {
@@ -1088,7 +1113,7 @@
 
 .btn-bakai-dark-blue {
   background: #1E4165;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   font-weight: 600;
   font-size: 1rem;
   line-height: 120%;
@@ -1205,11 +1230,20 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
   }
 }
 .freedom-card .about-cards .about-container .content .content-title .about-title {
   color: #A0D8A7;
+}
+@media (max-width: 768px) {
+  .freedom-card .about-cards .about-container .content .content-title .about-title {
+    width: 800px;
+  }
+}
+@media (max-width: 480px) {
+  .freedom-card .about-cards .about-container .content .content-title .about-title {
+    width: auto;
+  }
 }
 .freedom-card .about-cards .about-container .content .content-title .buttons .btn-about {
   color: #298B3F !important;
@@ -1237,7 +1271,8 @@
 }
 @media (max-width: 768px) {
   .freedom-card .about-cards .about-container .content .content-image {
-    position: unset;
+    right: -9rem;
+    bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1255,6 +1290,12 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+@media (max-width: 350px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    position: relative;
+    right: -5rem;
   }
 }
 .freedom-card .faq .fa-minus {
@@ -1324,7 +1365,7 @@
 
 .btn-bakai-dark-blue {
   background: #1E4165;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   font-weight: 600;
   font-size: 1rem;
   line-height: 120%;
@@ -1442,6 +1483,16 @@
 .optimal-card .about-cards .about-container .content .content-title .about-title {
   color: #FFD188;
 }
+@media (max-width: 768px) {
+  .optimal-card .about-cards .about-container .content .content-title .about-title {
+    width: 800px;
+  }
+}
+@media (max-width: 480px) {
+  .optimal-card .about-cards .about-container .content .content-title .about-title {
+    width: auto;
+  }
+}
 .optimal-card .about-cards .about-container .content .content-title .buttons .btn-about {
   color: #E37640 !important;
 }
@@ -1468,7 +1519,8 @@
 }
 @media (max-width: 768px) {
   .optimal-card .about-cards .about-container .content .content-image {
-    position: unset;
+    right: -8rem;
+    bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1486,6 +1538,12 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+@media (max-width: 350px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    position: relative;
+    right: -3rem;
   }
 }
 .optimal-card .faq .fa-minus {
