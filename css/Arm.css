@@ -10,6 +10,91 @@
   background-size: contain;
   border-radius: 0.75rem;
 }
+.about-cards .about-container .startop {
+  position: absolute;
+  left: 49%;
+  top: 12%;
+}
+@media (max-width: 1024px) {
+  .about-cards .about-container .startop {
+    left: 54%;
+    top: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .about-cards .about-container .startop {
+    left: 90%;
+    top: 6%;
+  }
+}
+@media (max-width: 480px) {
+  .about-cards .about-container .startop {
+    left: 80%;
+    top: 35%;
+    width: 28px;
+    height: 28px;
+  }
+}
+@media (max-width: 350px) {
+  .about-cards .about-container .startop {
+    left: 80%;
+    top: 58%;
+  }
+}
+.about-cards .about-container .starleft {
+  position: absolute;
+  left: 8%;
+  top: 87%;
+}
+@media (max-width: 768px) {
+  .about-cards .about-container .starleft {
+    left: 45%;
+    top: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .about-cards .about-container .starleft {
+    left: 35%;
+    top: 55%;
+  }
+}
+@media (max-width: 350px) {
+  .about-cards .about-container .starleft {
+    left: 90%;
+    top: 5%;
+  }
+}
+.about-cards .about-container .starright {
+  position: absolute;
+  left: 95%;
+  top: 85%;
+}
+@media (max-width: 1024px) {
+  .about-cards .about-container .starright {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .about-cards .about-container .starright {
+    display: initial;
+    left: 40%;
+    top: 85%;
+  }
+}
+@media (max-width: 480px) {
+  .about-cards .about-container .starright {
+    left: 90%;
+    top: 90%;
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .about-cards .about-container .starright {
+    left: 35%;
+    top: 60%;
+  }
+}
 .about-cards .about-container .content {
   position: relative;
   display: -webkit-box;
@@ -54,11 +139,13 @@
 @media (max-width: 768px) {
   .about-cards .about-container .content .content-title .about-heading {
     padding-right: 35rem;
+    font-size: 44px;
   }
 }
 @media (max-width: 480px) {
   .about-cards .about-container .content .content-title .about-heading {
     padding-right: 0;
+    font-size: 32px;
   }
 }
 .about-cards .about-container .content .content-title .about-title {
@@ -72,12 +159,36 @@
 }
 @media (max-width: 768px) {
   .about-cards .about-container .content .content-title .about-title {
-    padding-right: 25rem;
+    width: 660px;
   }
 }
 @media (max-width: 480px) {
   .about-cards .about-container .content .content-title .about-title {
     padding-right: 0;
+    width: 370px;
+    color: #BAE1FF;
+  }
+}
+@media (max-width: 350px) {
+  .about-cards .about-container .content .content-title .about-title {
+    padding-right: 0;
+    width: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .about-cards .about-container .content .content-title .buttons {
+    margin-left: -1rem;
+  }
+}
+@media (max-width: 480px) {
+  .about-cards .about-container .content .content-title .buttons {
+    margin-bottom: -3.125rem !important;
+    margin-left: 0;
+  }
+}
+@media (max-width: 350px) {
+  .about-cards .about-container .content .content-title .buttons {
+    margin-left: 2rem;
   }
 }
 .about-cards .about-container .content .content-title .buttons .btn-about {
