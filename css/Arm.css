@@ -272,31 +272,36 @@
   padding: 0 1rem;
 }
 .users .users-container {
-  background: url("../assets/image/bag-users-1248.svg"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+  background: url("../assets/image/bag-users-1248.svg"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) center;
   min-height: 22.8125rem;
   background-size: 100% 100%;
   padding: 2.5rem 0.5rem 3rem 3rem;
   border-radius: 1rem;
+  background-repeat: no-repeat;
 }
 @media (max-width: 1024px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-1024.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+    background: url("../assets/image/bag-users-1024.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) center;
+    background-repeat: no-repeat;
   }
 }
 @media (max-width: 768px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-768.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+    background: url("../assets/image/bag-users-768.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) center;
+    background-repeat: no-repeat;
   }
 }
 @media (max-width: 480px) {
   .users .users-container {
     padding-bottom: 0;
-    background: url("../assets/image/bag-users-480.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+    background: url("../assets/image/bag-users-480.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) center;
+    background-repeat: no-repeat;
   }
 }
 @media (max-width: 350px) {
   .users .users-container {
-    background: url("../assets/image/bag-users-360.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) no-repeat center;
+    background: url("../assets/image/bag-users-360.png"), linear-gradient(93.31deg, #51B6FF 0%, #007FE4 100%) center;
+    background-repeat: no-repeat;
   }
 }
 .users .users-container .content {
@@ -315,7 +320,7 @@
 @media (max-width: 768px) {
   .users .users-container .content .content-title {
     position: relative;
-    top: 2rem;
+    top: 1rem;
   }
 }
 @media (max-width: 350px) {
@@ -1116,7 +1121,7 @@
   top: 5rem;
   right: 2rem;
 }
-@media (max-width: 1228px) {
+@media (max-width: 1024px) {
   .bakai-header-card {
     width: 34.25rem;
     right: 0;
@@ -1367,25 +1372,6 @@
 @media (max-width: 1100px) {
   .bakai-header-bg {
     display: none;
-  }
-}
-
-.bakai-header-card {
-  position: absolute;
-  top: 5rem;
-  right: 2rem;
-}
-@media (max-width: 1228px) {
-  .bakai-header-card {
-    width: 34.25rem;
-    right: 0;
-    top: unset;
-    bottom: -10rem;
-  }
-}
-@media (max-width: 576px) {
-  .bakai-header-card {
-    width: 100%;
   }
 }
 
