@@ -192,9 +192,13 @@
     margin-left: 2rem;
   }
 }
+.about-cards .about-container .content .content-title .buttons .btn-a:hover {
+  background: #0089EE !important;
+  color: #fff;
+}
 .about-cards .about-container .content .content-title .buttons .btn-about {
   margin-right: 1rem;
-  background: #fff;
+  background: white;
 }
 @media (max-width: 768px) {
   .about-cards .about-container .content .content-title .buttons .btn-about {
@@ -607,14 +611,14 @@
 .kirghizia .header-body .header-description {
   color: #FFD188;
 }
-.kirghizia .header-body .btn-white {
+.kirghizia .header-body .btn-whites {
   color: #E37640;
   background: #fff;
   -webkit-transition: 0.3s lianer;
   transition: 0.3s lianer;
 }
-.kirghizia .header-body .btn-white:hover {
-  background: #b24c17;
+.kirghizia .header-body .btn-whites:hover {
+  background: #E37640;
   color: #fff;
 }
 .kirghizia .guarantee .guarantee-container .guarantee-content .content .title-top span {
@@ -655,7 +659,7 @@
   color: white;
 }
 .kirghizia .available-cards .btn-blue-dark:hover {
-  background: #e78558;
+  background: #F78A54;
 }
 @media (max-width: 360px) {
   .kirghizia .available-cards .check-bank-subtitle {
@@ -746,6 +750,13 @@
   color: #BAE1FF;
   font-weight: 600;
 }
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about {
+  color: #4497B3 !important;
+}
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about:hover {
+  background: #4497B3;
+  color: #fff !important;
+}
 .kirghizia .about-cards .about-container .content .content-image {
   bottom: -8%;
 }
@@ -800,7 +811,7 @@
   background: #E37640;
 }
 .kirghizia .footer-bg .btn-blue-dark:hover {
-  background: #f19a6d;
+  background: #F78A54;
 }
 .kirghizia .footer-bg .btn-white {
   color: #E37640;
@@ -813,6 +824,9 @@
   color: #FFD188;
 }
 
+.kazakhstan .btn-transparent:hover {
+  color: #4497B3;
+}
 .kazakhstan .btn-lightblue {
   color: #4497B3 !important;
 }
@@ -900,6 +914,14 @@
     flex-direction: column;
   }
 }
+.kazakhstan .available-cards .buttons .btn-blue-dark {
+  background: #4497B3;
+  color: #fff;
+}
+.kazakhstan .available-cards .buttons .btn-blue-dark:hover {
+  background: #58ABC7;
+  color: #fff;
+}
 @media (max-width: 360px) {
   .kazakhstan .available-cards .buttons button {
     display: block;
@@ -930,12 +952,24 @@
   padding-top: 0.1rem;
   padding-left: 0.5rem;
 }
+.kazakhstan .footer-bg .btn-blue-dark {
+  background: #4497B3;
+  color: #fff;
+}
+.kazakhstan .footer-bg .btn-blue-dark:hover {
+  background: #58ABC7;
+  color: #fff;
+}
 .kazakhstan .footer-bg .btn-white:hover {
   background: #4497B3;
 }
 
 .bakai-card .btn-lightblue {
   color: #1E4165 !important;
+}
+.bakai-card .btn-lightblue:hover {
+  background: #7BA5BC;
+  color: #fff;
 }
 .bakai-card .guarantee .bakai-card-span {
   color: #1E4165 !important;
@@ -981,6 +1015,11 @@
     -ms-flex-direction: column;
   }
 }
+@media (max-width: 755px) {
+  .bakai-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
 .bakai-card .about-cards .about-container .content .content-title .about-title {
   color: #7BA5BC;
 }
@@ -1022,6 +1061,17 @@
     -ms-flex-pack: center;
   }
 }
+@media (max-width: 750px) {
+  .bakai-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 480px) {
   .bakai-card .about-cards .about-container .content .content-image {
     position: unset;
@@ -1033,7 +1083,7 @@
     justify-content: center;
   }
 }
-@media (max-width: 21.875rem) {
+@media (max-width: 350px) {
   .bakai-card .about-cards .about-container .content .content-image {
     position: relative;
     right: -4rem;
@@ -1053,10 +1103,10 @@
   color: #fff !important;
 }
 .bakai-card .footer-bg .btn-blue-dark:hover {
-  background: #6b9bcb !important;
+  background: #7BA5BC !important;
 }
 .bakai-card .footer-bg .btn-white:hover {
-  background: #4497B3 !important;
+  background: #7BA5BC !important;
   color: #fff !important;
 }
 
@@ -1212,6 +1262,11 @@
     -ms-flex-direction: column;
   }
 }
+@media (max-width: 750px) {
+  .freedom-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
 .freedom-card .about-cards .about-container .content .content-title .about-title {
   color: #A0D8A7;
 }
@@ -1261,6 +1316,17 @@
     justify-content: center;
   }
 }
+@media (max-width: 750px) {
+  .freedom-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 480px) {
   .freedom-card .about-cards .about-container .content .content-image {
     position: unset;
@@ -1299,7 +1365,7 @@
   color: #298B3F;
 }
 .freedom-card .footer-bg .btn-white:hover {
-  background: #49b65f !important;
+  background: #47A95D !important;
   color: #FFFFFF;
 }
 
@@ -1441,6 +1507,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 750px) {
+  .optimal-card .about-cards .about-container .content {
+    flex-direction: column;
+  }
+}
 .optimal-card .about-cards .about-container .content .content-title .about-title {
   color: #FFD188;
 }
@@ -1490,6 +1561,17 @@
     justify-content: center;
   }
 }
+@media (max-width: 750px) {
+  .optimal-card .about-cards .about-container .content .content-image {
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 480px) {
   .optimal-card .about-cards .about-container .content .content-image {
     position: unset;
@@ -1530,6 +1612,55 @@
 .optimal-card .footer-bg .btn-white:hover {
   background: #E37640 !important;
   color: #fff !important;
+}
+
+.modal {
+  width: 439px;
+}
+.modal .modal-content .modal-header {
+  position: relative !important;
+}
+.modal .modal-content .modal-header .modal-text {
+  display: block !important;
+}
+.modal .modal-content .modal-header .modal-text .modal-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #1E1E1E;
+  margin-bottom: 1rem;
+}
+.modal .modal-content .modal-header .modal-text .modal-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #A8B8C5;
+  margin-left: 0.2rem;
+}
+.modal .modal-content .modal-header .btn-close {
+  position: absolute !important;
+  top: 38px;
+  right: 46px;
+  color: #A8B8C5 !important;
+}
+.modal .modal-content .modal-body {
+  border: none !important;
+}
+.modal .modal-content .modal-body .input-box {
+  margin-bottom: 10px;
+}
+.modal .modal-content .modal-body .input-box input {
+  width: 90%;
+  background: #F4F7FF;
+  border-radius: 8px;
+  padding: 0 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #A8B8C5;
 }
 
 /*# sourceMappingURL=Arm.css.map */

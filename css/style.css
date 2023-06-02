@@ -2086,7 +2086,7 @@ a {
 }
 
 .btn-white {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.5rem;
   width: 14.1875rem;
   background: #FFFFFF;
   border-radius: 0.25rem;
@@ -2599,7 +2599,7 @@ footer {
   color: #1E4165;
 }
 .btn-about:hover {
-  background: #6EBCE6 !important;
+  background: #7BA5BC !important;
   color: #fff !important;
 }
 
