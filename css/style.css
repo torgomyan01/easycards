@@ -525,7 +525,7 @@ a {
 @media (max-width: 1024px) {
   .cards .cards-backgraund .cards-container .card-image .cards1024 {
     width: 700px;
-    height: 640px;
+    margin-top: 19rem;
   }
 }
 @media (max-width: 768px) {
@@ -544,7 +544,7 @@ a {
 @media (max-width: 480px) {
   .cards .cards-backgraund .cards-container .card-image .cards768 {
     display: initial;
-    bottom: -60px;
+    bottom: -80px;
     position: relative;
   }
 }
