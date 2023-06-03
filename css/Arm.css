@@ -533,6 +533,9 @@
   }
 }
 
+.kirghizia .table .table-td, .kirghizia .table .table-th {
+  width: calc((100% / 12) * 4 - 0rem);
+}
 @media (max-width: 855px) {
   .kirghizia .header .kazakhstan-header-card-freedom {
     top: 19.0625rem !important;

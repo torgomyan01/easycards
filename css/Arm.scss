@@ -509,6 +509,11 @@
 
 .kirghizia {
 
+  .table{
+    .table-td, .table-th{
+      @include col(4);
+    }
+  }
 
   // header
 
