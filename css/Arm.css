@@ -753,11 +753,11 @@
   color: #BAE1FF;
   font-weight: 600;
 }
-.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about {
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about-kirgiz {
   color: #4497B3 !important;
 }
-.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about:hover {
-  background: #4497B3;
+.kirghizia .about-cards .about-container .content .content-title .buttons .btn-about-kirgiz:hover {
+  background: #6EBCE6 !important;
   color: #fff !important;
 }
 .kirghizia .about-cards .about-container .content .content-image {

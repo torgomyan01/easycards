@@ -6,6 +6,7 @@ const { none, show, active } = {
 const Button = $('.btn-sign')
 const menu_bar = document.getElementById("menu-bar" )
 const navbar = document.querySelector('.navbar')
+const mod_icnon = document.querySelectorAll('#staticBackdrop .mod-icon')
 
 AOS.init();
 
@@ -40,6 +41,19 @@ Button.on('click', function (){
 menu_bar.addEventListener('click', ()=>{
     navbar.classList.toggle('active');
     menu_bar.classList.toggle('active');
+})
+
+function  clearactive(){
+    mod_icnon.forEach(mod =>{
+        mod.classList.remove('active')
+    })
+}
+
+mod_icnon.forEach(mod =>{
+    mod.addEventListener('click', ()=>{
+        clearactive()
+        mod.classList.add('active')
+    })
 })
 
 

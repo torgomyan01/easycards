@@ -2151,7 +2151,7 @@ footer {
   width: 100%;
 }
 .kazakhstan .about-cards {
-  margin-top: 10rem;
+  margin-top: 13.5rem;
 }
 @media (max-width: 683px) {
   .kazakhstan .about-cards .about-container .content {
@@ -2586,11 +2586,17 @@ footer {
 .soc-site-icon.phone {
   background: #A8B8C5;
 }
+.soc-site-icon.phone.active {
+  background: #0089EE;
+}
 .soc-site-icon.phone:hover {
   background: #0089EE;
 }
 .soc-site-icon.whats {
   background: #A8B8C5;
+}
+.soc-site-icon.whats.active {
+  background: #50C941;
 }
 .soc-site-icon.whats:hover {
   background: #50C941;
@@ -2598,11 +2604,17 @@ footer {
 .soc-site-icon.teleg {
   background: #A8B8C5;
 }
+.soc-site-icon.teleg.active {
+  background: #65A6E7;
+}
 .soc-site-icon.teleg:hover {
   background: #65A6E7;
 }
 .soc-site-icon.viber {
   background: #A8B8C5;
+}
+.soc-site-icon.viber.active {
+  background: #665CAC;
 }
 .soc-site-icon.viber:hover {
   background: #665CAC;
@@ -2682,6 +2694,7 @@ footer {
   display: flex;
 }
 #staticBackdrop .mod-icon {
+  cursor: pointer;
   margin-right: 12px;
 }
 #staticBackdrop .mod-icon:last-child {
