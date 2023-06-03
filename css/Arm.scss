@@ -1941,68 +1941,67 @@
 }
 
 
-
-/// MODAL
-
-.modal {
-  width: 439px;
-  .modal-content {
-
-    .modal-header {
-        position: relative !important;
-      .modal-text {
-        display: block !important;
-
-        .modal-title {
-          font-style: normal;
-          font-weight: 600;
-          font-size: 32px;
-          line-height: 110%;
-          color: #1E1E1E;
-          margin-bottom: 1rem;
-        }
-
-        .modal-subtitle {
-          font-style: normal;
-          font-weight: 600;
-          font-size: 16px;
-          line-height: 140%;
-          color: #A8B8C5;
-          margin-left: .2rem;
-        }
-
-      }
-
-      .btn-close {
-        position: absolute !important;
-        top: 38px;
-        right: 46px;
-        color: #A8B8C5 !important;
-      }
-    }
-
-
-    .modal-body{
-      border: none !important;
-
-      .input-box{
-        margin-bottom: 10px;
-        input{
-          width: 90%;
-          background: #F4F7FF;
-          border-radius: 8px;
-          padding: 0 16px;
-          border: none;
-          font-size: 16px;
-          font-weight: 600;
-          line-height: 140%;
-          color: #A8B8C5;
-        }
-      }
-
-
-    }
-
-  }
-
-}
+//
+///// MODAL
+//
+//.modal {
+//  .modal-content {
+//
+//    .modal-header {
+//        position: relative !important;
+//      .modal-text {
+//        display: block !important;
+//
+//        .modal-title {
+//          font-style: normal;
+//          font-weight: 600;
+//          font-size: 32px;
+//          line-height: 110%;
+//          color: #1E1E1E;
+//          margin-bottom: 1rem;
+//        }
+//
+//        .modal-subtitle {
+//          font-style: normal;
+//          font-weight: 600;
+//          font-size: 16px;
+//          line-height: 140%;
+//          color: #A8B8C5;
+//          margin-left: .2rem;
+//        }
+//
+//      }
+//
+//      .btn-close {
+//        position: absolute !important;
+//        top: 38px;
+//        right: 46px;
+//        color: #A8B8C5 !important;
+//      }
+//    }
+//
+//
+//    .modal-body{
+//      border: none !important;
+//
+//      .input-box{
+//        margin-bottom: 10px;
+//        input{
+//          width: 90%;
+//          background: #F4F7FF;
+//          border-radius: 8px;
+//          padding: 0 16px;
+//          border: none;
+//          font-size: 16px;
+//          font-weight: 600;
+//          line-height: 140%;
+//          color: #A8B8C5;
+//        }
+//      }
+//
+//
+//    }
+//
+//  }
+//
+//}

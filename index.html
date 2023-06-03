@@ -1510,33 +1510,33 @@
 </div>
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade show" style="display: block" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header border-0 p-0">
         <div class="modal-text">
-        <h5 class="modal-title" id="staticBackdropLabel">Оставить заявку</h5>
-        <p class="modal-subtitle" >Мы постараемся ответить вам в <br> кратчайшие сроки</p>
+          <h5 class="modal-title" id="staticBackdropLabel">Оставить заявку</h5>
+          <p class="modal-subtitle" >Мы постараемся ответить вам в <br> кратчайшие сроки</p>
         </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div class="input-box">
-          <input type="text">
+      <div class="modal-body p-0">
+        <div class="mb-3">
+          <label class="def-input">
+            <img src="assets/image/user-icon.svg" alt="user-icon">
+            <input type="text" placeholder="Ваш логин">
+          </label>
         </div>
-        <div class="input-box">
-          <input type="text">
+        <div>
+          <label class="def-input">
+            <img src="assets/image/phone-icon.svg" alt="phone-icon">
+            <input type="text" placeholder="Ваш логин">
+          </label>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+      <div class="modal-footer p-0 border-0 pt-4 pb-4">
+        <button type="button" class="btn-blue">Отправить заявку</button>
       </div>
     </div>
   </div>
