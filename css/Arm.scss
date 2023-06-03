@@ -806,14 +806,14 @@
           }
 
           .buttons {
-            .btn-about {
+            .btn-about-kirgiz{
               color: #4497B3 !important;
-
               &:hover {
-                background: #4497B3;
+                background: #6EBCE6 !important;
                 color: #fff !important;
               }
             }
+
           }
 
         }
@@ -990,7 +990,6 @@
   // available-cards
 
   .available-cards {
-
     .avalibe-star {
       top: 5.9% !important;
     }
