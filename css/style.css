@@ -2582,6 +2582,30 @@ footer {
 .soc-site-icon.tg {
   background: #65A6E7;
 }
+.soc-site-icon.phone {
+  background: #A8B8C5;
+}
+.soc-site-icon.phone:hover {
+  background: #0089EE;
+}
+.soc-site-icon.whats {
+  background: #A8B8C5;
+}
+.soc-site-icon.whats:hover {
+  background: #50C941;
+}
+.soc-site-icon.teleg {
+  background: #A8B8C5;
+}
+.soc-site-icon.teleg:hover {
+  background: #65A6E7;
+}
+.soc-site-icon.viber {
+  background: #A8B8C5;
+}
+.soc-site-icon.viber:hover {
+  background: #665CAC;
+}
 .soc-site-icon.transparent {
   background: transparent;
   border: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -2641,6 +2665,29 @@ footer {
 }
 #staticBackdrop .modal-body {
   margin-top: 24px;
+}
+#staticBackdrop .icons {
+  display: flex;
+  margin-top: 43px;
+}
+#staticBackdrop .icons-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #A8B8C5;
+}
+#staticBackdrop .icon {
+  display: flex;
+}
+#staticBackdrop .mod-icon {
+  margin-right: 12px;
+}
+#staticBackdrop .mod-icon:last-child {
+  margin-right: 0;
+}
+#staticBackdrop .modal-footer {
+  justify-content: start !important;
 }
 
 .def-input {

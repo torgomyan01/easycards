@@ -2469,6 +2469,30 @@ footer{
   &.tg{
     background: #65A6E7;
   }
+  &.phone{
+    background: #A8B8C5;
+    &:hover{
+      background: #0089EE;
+    }
+  }
+  &.whats{
+    background: #A8B8C5;
+    &:hover{
+      background:#50C941;
+    }
+  }
+  &.teleg{
+    background: #A8B8C5;
+    &:hover{
+      background: #65A6E7;
+    }
+  }
+  &.viber{
+    background: #A8B8C5;
+    &:hover{
+      background:#665CAC;
+    }
+  }
   &.transparent{
     background: transparent;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -2533,6 +2557,34 @@ footer{
   .modal-body{
     margin-top: 24px;
   }
+  .icons{
+    display: flex;
+    margin-top: 43px;
+  }
+
+  .icons-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #A8B8C5;
+  }
+
+  .icon{
+    display: flex;
+  }
+
+  .mod-icon{
+    margin-right: 12px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  .modal-footer{
+      justify-content: start !important;
+    }
+
 }
 
 .def-input{
