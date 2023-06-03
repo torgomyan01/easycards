@@ -2471,24 +2471,36 @@ footer{
   }
   &.phone{
     background: #A8B8C5;
+    &.active{
+      background: #0089EE;
+    }
     &:hover{
       background: #0089EE;
     }
   }
   &.whats{
     background: #A8B8C5;
+    &.active{
+      background:#50C941;
+    }
     &:hover{
       background:#50C941;
     }
   }
   &.teleg{
     background: #A8B8C5;
+    &.active{
+      background: #65A6E7;
+    }
     &:hover{
       background: #65A6E7;
     }
   }
   &.viber{
     background: #A8B8C5;
+    &.active{
+      background:#665CAC;
+    }
     &:hover{
       background:#665CAC;
     }
@@ -2575,6 +2587,7 @@ footer{
   }
 
   .mod-icon{
+    cursor: pointer;
     margin-right: 12px;
     &:last-child{
       margin-right: 0;
