@@ -2700,6 +2700,11 @@ footer {
   align-items: center;
   padding-left: 21px;
   padding-right: 10px;
+  border: 1.5px solid transparent;
+  transition: 0.3s;
+}
+.def-input:hover {
+  border: 1.5px solid #A8B8C5;
 }
 .def-input img {
   margin-right: 16px;
