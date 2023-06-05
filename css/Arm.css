@@ -636,12 +636,12 @@
 .kirghizia .available-cards .media {
   display: none;
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .kirghizia .available-cards .media {
     display: initial;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .kirghizia .available-cards .decstop {
     display: none;
   }
@@ -790,6 +790,7 @@
 }
 .kirghizia .about-cards .about-container .content .content-image {
   bottom: -8%;
+  width: 34rem;
 }
 @media (max-width: 1024px) {
   .kirghizia .about-cards .about-container .content .content-image {
@@ -800,6 +801,13 @@
 @media (max-width: 1024px) {
   .kirghizia .about-cards .about-container .content .content-image {
     right: -16%;
+    bottom: 0;
+  }
+}
+@media (max-width: 480px) {
+  .kirghizia .about-cards .about-container .content .content-image {
+    right: 0;
+    width: 100%;
     bottom: 0;
   }
 }
@@ -880,12 +888,12 @@
 .kazakhstan .available-cards .media {
   display: none;
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .kazakhstan .available-cards .media {
     display: initial;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .kazakhstan .available-cards .decstop {
     display: none;
   }

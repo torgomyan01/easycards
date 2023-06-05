@@ -810,7 +810,7 @@ a {
 @media (max-width: 350px) {
   .available-cards .available-container .available-content-row .available-box-col .content-top .content-title .available-heading {
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     top: -16rem;
     left: -0.5rem;
     text-align: center;
@@ -933,6 +933,11 @@ a {
     justify-content: space-between;
   }
 }
+@media (max-width: 417px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .buttons {
+    flex-direction: column;
+  }
+}
 @media (max-width: 350px) {
   .available-cards .available-container .available-content-row .available-box-col .available-bottom .buttons {
     display: -webkit-box;
@@ -942,6 +947,21 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+}
+@media (max-width: 417px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .buttons button {
+    text-align: center;
+    width: 100%;
+    display: block !important;
+    margin: 0.5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+  }
+}
+@media (max-width: 350px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .buttons button {
+    text-align: center !important;
   }
 }
 .available-cards .available-container .available-content-row .available-box-col .available-bottom .price {
@@ -1028,11 +1048,23 @@ a {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 440px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .price span {
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+}
 @media (max-width: 360px) {
   .available-cards .available-container .available-content-row .available-box-col .available-bottom .price span {
     margin-left: 1px;
     margin-top: 5px;
     font-size: 1.8rem;
+  }
+}
+@media (max-width: 348px) {
+  .available-cards .available-container .available-content-row .available-box-col .available-bottom .price span {
+    font-size: 1.6rem;
+    margin-top: 0;
   }
 }
 .available-cards .available-container .available-box-col-end {
