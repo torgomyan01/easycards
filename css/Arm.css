@@ -655,6 +655,7 @@
 @media (max-width: 480px) {
   .kirghizia .available-cards .media {
     display: initial;
+    margin-top: 15px !important;
   }
 }
 @media (max-width: 480px) {
@@ -676,9 +677,41 @@
   color: #E37640;
   background: #fff;
 }
+@media (max-width: 480px) {
+  .kirghizia .available-cards .check-bank-title {
+    font-size: 1.3rem;
+    position: relative;
+    top: -19rem;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .kirghizia .available-cards .check-bank-title {
+    top: -18rem;
+  }
+}
+@media (max-width: 420px) {
+  .kirghizia .available-cards .check-bank-title {
+    top: -16.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .kirghizia .available-cards .check-bank-title {
+    top: -15.5rem;
+  }
+}
+@media (max-width: 370px) {
+  .kirghizia .available-cards .check-bank-title {
+    top: -14.5rem;
+  }
+}
 @media (max-width: 350px) {
   .kirghizia .available-cards .check-bank-title {
+    position: relative;
+    font-size: 1.1rem;
     top: -13.5rem;
+    left: -0.5rem;
+    text-align: center;
   }
 }
 .kirghizia .available-cards .btn-blue-dark {
@@ -851,10 +884,6 @@
 .kirghizia .faq .fa-plus {
   color: #E37640;
 }
-.kirghizia .users .content-title {
-  padding-top: 1.7rem;
-  padding-left: 1.5rem;
-}
 .kirghizia .footer-bg .btn-lightblue {
   color: #E37640;
   background: rgba(255, 209, 136, 0.2);
@@ -907,6 +936,7 @@
 @media (max-width: 480px) {
   .kazakhstan .available-cards .media {
     display: initial;
+    margin-top: 15px !important;
   }
 }
 @media (max-width: 480px) {
@@ -918,9 +948,41 @@
   position: relative;
   left: 90%;
 }
+@media (max-width: 480px) {
+  .kazakhstan .available-cards .check-bank-title {
+    font-size: 1.3rem;
+    position: relative;
+    top: -19rem;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .kazakhstan .available-cards .check-bank-title {
+    top: -18rem;
+  }
+}
+@media (max-width: 420px) {
+  .kazakhstan .available-cards .check-bank-title {
+    top: -16.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .kazakhstan .available-cards .check-bank-title {
+    top: -15.5rem;
+  }
+}
+@media (max-width: 370px) {
+  .kazakhstan .available-cards .check-bank-title {
+    top: -14.5rem;
+  }
+}
 @media (max-width: 350px) {
   .kazakhstan .available-cards .check-bank-title {
+    position: relative;
+    font-size: 1.1rem;
     top: -13.5rem;
+    left: -0.5rem;
+    text-align: center;
   }
 }
 @media (max-width: 360px) {
@@ -1029,10 +1091,6 @@
 .kazakhstan .about-cards .btn-about:hover {
   background: #E37640 !important;
   color: #fff !important;
-}
-.kazakhstan .users .content-title {
-  padding-top: 0.1rem;
-  padding-left: 0.5rem;
 }
 .kazakhstan .footer-bg .btn-blue-dark {
   background: #4497B3;
@@ -1248,13 +1306,13 @@
   }
 }
 
-.bakai-header-card {
+.freedom-header-card {
   position: absolute;
   top: 5rem;
   right: 2rem;
 }
 @media (max-width: 1024px) {
-  .bakai-header-card {
+  .freedom-header-card {
     width: 34.25rem;
     right: 0;
     top: unset;
@@ -1262,7 +1320,7 @@
   }
 }
 @media (max-width: 576px) {
-  .bakai-header-card {
+  .freedom-header-card {
     width: 100%;
   }
 }
@@ -1279,17 +1337,6 @@
   margin-top: 0;
 }
 
-@media (min-width: 577px) {
-  .users-content-title {
-    margin-top: 2rem;
-  }
-}
-@media (max-width: 576px) {
-  .users-content-title {
-    top: 0 !important;
-  }
-}
-
 .freedom-card .btn-lightblue {
   background: rgba(164, 238, 202, 0.2);
   color: #298B3F !important;
@@ -1299,6 +1346,17 @@
 }
 .freedom-card .btn-bakai-dark-blue:hover {
   background: #47A95D;
+}
+.freedom-card .map-comparison .table-price-freedom {
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #298B3F;
+}
+@media (max-width: 440px) {
+  .freedom-card .map-comparison .table-price-freedom {
+    font-size: 2rem;
+  }
 }
 .freedom-card .visa-master {
   margin-top: 5rem;
@@ -1490,6 +1548,17 @@
 .optimal-card .steps-body .steps-subtitle {
   color: #FFD188;
 }
+.optimal-card .map-comparison .table-price-optimal {
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 110%;
+  color: #E37640;
+}
+@media (max-width: 440px) {
+  .optimal-card .map-comparison .table-price-optimal {
+    font-size: 2rem;
+  }
+}
 
 .btn-bakai-dark-blue {
   background: #1E4165;
@@ -1575,6 +1644,9 @@
 }
 .optimal-card .visa-master .container .visa-master-item-subtitle {
   color: #A8B8C5;
+}
+.optimal-card table-price-optimal {
+  color: #E37640 !important;
 }
 .optimal-card .about-cards .about-container {
   width: 100% !important;

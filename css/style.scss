@@ -1211,12 +1211,18 @@ $menuContent: 1372px;
 .map-comparison{
   padding: 0 1rem;
   margin-top: 6rem;
+  @media (max-width: 480px) {
+    margin-top: .4rem;
+  }
   &-content{
     @include bg;
     background-image: url(../assets/image/map-comparison-bg.png);
     border: 1px solid rgba(168, 184, 197, 0.2);
     border-radius: 0.75rem;
     padding: 0;
+    @media (max-width: 480px) {
+      background: none;
+    }
   }
   &-title{
     font-weight: 600;
@@ -1225,6 +1231,10 @@ $menuContent: 1372px;
     color: #1E1E1E;
     margin-top: 4.375rem;
     margin-left: 1.9375rem;
+    @media (max-width: 480px) {
+      margin-top: .4rem;
+     margin-left: .5rem;
+    }
   }
   &-subtitle{
     font-weight: 600;
@@ -1233,6 +1243,30 @@ $menuContent: 1372px;
     color: #A8B8C5;
     margin-top: 1.5rem;
     margin-left: 2rem;
+    @media (max-width: 480px) {
+      margin-left: .8rem;
+    }
+  }
+
+
+  &-messages {
+    background: linear-gradient(93.85deg, #F4F7FF 50.7%, rgba(244, 247, 255, 0) 75.59%);
+    border-radius: 0.25rem;
+    @include flex('s', 'c');
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 140%;
+    color: #A8B8C5;
+    padding: 1.25rem;
+    margin: 2.5rem;
+    position: relative;
+    @media (max-width: 576px) {
+      margin-bottom: 7rem;
+      margin-left: 1rem;
+    }
+    @media (max-width: 480px){
+      display: none;
+    }
   }
   &-message{
     background: linear-gradient(93.85deg, #F4F7FF 50.7%, rgba(244, 247, 255, 0) 75.59%);
@@ -1250,6 +1284,7 @@ $menuContent: 1372px;
       margin-left: 1rem;
     }
 
+
     button{
       @media (max-width: 576px){
         position: absolute;
@@ -1258,6 +1293,7 @@ $menuContent: 1372px;
         margin-left: 0 !important;
       }
     }
+
   }
   &-table{
     width: 100%;
@@ -1403,6 +1439,9 @@ $menuContent: 1372px;
     @media (max-width: 1024px){
       top: 4%;
     }
+    @media (max-width: 350px){
+     display: none;
+    }
   }
 
   .star2{
@@ -1412,17 +1451,23 @@ $menuContent: 1372px;
     @media (max-width: 1024px){
       top: 8%;
     }
+    @media (max-width: 350px){
+      display: none;
+    }
   }
 
   .visa-heading{
     margin-left: 2rem;
 
     .btn-lightblue{
-      margin-bottom: -1rem;
+      margin-bottom: -.5rem;
     }
 
     .def-title{
       margin-bottom: -1rem;
+      @media (max-width: 480px){
+        margin-bottom: 0;
+      }
     }
 
   }
@@ -1462,6 +1507,9 @@ $menuContent: 1372px;
   font-size: 2.75rem;
   line-height: 110%;
   color: #1E4165;
+  @media (max-width: 440px) {
+    font-size: 2rem;
+  }
 }
 
 .def-title{
@@ -1476,6 +1524,9 @@ $menuContent: 1372px;
   }
   @media (max-width: 576px){
     margin-top: 1.8rem;
+  }
+  @media (max-width: 480px){
+    margin-bottom: 1.7rem;
   }
 }
 .def-subtitle{
@@ -1540,6 +1591,8 @@ $menuContent: 1372px;
     @media (max-width: 768px){
       margin-top: 0;
     }
+    @media (max-width: 480px){
+    }
   }
   &-subtitle{
     font-weight: 600;
@@ -1549,10 +1602,15 @@ $menuContent: 1372px;
     margin-top: 1.5rem;
     margin-bottom: 0;
     @media (max-width: 768px){
-      margin-top: 0;
+      margin-top: .5rem;
+    }
+    @media (max-width: 480px){
+      margin-top: 1rem;
     }
   }
 }
+
+// ..................faq........
 
 .faq{
   margin-top: 2.5rem;
@@ -1569,11 +1627,17 @@ $menuContent: 1372px;
   &-body{
     background: url(../assets/image/faq-bg.svg) no-repeat 65% -197px;
     background-size: 134%;
-
+    @media (max-width: 480px) {
+      background: none;
+    }
     .def-subtitle{
       @media (max-width: 768px) {
         margin-bottom: 2.5rem;
       }
+      @media (max-width: 480px) {
+        margin-bottom: 4rem;
+      }
+
     }
 
     .accordion-faq{
@@ -1590,6 +1654,12 @@ $menuContent: 1372px;
 .accordion-faq {
   margin-bottom: 4.5625rem;
 
+  .accordion-header{
+    @media (max-width: 480px) {
+     margin-bottom: 1rem;
+    }
+  }
+
   .accordion-body {
     padding-left: 0;
     padding-right: 0;
@@ -1599,7 +1669,9 @@ $menuContent: 1372px;
     color: #A8B8C5;
     padding-top: 0;
     margin-top: -10px;
-
+    @media (max-width: 480px) {
+     margin-top: 0;
+    }
   }
 
   .accordion-item {
@@ -2440,6 +2512,9 @@ footer{
   }
   @media (max-width: 576px){
     width: 100%;
+  }
+  @media (max-width: 480px){
+    bottom: -7rem;
   }
 }
 .c-bakai-blue{

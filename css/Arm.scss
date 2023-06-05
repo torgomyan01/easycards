@@ -663,6 +663,7 @@
       display: none;
       @media (max-width: 480px) {
         display: initial;
+        margin-top: 15px!important;
       }
     }
 
@@ -694,8 +695,30 @@
     }
 
     .check-bank-title{
+      @media (max-width: 480px) {
+        font-size: 1.3rem;
+        position: relative;
+        top: -19rem;
+        text-align: center;
+      }
+      @media (max-width: 450px) {
+        top: -18rem;
+      }
+      @media (max-width: 420px) {
+        top: -16.5rem;
+      }
+      @media (max-width: 400px) {
+        top: -15.5rem;
+      }
+      @media (max-width: 370px) {
+        top: -14.5rem;
+      }
       @media (max-width: 350px) {
+        position: relative;
+        font-size: 1.1rem;
         top: -13.5rem;
+        left: -.5rem;
+        text-align: center;
       }
     }
 
@@ -951,14 +974,7 @@
 
   // users
 
-  .users {
 
-    .content-title {
-      padding-top: 1.7rem;
-      padding-left: 1.5rem;
-    }
-
-  }
 
   /// end user
 
@@ -1051,6 +1067,7 @@
       display: none;
       @media (max-width: 480px) {
         display: initial;
+        margin-top: 15px !important;
       }
     }
 
@@ -1065,11 +1082,35 @@
       left: 90%;
     }
 
-    .check-bank-title{
-      @media (max-width: 350px) {
-        top: -13.5rem;
+
+      .check-bank-title{
+        @media (max-width: 480px) {
+          font-size: 1.3rem;
+          position: relative;
+          top: -19rem;
+          text-align: center;
+        }
+        @media (max-width: 450px) {
+          top: -18rem;
+        }
+        @media (max-width: 420px) {
+          top: -16.5rem;
+        }
+        @media (max-width: 400px) {
+          top: -15.5rem;
+        }
+        @media (max-width: 370px) {
+          top: -14.5rem;
+        }
+        @media (max-width: 350px) {
+          position: relative;
+          font-size: 1.1rem;
+          top: -13.5rem;
+          left: -.5rem;
+          text-align: center;
+        }
       }
-    }
+
 
     .check-bank-subtitle {
       @media (max-width: 360px) {
@@ -1185,14 +1226,7 @@
 
   // users
 
-  .users {
 
-    .content-title {
-      padding-top: .1rem;
-      padding-left: .5rem;
-    }
-
-  }
 
 
   // users end
@@ -1240,6 +1274,7 @@
     }
 
   }
+
 
 
   .visa-master {
@@ -1466,7 +1501,10 @@
   }
 }
 
-.bakai-header-card {
+
+
+
+.freedom-header-card{
   position: absolute;
   top: 5rem;
   right: 2rem;
@@ -1480,6 +1518,7 @@
   @media (max-width: 576px) {
     width: 100%;
   }
+
 }
 
 .c-bakai-blue {
@@ -1494,14 +1533,7 @@
   margin-top: 0;
 }
 
-.users-content-title{
-  @media (min-width: 577px){
-    margin-top: 2rem;
-  }
-  @media (max-width: 576px){
-    top: 0 !important;
-  }
-}
+
 
 
 // freedom Card And end
@@ -1525,6 +1557,17 @@
     }
   }
 
+.map-comparison{
+  .table-price-freedom{
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 110%;
+    color: #298B3F;
+    @media (max-width: 440px) {
+      font-size: 2rem;
+    }
+  }
+}
 
   .visa-master {
     margin-top: 5rem;
@@ -1753,6 +1796,20 @@
       color: #FFD188;
     }
   }
+
+
+  .map-comparison{
+    .table-price-optimal{
+      font-weight: 600;
+      font-size: 2.75rem;
+      line-height: 110%;
+      color:  #E37640;
+      @media (max-width: 440px) {
+        font-size: 2rem;
+      }
+    }
+  }
+
 }
 
 .btn-bakai-dark-blue {
@@ -1863,6 +1920,9 @@
 
   }
 
+  table-price-optimal{
+    color: #E37640 !important;
+  }
 
   .about-cards {
 
