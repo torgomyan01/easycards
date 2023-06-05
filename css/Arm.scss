@@ -413,10 +413,8 @@
               color: #fff;
               position: relative;
               top: -2rem;
-              left: -1.4rem;
-              @media (max-width: 350px) {
-                display: none;
-              }
+              left: -.1rem;
+
             }
           }
 
@@ -465,6 +463,15 @@
         margin-top: 15rem;
         justify-content: center;
       }
+      @media (max-width: 405px) {
+        margin-top: 17rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+        left: -.5rem;
+        width: 18.125rem;
+      }
       @media (max-width: 350px) {
         margin-top: 17rem;
         -webkit-box-pack: center;
@@ -478,9 +485,15 @@
       .btn-users {
         background: #fff;
         color: #1E1E1E;
+        @media (max-width: 405px) {
+          font-size: .8rem;
+        }
 
         img {
           margin-left: .8rem;
+          @media (max-width: 405px) {
+            margin-left: .4rem;
+          }
         }
       }
 
