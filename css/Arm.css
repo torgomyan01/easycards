@@ -630,6 +630,9 @@
 .kirghizia .available-cards .avalibe-star {
   top: 5.9% !important;
 }
+.kirghizia .available-cards .kirghizia-card-image {
+  margin-bottom: -1.5rem;
+}
 .kirghizia .available-cards .media {
   display: none;
 }
@@ -657,6 +660,11 @@
   color: #E37640;
   background: #fff;
 }
+@media (max-width: 350px) {
+  .kirghizia .available-cards .check-bank-title {
+    top: -13.5rem;
+  }
+}
 .kirghizia .available-cards .btn-blue-dark {
   background: #E37640;
   color: white;
@@ -664,9 +672,14 @@
 .kirghizia .available-cards .btn-blue-dark:hover {
   background: #F78A54;
 }
-@media (max-width: 360px) {
+@media (max-width: 440px) {
   .kirghizia .available-cards .check-bank-subtitle {
     display: none;
+  }
+}
+@media (max-width: 750px) {
+  .kirghizia .available-cards .price-btn {
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 480px) {
@@ -684,15 +697,24 @@
 }
 @media (max-width: 480px) {
   .kirghizia .available-cards .price-btn .check-price {
-    margin-right: 10px;
+    margin-right: 2rem;
     font-size: 2rem;
     margin-top: 0.8rem;
   }
 }
-@media (max-width: 21.875rem) {
+@media (max-width: 375px) {
+  .kirghizia .available-cards .price-btn .check-price {
+    font-size: 1.7rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 350px) {
   .kirghizia .available-cards .price-btn .check-price {
     font-size: 1.5rem;
   }
+}
+.kirghizia .available-cards .buttons {
+  margin-top: -0.1rem !important;
 }
 @media (max-width: 480px) {
   .kirghizia .available-cards .buttons {
@@ -701,7 +723,7 @@
     display: flex;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .kirghizia .available-cards .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -718,12 +740,18 @@
     flex-direction: column;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .kirghizia .available-cards .buttons button {
     display: block;
     text-align: center;
     margin-bottom: 0.625rem !important;
     width: 100% !important;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 355px) {
+  .kirghizia .available-cards .buttons button {
+    margin-left: 0;
   }
 }
 .kirghizia .map-comparison .fa-circle-check {
@@ -844,7 +872,10 @@
   background: #4497B3;
 }
 .kazakhstan .available-cards .avalibe-star {
-  top: 5.9% !important;
+  top: 6.3% !important;
+}
+.kazakhstan .available-cards .khazaxstan-card-image {
+  margin-bottom: -1.5rem;
 }
 .kazakhstan .available-cards .media {
   display: none;
@@ -863,9 +894,19 @@
   position: relative;
   left: 90%;
 }
+@media (max-width: 350px) {
+  .kazakhstan .available-cards .check-bank-title {
+    top: -13.5rem;
+  }
+}
 @media (max-width: 360px) {
   .kazakhstan .available-cards .check-bank-subtitle {
     display: none;
+  }
+}
+@media (max-width: 750px) {
+  .kazakhstan .available-cards .price-btn {
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 480px) {
@@ -883,15 +924,23 @@
 }
 @media (max-width: 480px) {
   .kazakhstan .available-cards .price-btn .check-price {
-    margin-right: 10px;
     font-size: 2rem;
     margin-top: 0.8rem;
+    margin-right: 2rem;
   }
 }
-@media (max-width: 21.875rem) {
+@media (max-width: 375px) {
+  .kazakhstan .available-cards .price-btn .check-price {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 350px) {
   .kazakhstan .available-cards .price-btn .check-price {
     font-size: 1.5rem;
   }
+}
+.kazakhstan .available-cards .buttons {
+  margin-top: -0.1rem !important;
 }
 @media (max-width: 480px) {
   .kazakhstan .available-cards .buttons {
@@ -900,7 +949,7 @@
     display: flex;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .kazakhstan .available-cards .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -925,12 +974,18 @@
   background: #58ABC7;
   color: #fff;
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .kazakhstan .available-cards .buttons button {
-    display: block;
+    display: block !important;
     margin-bottom: 0.625rem !important;
     width: 100% !important;
     text-align: center;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 355px) {
+  .kazakhstan .available-cards .buttons button {
+    margin-left: 0;
   }
 }
 .kazakhstan .about-cards .content-image {

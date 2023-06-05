@@ -2103,6 +2103,11 @@ a {
   color: #fff;
 }
 
+.btn-footer-home:hover {
+  background: #0089EE;
+  color: #fff;
+}
+
 .free-call-number {
   font-weight: 500;
   font-size: 1.25rem;
