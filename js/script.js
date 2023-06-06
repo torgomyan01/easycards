@@ -64,5 +64,14 @@ $('#table-slider').slick({
     dots: true,
     appendDots: $('.dots-slider-table'),
     nextArrow: '.table-next',
-    prevArrow: '.table-prev'
+    prevArrow: '.table-prev',
+    beforeChange: function (e){
+        console.log(e)
+        console.log('ddd')
+    }
+});
+
+$('#table-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    event.preventDefault();
+    $('.name-table-mobile').text($(slick.$slides[slick.currentSlide]).data('name'))
 });

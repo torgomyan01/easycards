@@ -13,6 +13,10 @@
     background-size: contain;
     border-radius: 0.75rem;
 
+    @media (max-width: 576px){
+      overflow: hidden;
+    }
+
     .startop{
       position: absolute;
       left: 49%;
