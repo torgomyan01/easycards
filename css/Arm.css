@@ -11,6 +11,11 @@
   background-size: contain;
   border-radius: 0.75rem;
 }
+@media (max-width: 576px) {
+  .about-cards .about-container {
+    overflow: hidden;
+  }
+}
 .about-cards .about-container .startop {
   position: absolute;
   left: 49%;
