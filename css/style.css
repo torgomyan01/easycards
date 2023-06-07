@@ -289,9 +289,6 @@ a {
   color: #1E1E1E;
   white-space: nowrap;
 }
-.menu-content .navbar a.active {
-  font-weight: 700;
-}
 @media (max-width: 1285px) and (min-width: 868px) {
   .menu-content .navbar a {
     margin-right: 0.625rem !important;
@@ -318,7 +315,7 @@ a {
 }
 @media (max-width: 768px) {
   .menu-content .navbar a {
-    margin: 0.9375rem 0;
+    margin: 0.9375rem 0 !important;
     display: block !important;
     font-size: 1.5rem;
     border-bottom: 1px solid #e7e3e3;
@@ -1285,6 +1282,7 @@ a {
   color: #1E1E1E;
   margin-top: 4.375rem;
   margin-left: 1.9375rem;
+  margin-bottom: 0;
 }
 @media (max-width: 480px) {
   .map-comparison-title {
@@ -1298,8 +1296,8 @@ a {
   font-size: 1rem;
   line-height: 140%;
   color: #A8B8C5;
-  margin-top: 1.5rem;
   margin-left: 2rem;
+  margin-top: 1.5rem;
 }
 @media (max-width: 480px) {
   .map-comparison-subtitle {
@@ -1326,6 +1324,11 @@ a {
   padding: 1.25rem;
   margin: 2.5rem;
   position: relative;
+}
+@media (max-width: 992px) {
+  .map-comparison-messages.home {
+    padding-right: 9rem;
+  }
 }
 @media (max-width: 576px) {
   .map-comparison-messages {
