@@ -737,7 +737,7 @@
     }
 
     .check-bank-subtitle {
-      @media (max-width: 440px) {
+      @media (max-width: 479px) {
         display: none;
       }
     }
@@ -758,9 +758,14 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        margin-bottom: 1.5rem;
       }
 
       .check-price {
+        @media (max-width: 1035px) {
+          font-size: 38px;
+
+        }
         @media (max-width: 480px) {
           margin-right: 2rem;
           font-size: 2rem;
@@ -783,8 +788,9 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        width: 100%;
       }
-      @media (max-width: 430px) {
+      @media (max-width: 479px) {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -801,15 +807,19 @@
       }
 
       button {
-        @media (max-width: 430px) {
-          display: block;
+        margin-right: 2rem;
+        &:last-child{
+          margin-right: 0;
+        }
+        @media (max-width: 520px) {
+            margin-right: 1.5rem;
+        }
+        @media (max-width: 479px) {
+          display: inline-block;
           text-align: center;
+          margin-right: 0;
           margin-bottom: 0.625rem !important;
           width: 100% !important;
-          margin-left: 3rem;
-        }
-        @media (max-width: 355px) {
-          margin-left: 0;
         }
       }
     }
@@ -1117,7 +1127,7 @@
 
 
     .check-bank-subtitle {
-      @media (max-width: 360px) {
+      @media (max-width: 479px) {
         display: none;
       }
     }
@@ -1136,6 +1146,7 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        margin-bottom: 1.5rem;
       }
 
       .check-price {
@@ -1160,8 +1171,9 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        width: 100%;
       }
-      @media (max-width: 430px) {
+      @media (max-width: 479px) {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1185,16 +1197,21 @@
         }
       }
       button {
-        @media (max-width: 430px) {
-          display: block !important;
+        margin-right: 2rem;
+        &:last-child{
+          margin-right: 0;
+        }
+        @media (max-width: 520px) {
+          margin-right: 1.5rem;
+        }
+        @media (max-width: 479px) {
+          display: inline-block !important;
           margin-bottom: 0.625rem !important;
+          margin-right: 0;
           width: 100% !important;
           text-align: center;
-          margin-left: 3rem;
         }
-        @media (max-width: 355px) {
-          margin-left: 0;
-        }
+
       }
     }
 
